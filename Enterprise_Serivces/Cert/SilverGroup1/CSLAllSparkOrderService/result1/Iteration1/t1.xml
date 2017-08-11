@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetVersionResponse xmlns="http://www.gamestop.com/CSL/Core/V1.0"><Version>1.0.0.0</Version></GetVersionResponse></s:Body></s:Envelope>

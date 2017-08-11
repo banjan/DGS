@@ -1,0 +1,46 @@
+Virtual User Script started at : 1/30/2017 10:51:02 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetStoreConfiguration.
+GetStoreConfiguration.c(3): Notify: Transaction "ConfigurationService_GetStoreConfiguration" started.
+GetStoreConfiguration.c(5): Web service call "GetStoreConfiguration_101" started
+GetStoreConfiguration.c(5): Web service call "GetStoreConfiguration_101" was successful
+GetStoreConfiguration.c(33): Notify: Transaction "ConfigurationService_GetStoreConfiguration" ended with a "Pass" status (Duration: 0.5610 Wasted Time: 0.3438).
+Ending action GetStoreConfiguration.
+Starting action GetStoreConfigurationByName.
+GetStoreConfigurationByName.c(3): Notify: Transaction "ConfigurationService_GetStoreConfigurationByName" started.
+GetStoreConfigurationByName.c(5): Web service call "GetStoreConfigurationByName_101" started
+GetStoreConfigurationByName.c(5): Web service call "GetStoreConfigurationByName_101" was successful
+GetStoreConfigurationByName.c(33): Notify: Transaction "ConfigurationService_GetStoreConfigurationByName" ended with a "Pass" status (Duration: 0.2782 Wasted Time: 0.0902).
+Ending action GetStoreConfigurationByName.
+Starting action GetDefaultConfiguration.
+GetDefaultConfiguration.c(3): Notify: Transaction "ConfigurationService_GetDefaultConfiguration" started.
+GetDefaultConfiguration.c(5): Web service call "GetDefaultConfiguration_101" started
+GetDefaultConfiguration.c(5): Web service call "GetDefaultConfiguration_101" was successful
+GetDefaultConfiguration.c(31): Notify: Transaction "ConfigurationService_GetDefaultConfiguration" ended with a "Pass" status (Duration: 0.1778 Wasted Time: 0.1106).
+Ending action GetDefaultConfiguration.
+Starting action GetVersion.
+GetVersion.c(3): Notify: Transaction "ConfigurationService_GetVersion" started.
+GetVersion.c(5): Web service call "GetVersion_101" started
+GetVersion.c(5): Web service call "GetVersion_101" was successful
+GetVersion.c(17): Notify: Transaction "ConfigurationService_GetVersion" ended with a "Pass" status (Duration: 0.0267 Wasted Time: 0.0174).
+Ending action GetVersion.
+Starting action IsServiceAlive.
+IsServiceAlive.c(3): Notify: Transaction "ConfigurationService_IsServiceAlive" started.
+IsServiceAlive.c(5): Web service call "IsServiceAlive_101" started
+IsServiceAlive.c(5): Web service call "IsServiceAlive_101" was successful
+IsServiceAlive.c(17): Notify: Transaction "ConfigurationService_IsServiceAlive" ended with a "Pass" status (Duration: 0.0187 Wasted Time: 0.0037).
+Ending action IsServiceAlive.
+Starting action IsServiceHealthy.
+IsServiceHealthy.c(3): Notify: Transaction "ConfigurationService_IsServiceHealthy" started.
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_101" started
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_101" was successful
+IsServiceHealthy.c(17): Notify: Transaction "ConfigurationService_IsServiceHealthy" ended with a "Pass" status (Duration: 0.0235 Wasted Time: 0.0037).
+Ending action IsServiceHealthy.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

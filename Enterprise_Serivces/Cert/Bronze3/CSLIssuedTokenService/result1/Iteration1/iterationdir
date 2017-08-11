@@ -1,0 +1,12 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[IsServiceAlive]
+SnapshotIndex=I1_IsServiceAlive
+[GetIssuedTokenByToken]
+SnapshotIndex=I1_GetIssuedTokenByToken
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[GetVersion]
+SnapshotIndex=I1_GetVersion
+[IsServiceHealthy]
+SnapshotIndex=I1_IsServiceHealthy

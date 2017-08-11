@@ -1,0 +1,57 @@
+Virtual User Script started at : 1/9/2017 10:02:12 AM
+Starting action vuser_init.
+Web Services replay version 12.53.0 for Windows 7; Toolkit: "NotDefined"; build 1203
+Run-Time Settings file: "C:\Users\casmith\Documents\VuGen\Scripts\Bronze4\CSLProductPrices\\default.cfg"
+Vuser directory: "C:\Users\casmith\Documents\VuGen\Scripts\Bronze4\CSLProductPrices"
+Vuser output directory: "C:\Users\casmith\Documents\VuGen\Scripts\Bronze4\CSLProductPrices\"
+LOCAL start date/time : 2017-01-09 10:02:12
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(3): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(5): Notify: Transaction "ProductPrices_ProductPrices" started.
+Action.c(7): web_custom_request("Product Prices") started  	[MsgId: MMSG-26355]
+Action.c(7): t=170ms: Connecting [0] to host 172.31.160.241:80  	[MsgId: MMSG-26000]
+Action.c(7): t=177ms: Connected socket [0] from 172.22.202.126:65162 to 172.31.160.241:80 in 7 ms  	[MsgId: MMSG-26000]
+Action.c(7): t=177ms: 283-byte request headers for "http://cslproductpricesqa1.testgs.pvt/v1/ProductPrices/?search=115283&storeNumber=1782" (RelFrameId=1, Internal ID=1)
+Action.c(7):     GET /v1/ProductPrices/?search=115283&storeNumber=1782 HTTP/1.1\r\n
+Action.c(7):     Content-Type: application/json\r\n
+Action.c(7):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(7):     Accept-Encoding: gzip, deflate\r\n
+Action.c(7):     Accept: */*\r\n
+Action.c(7):     Connection: Keep-Alive\r\n
+Action.c(7):     Host: cslproductpricesqa1.testgs.pvt\r\n
+Action.c(7):     \r\n
+Action.c(7): t=218ms: 254-byte response headers for "http://cslproductpricesqa1.testgs.pvt/v1/ProductPrices/?search=115283&storeNumber=1782" (RelFrameId=1, Internal ID=1)
+Action.c(7):     HTTP/1.1 200 OK\r\n
+Action.c(7):     Cache-Control: no-cache\r\n
+Action.c(7):     Pragma: no-cache\r\n
+Action.c(7):     Content-Type: application/json; charset=utf-8\r\n
+Action.c(7):     Expires: -1\r\n
+Action.c(7):     Server: Microsoft-IIS/8.5\r\n
+Action.c(7):     X-Total-Count: 1\r\n
+Action.c(7):     X-AspNet-Version: 4.0.30319\r\n
+Action.c(7):     Date: Mon, 09 Jan 2017 16:02:12 GMT\r\n
+Action.c(7):     Content-Length: 136\r\n
+Action.c(7):     \r\n
+Action.c(7): t=227ms: 136-byte response body for "http://cslproductpricesqa1.testgs.pvt/v1/ProductPrices/?search=115283&storeNumber=1782" (RelFrameId=1, Internal ID=1)
+Action.c(7):     {"Upc":"887961097320","Sku":"115283","Description":"Minecraft Mini Figures Blind Boxes","Q
+Action.c(7):     uantity":37,"Price":3.9900,"ProductId":276371}
+Action.c(7): t=228ms: Request done "http://cslproductpricesqa1.testgs.pvt/v1/ProductPrices/?search=115283&storeNumber=1782"  	[MsgId: MMSG-26000]
+Action.c(7): Registered web_reg_find successful for "Text=ProductId" (count=1)  	[MsgId: MMSG-26364]
+Action.c(7): web_custom_request("Product Prices") was successful, 136 body bytes, 254 header bytes  	[MsgId: MMSG-26386]
+Action.c(15): Notify: Transaction "ProductPrices_ProductPrices" ended with a "Pass" status (Duration: 0.1370 Wasted Time: 0.0892).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=318ms: Closed connection [0] to cslproductpricesqa1.testgs.pvt:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 14416), ended OK."

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="Central Standard Time">
+<General productName="Vugen" productVer="12" os="" host="USGVLJ954KC2"><DocLocation><![CDATA[C:\Users\casmith\Documents\VuGen\Scripts\Bronze4\CSLVisitedSitesService]]></DocLocation></General>
+<Doc rID="T1"   productName= "Vugen"  >
+<DName><![CDATA[CSLVisitedSitesService]]></DName>
+<Res><![CDATA[result1]]></Res>
+<Action rID="T2">
+<AName><![CDATA[vuser_init]]></AName>
+<Summary sTime="1/11/2017 - 16:19:14" eTime="1/11/2017 - 16:19:14" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="5" >
+<Disp><![CDATA[vuser_init Summary]]></Disp>
+</NodeArgs>
+</Action>
+<DIter rID="T3" iterID="1" >
+<Action rID="T4">
+<AName><![CDATA[GetVersion]]></AName>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[GetVersion_105]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Web service call was successful</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:14]]></Time>
+<TimeTick>1484173154</TimeTick>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[HTTP Traffic]]></Obj>
+<Details plainTxt="False" ><![CDATA[HTTP Traffic]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:14]]></Time>
+<TimeTick>1484173154</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="10" >
+<Disp><![CDATA[HTTP Traffic]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t1_http.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
+<Disp><![CDATA[GetVersion_105]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t0_web_service_call.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="1/11/2017 - 16:19:14" eTime="1/11/2017 - 16:19:14" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Disp><![CDATA[GetVersion Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T7">
+<AName><![CDATA[GetVisitedSites]]></AName>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[GetVisitedSites_102]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Web service call was successful</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:14]]></Time>
+<TimeTick>1484173154</TimeTick>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[HTTP Traffic]]></Obj>
+<Details plainTxt="False" ><![CDATA[HTTP Traffic]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:14]]></Time>
+<TimeTick>1484173154</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="14" >
+<Disp><![CDATA[HTTP Traffic]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t2_http.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="General" icon="4" nRep="13" status="Passed" >
+<Disp><![CDATA[GetVisitedSites_102]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t1_web_service_call.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="1/11/2017 - 16:19:14" eTime="1/11/2017 - 16:19:14" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="12" status="Passed" >
+<Disp><![CDATA[GetVisitedSites Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T10">
+<AName><![CDATA[IsServiceAlive]]></AName>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[IsServiceAlive_104]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Web service call was successful</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:14]]></Time>
+<TimeTick>1484173154</TimeTick>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[HTTP Traffic]]></Obj>
+<Details plainTxt="False" ><![CDATA[HTTP Traffic]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:14]]></Time>
+<TimeTick>1484173154</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="18" >
+<Disp><![CDATA[HTTP Traffic]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t3_http.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="General" icon="4" nRep="17" status="Passed" >
+<Disp><![CDATA[IsServiceAlive_104]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t2_web_service_call.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="1/11/2017 - 16:19:14" eTime="1/11/2017 - 16:19:14" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="16" status="Passed" >
+<Disp><![CDATA[IsServiceAlive Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T13">
+<AName><![CDATA[IsServiceHealthy]]></AName>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[IsServiceHealthy_105]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Web service call was successful</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:14]]></Time>
+<TimeTick>1484173154</TimeTick>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[HTTP Traffic]]></Obj>
+<Details plainTxt="False" ><![CDATA[HTTP Traffic]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:14]]></Time>
+<TimeTick>1484173154</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="22" >
+<Disp><![CDATA[HTTP Traffic]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t4_http.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="General" icon="4" nRep="21" status="Passed" >
+<Disp><![CDATA[IsServiceHealthy_105]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t3_web_service_call.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="1/11/2017 - 16:19:14" eTime="1/11/2017 - 16:19:14" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="20" status="Passed" >
+<Disp><![CDATA[IsServiceHealthy Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T16">
+<AName><![CDATA[IsSiteApproved]]></AName>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[IsSiteApproved_101]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Web service call was successful</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:15]]></Time>
+<TimeTick>1484173155</TimeTick>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[HTTP Traffic]]></Obj>
+<Details plainTxt="False" ><![CDATA[HTTP Traffic]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:15]]></Time>
+<TimeTick>1484173155</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="26" >
+<Disp><![CDATA[HTTP Traffic]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t5_http.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="General" icon="4" nRep="25" status="Passed" >
+<Disp><![CDATA[IsSiteApproved_101]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t4_web_service_call.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="1/11/2017 - 16:19:14" eTime="1/11/2017 - 16:19:15" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="24" status="Passed" >
+<Disp><![CDATA[IsSiteApproved Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T19">
+<AName><![CDATA[LogSiteApproval]]></AName>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[LogSiteApproval_101]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Web service call was successful</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:15]]></Time>
+<TimeTick>1484173155</TimeTick>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[HTTP Traffic]]></Obj>
+<Details plainTxt="False" ><![CDATA[HTTP Traffic]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:15]]></Time>
+<TimeTick>1484173155</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="30" >
+<Disp><![CDATA[HTTP Traffic]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t6_http.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="General" icon="4" nRep="29" status="Passed" >
+<Disp><![CDATA[LogSiteApproval_101]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t5_web_service_call.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="1/11/2017 - 16:19:15" eTime="1/11/2017 - 16:19:15" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="28" status="Passed" >
+<Disp><![CDATA[LogSiteApproval Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T22">
+<AName><![CDATA[RemoveAlwaysApproveSite]]></AName>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[RemoveAlwaysApproveSite_101]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Web service call was successful</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:15]]></Time>
+<TimeTick>1484173155</TimeTick>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[HTTP Traffic]]></Obj>
+<Details plainTxt="False" ><![CDATA[HTTP Traffic]]></Details>
+<Time><![CDATA[1/11/2017 - 16:19:15]]></Time>
+<TimeTick>1484173155</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="34" >
+<Disp><![CDATA[HTTP Traffic]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t7_http.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="General" icon="4" nRep="33" status="Passed" >
+<Disp><![CDATA[RemoveAlwaysApproveSite_101]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t6_web_service_call.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="1/11/2017 - 16:19:15" eTime="1/11/2017 - 16:19:15" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="32" status="Passed" >
+<Disp><![CDATA[RemoveAlwaysApproveSite Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
+<Disp><![CDATA[CSLVisitedSitesService Iteration 1 (Row 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Action rID="T25">
+<AName><![CDATA[vuser_end]]></AName>
+<Summary sTime="1/11/2017 - 16:19:15" eTime="1/11/2017 - 16:19:15" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="37" >
+<Disp><![CDATA[vuser_end Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="1/11/2017 - 16:19:14" eTime="1/11/2017 - 16:19:15" passed="7" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Disp><![CDATA[Test CSLVisitedSitesService Summary]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

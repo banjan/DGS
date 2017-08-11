@@ -1,0 +1,13 @@
+[t6]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=DummyContentType
+StepName=Custom Request: Payables Invoices
+Total=1
+FileName1=t6.UNK
+RequestHeaderFile=t6_RequestHeader.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Payables Invoices
+RequestBodyFile=t6_RequestBody.txt
+RawStepStartTime=1484260569683
+URL1=http://cslgreatplainsprod.gha.pvt/v1/GreatPlainsApi/Companies/4/PayablesDocuments

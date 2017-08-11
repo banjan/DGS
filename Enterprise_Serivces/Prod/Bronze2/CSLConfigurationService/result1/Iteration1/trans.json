@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "ConfigurationService_GetStoreConfiguration",
+        "rawStartTime": 1485795062297,
+        "rawEndTime": 1485795062858
+    },
+    {
+        "transactionName": "ConfigurationService_GetStoreConfigurationByName",
+        "rawStartTime": 1485795062861,
+        "rawEndTime": 1485795063139
+    },
+    {
+        "transactionName": "ConfigurationService_GetDefaultConfiguration",
+        "rawStartTime": 1485795063143,
+        "rawEndTime": 1485795063321
+    },
+    {
+        "transactionName": "ConfigurationService_GetVersion",
+        "rawStartTime": 1485795063323,
+        "rawEndTime": 1485795063350
+    },
+    {
+        "transactionName": "ConfigurationService_IsServiceAlive",
+        "rawStartTime": 1485795063352,
+        "rawEndTime": 1485795063371
+    },
+    {
+        "transactionName": "ConfigurationService_IsServiceHealthy",
+        "rawStartTime": 1485795063374,
+        "rawEndTime": 1485795063397
+    }
+]

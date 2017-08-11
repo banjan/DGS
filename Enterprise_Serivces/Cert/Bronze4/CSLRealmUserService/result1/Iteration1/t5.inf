@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=application/xml
+StepName=
+Total=1
+FileName1=t5.xml
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=0
+URL1=http://cslrealmuserserviceqa1.testgs.pvt/RealmUserService.svc

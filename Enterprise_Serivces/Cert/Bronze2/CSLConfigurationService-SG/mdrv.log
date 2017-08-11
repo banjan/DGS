@@ -1,0 +1,23 @@
+Virtual User Script started at : 3/2/2017 12:32:03 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetStoreConfigurationByName.
+GetStoreConfigurationByName.c(3): Notify: Transaction "ConfigurationService_GetStoreConfigurationByName" started.
+GetStoreConfigurationByName.c(5): Web service call "GetStoreConfigurationByName_101" started
+GetStoreConfigurationByName.c(5): Error: HTTP status code 401 returned by the server
+GetStoreConfigurationByName.c(5): Error: InvokeMethod failure: External component has thrown an exception..
+GetStoreConfigurationByName.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+GetStoreConfigurationByName.c(5): Error: Web service call "GetStoreConfigurationByName_101" execution failed
+GetStoreConfigurationByName.c(5): Notify: Transaction "ConfigurationService_GetStoreConfigurationByName" ended with a "Fail" status (Duration: 1.3909 Wasted Time: 1.3025).
+GetStoreConfigurationByName.c(5): Notify: Transaction "ConfigurationService_GetStoreConfigurationByName" has 1 error message(s).
+GetStoreConfigurationByName.c(5): Notify: The 1st error message associated with transaction "ConfigurationService_GetStoreConfigurationByName" is "Error -26547: Authentication required, please use "web_set_user", e.g. web_set_user("domain\\user", "password", "host:port");"
+Ending action GetStoreConfigurationByName.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

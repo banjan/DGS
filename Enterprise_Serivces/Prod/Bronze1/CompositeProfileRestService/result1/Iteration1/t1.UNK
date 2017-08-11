@@ -1,0 +1,211 @@
+{
+  "Profiles": [
+    {
+      "ExtendedProfiles": {
+        "ProfileEvents": null,
+        "CreditOffers": null,
+        "Memberships": [
+          {
+            "CreatedDate": "2012-12-15T20:24:12.647",
+            "CreatedDateSpecified": true,
+            "EffectiveDate": "2016-03-22T23:14:07.827",
+            "EffectiveDateSpecified": true,
+            "EndDate": null,
+            "EndDateSpecified": true,
+            "ExpirationDate": "2017-03-22T18:14:08.707",
+            "ExpirationDateSpecified": true,
+            "MembershipActivities": [
+              {
+                "ActivityDescription": "Traded",
+                "ActivityId": 1,
+                "ActivityIdSpecified": true,
+                "ActivityNotPerformed": true,
+                "ActivityNotPerformedSpecified": true,
+                "MembershipId": 1115510650,
+                "MembershipIdSpecified": true
+              },
+              {
+                "ActivityDescription": "Reserved",
+                "ActivityId": 2,
+                "ActivityIdSpecified": true,
+                "ActivityNotPerformed": false,
+                "ActivityNotPerformedSpecified": true,
+                "MembershipId": 1115510650,
+                "MembershipIdSpecified": true
+              },
+              {
+                "ActivityDescription": "Purchased PreOwned",
+                "ActivityId": 3,
+                "ActivityIdSpecified": true,
+                "ActivityNotPerformed": false,
+                "ActivityNotPerformedSpecified": true,
+                "MembershipId": 1115510650,
+                "MembershipIdSpecified": true
+              },
+              {
+                "ActivityDescription": "Activated PUR",
+                "ActivityId": 4,
+                "ActivityIdSpecified": true,
+                "ActivityNotPerformed": false,
+                "ActivityNotPerformedSpecified": true,
+                "MembershipId": 1115510650,
+                "MembershipIdSpecified": true
+              }
+            ],
+            "MembershipCards": [
+              {
+                "CancellationDate": "0001-01-01T00:00:00",
+                "CancellationDateSpecified": true,
+                "CardDescription": "Card cancelled because of upgrade",
+                "CardNumber": "3875116056765",
+                "CardStatus": "Cancelled",
+                "CardStatusSpecified": true,
+                "CreatedDate": "2012-12-15T20:24:12.647",
+                "CreatedDateSpecified": true,
+                "MembershipCardId": 23651477,
+                "MembershipCardIdSpecified": true,
+                "MembershipId": 1115510650,
+                "MembershipIdSpecified": true,
+                "IsTempCardSpecified": false
+              },
+              {
+                "CancellationDate": "0001-01-01T00:00:00",
+                "CancellationDateSpecified": true,
+                "CardDescription": null,
+                "CardNumber": "3881029997012",
+                "CardStatus": "Active",
+                "CardStatusSpecified": true,
+                "CreatedDate": "2013-08-11T22:24:25.957",
+                "CreatedDateSpecified": true,
+                "MembershipCardId": 27448772,
+                "MembershipCardIdSpecified": true,
+                "MembershipId": 1115510650,
+                "MembershipIdSpecified": true,
+                "IsTempCardSpecified": false
+              }
+            ],
+            "MembershipId": 1115510650,
+            "MembershipIdSpecified": true,
+            "MembershipNumber": null,
+            "MembershipProgram": {
+              "Attributes": [
+                {
+                  "KeyValuePair": {
+                    "Key": "Tier",
+                    "Value": "3876"
+                  }
+                }
+              ],
+              "MembershipProgramId": 2,
+              "MembershipProgramIdSpecified": true,
+              "Name": "PowerUp Rewards - Paid",
+              "VendorId": 2,
+              "VendorIdSpecified": true
+            },
+            "MembershipStatus": "Activated",
+            "MembershipStatusSpecified": true,
+            "ModifiedDate": "2016-03-22T23:14:07.827",
+            "ModifiedDateSpecified": true,
+            "OpenIdClaimedIdentifier": "https://login.gamestop.com/ID/GG2f32rXf0_i7Z23GDxjQw",
+            "MembershipExtension": null,
+            "MembershipAttributes": [
+              {
+                "KeyValuePair": {
+                  "Key": "YTD PUR Savings",
+                  "Value": "39.95"
+                }
+              },
+              {
+                "KeyValuePair": {
+                  "Key": "Lifetime Total Value",
+                  "Value": "79.18"
+                }
+              },
+              {
+                "KeyValuePair": {
+                  "Key": "One Year Total Value",
+                  "Value": "43.70"
+                }
+              },
+              {
+                "KeyValuePair": {
+                  "Key": "Member Since",
+                  "Value": "2012-12-15 20:24:12"
+                }
+              }
+            ]
+          }
+        ],
+        "GameLibrary": null,
+        "Reservations": null,
+        "DigitalLocker": null,
+        "TradeQuotes": null,
+        "LoyaltyPointsInformation": null,
+        "Platforms": null,
+        "Coupons": null,
+        "RecentlyPurchasedProducts": null
+      },
+      "ProfileID": 1131768783,
+      "ProfileIDSpecified": true,
+      "FirstName": "Zach",
+      "MiddleName": null,
+      "LastName": "Burke",
+      "EmailAddress": "zach.r.burke@gmail.com",
+      "EmailIsInvalid": null,
+      "EmailIsInvalidSpecified": true,
+      "DisplayName": null,
+      "BirthDate": {
+        "BirthMonth": 3,
+        "BirthMonthSpecified": true,
+        "BirthDay": 28,
+        "BirthDaySpecified": true,
+        "BirthYear": 1989,
+        "BirthYearSpecified": true
+      },
+      "Gender": "Male",
+      "GenderSpecified": true,
+      "CustomerKey": {
+        "MembershipId": 1115510650,
+        "MembershipIdSpecified": true,
+        "OpenIdClaimedIdentifier": "https://login.gamestop.com/ID/GG2f32rXf0_i7Z23GDxjQw"
+      },
+      "Addresses": [
+        {
+          "AddressID": 42203186,
+          "AddressIDSpecified": true,
+          "AddressType": "Mailing",
+          "AddressLine1": "350 Las Colinas Blvd E",
+          "AddressLine2": "Apt 1028",
+          "City": "Irving",
+          "StateOrProvince": "TX",
+          "PostalCode": "75039",
+          "Country": "US",
+          "ProfileId": 1131768783,
+          "ProfileIdSpecified": true,
+          "RecipientFirstName": null,
+          "RecipientLastName": null,
+          "RecipientPhoneNumber": "",
+          "IsDefault": true,
+          "IsDefaultSpecified": true,
+          "IsValidated": false,
+          "IsValidatedSpecified": true
+        }
+      ],
+      "Phones": [
+        {
+          "PhoneId": 22478539,
+          "PhoneIdSpecified": true,
+          "PhoneNumber": "9409237796",
+          "PhoneNumberType": "Primary",
+          "PhoneNumberTypeSpecified": true,
+          "ProfileId": 1131768783,
+          "ProfileIdSpecified": true
+        }
+      ],
+      "PreferredStores": [],
+      "Overrides": null,
+      "DataVerifications": null
+    }
+  ],
+  "Status": "Success"
+}

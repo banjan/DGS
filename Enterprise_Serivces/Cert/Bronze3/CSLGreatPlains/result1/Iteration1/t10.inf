@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=DummyContentType
+StepName=Custom Request: Payables Invoice Summaries
+Total=1
+FileName1=t10.UNK
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Payables Invoice Summaries
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1484260592283
+URL1=http://cslgreatplainsprod.gha.pvt/v1/GreatPlainsApi/Companies/4/PayablesInvoiceSummaries/0

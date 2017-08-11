@@ -1,0 +1,13 @@
+[t7]
+SnapshotXmlFile=snapshot_7.xml
+ContentType=application/xml
+StepName=
+Total=1
+FileName1=t7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=
+RequestBodyFile=t7_RequestBody.txt
+RawStepStartTime=0
+URL1=http://cslloyaltyprogramservicesqa1.testgs.pvt/LoyaltyPointsService.svc

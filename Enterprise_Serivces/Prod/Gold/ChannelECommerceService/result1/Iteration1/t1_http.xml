@@ -1,0 +1,94 @@
+<?xml-stylesheet href="..\http.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\HP\LoadRunner\">
+  <http>
+    <request>
+      <header>POST /ECommerceService.svc HTTP/1.1
+Content-Type: text/xml; charset=utf-8
+Cache-Control: no-cache
+SOAPAction: "http://www.gamestop.com/services/channel/ecommerce/contracts/2010/05/IECommerceService/GetStoreInformation"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol 1.1.4322.2032)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: ecommercechannelqa1.testgs.pvt
+Content-Length: 1273
+
+</header>
+      <body>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing"&gt;
+  &lt;soap:Header&gt;
+    &lt;wsa:Action&gt;http://www.gamestop.com/services/channel/ecommerce/contracts/2010/05/IECommerceService/GetStoreInformation&lt;/wsa:Action&gt;
+    &lt;wsa:MessageID&gt;uuid:76c7ed7e-dfce-46c8-a097-8fb78f4ef70d&lt;/wsa:MessageID&gt;
+    &lt;wsa:ReplyTo&gt;
+      &lt;wsa:Address&gt;http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous&lt;/wsa:Address&gt;
+    &lt;/wsa:ReplyTo&gt;
+    &lt;wsa:To&gt;http://ecommercechannelqa1.testgs.pvt/ECommerceService.svc&lt;/wsa:To&gt;
+  &lt;/soap:Header&gt;
+  &lt;soap:Body&gt;
+    &lt;GetStoreInformation xmlns="http://www.gamestop.com/services/channel/ecommerce/contracts/2010/05"&gt;
+      &lt;request&gt;
+        &lt;MachineName xmlns="http://www.gamestop.com/services/core/contracts/2010/05"&gt;test&lt;/MachineName&gt;
+        &lt;CountryCode xmlns="http://www.gamestop.com/services/channel/ecommerce/messages/2010/08"&gt;US&lt;/CountryCode&gt;
+        &lt;StoreId xmlns="http://www.gamestop.com/services/channel/ecommerce/messages/2010/08"&gt;8746&lt;/StoreId&gt;
+        &lt;StoreNumber xmlns="http://www.gamestop.com/services/channel/ecommerce/messages/2010/08"&gt;672&lt;/StoreNumber&gt;
+      &lt;/request&gt;
+    &lt;/GetStoreInformation&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</body>
+    </request>
+    <response>
+      <header>HTTP/1.1 200 OK
+Content-Length: 1707
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.5
+Date: Tue, 21 Feb 2017 16:56:08 GMT
+
+</header>
+      <body>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;s:Body&gt;
+    &lt;GetStoreInformationResponse xmlns="http://www.gamestop.com/services/channel/ecommerce/contracts/2010/05"&gt;
+      &lt;GetStoreInformationResult xmlns:a="http://www.gamestop.com/services/channel/ecommerce/messages/2010/08" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;
+        &lt;a:Store xmlns:b="http://www.gamestop.com/services/channel/ecommerce/entities/2010/08"&gt;
+          &lt;b:Address xmlns:c="http://www.gamestop.com/services/channel/ecommerce/entities/2010/10"&gt;
+            &lt;c:AddressGuid&gt;00000000-0000-0000-0000-000000000000&lt;/c:AddressGuid&gt;
+            &lt;c:AddressId&gt;0&lt;/c:AddressId&gt;
+            &lt;c:AddressLine1&gt;5016 ROE BLVD&lt;/c:AddressLine1&gt;
+            &lt;c:AddressLine2 /&gt;
+            &lt;c:AddressLine3 i:nil="true" /&gt;
+            &lt;c:AddressLine4 i:nil="true" /&gt;
+            &lt;c:AddressType&gt;Home&lt;/c:AddressType&gt;
+            &lt;c:City&gt;Roeland Park&lt;/c:City&gt;
+            &lt;c:Country&gt;US&lt;/c:Country&gt;
+            &lt;c:County /&gt;
+            &lt;c:PostalCode&gt;66205&lt;/c:PostalCode&gt;
+            &lt;c:StateOrProvince&gt;KS&lt;/c:StateOrProvince&gt;
+          &lt;/b:Address&gt;
+          &lt;b:EmailAddress&gt;usa00672@stores.pvt&lt;/b:EmailAddress&gt;
+          &lt;b:GeoData&gt;
+            &lt;b:Distance i:nil="true" /&gt;
+            &lt;b:Latitude&gt;39.037418&lt;/b:Latitude&gt;
+            &lt;b:Longitude&gt;-94.63975&lt;/b:Longitude&gt;
+          &lt;/b:GeoData&gt;
+          &lt;b:HasBroadbandConnection&gt;true&lt;/b:HasBroadbandConnection&gt;
+          &lt;b:HopsEnabled&gt;true&lt;/b:HopsEnabled&gt;
+          &lt;b:IsOnMilitaryBase&gt;false&lt;/b:IsOnMilitaryBase&gt;
+          &lt;b:Mall&gt;Roeland Park S/C&lt;/b:Mall&gt;
+          &lt;b:Phone&gt;9136773343&lt;/b:Phone&gt;
+          &lt;b:StoreBrand&gt;gamestop&lt;/b:StoreBrand&gt;
+          &lt;b:StoreHours xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"&gt;
+            &lt;c:string&gt;Mon-Thu 10am-9pm&lt;/c:string&gt;
+            &lt;c:string&gt;Fri 5am-9pm&lt;/c:string&gt;
+            &lt;c:string&gt;Sat 10am-9pm&lt;/c:string&gt;
+            &lt;c:string&gt;Sun 11am-7pm&lt;/c:string&gt;
+          &lt;/b:StoreHours&gt;
+          &lt;b:StoreId&gt;8746&lt;/b:StoreId&gt;
+          &lt;b:StoreNumber&gt;672&lt;/b:StoreNumber&gt;
+        &lt;/a:Store&gt;
+      &lt;/GetStoreInformationResult&gt;
+    &lt;/GetStoreInformationResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;</body>
+    </response>
+  </http>
+</report>

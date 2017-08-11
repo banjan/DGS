@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="report_view.xsl"?>
+<Report time="Fri Dec 16 14:34:55 2016
+"><WSDLS><WSDL unc="C:\Users\casmith\Documents\VuGen\Scripts\LoyaltyPointsService\WSDL\LoyaltyPointsService\LoyaltyPointsService.svc" name="http://CSLLoyaltyProgramServicesQA1.TestGs.Pvt/LoyaltyPointsService.svc"><msgs><msg severity="Error" xpath="" col="0" line="0">Parsing Error.</msg><msg severity="Error" xpath="" col="0" line="0">WSDLException (at /HTML): faultCode=INVALID_WSDL: Expected element '{http://schemas.xmlsoap.org/wsdl/}definitions'.</msg><msg severity="Notification" xpath="" col="0" line="0">See detailed report in C:\Users\casmith\Documents\VuGen\Scripts\LoyaltyPointsService\WSDL\AxisToolkit.log</msg></msgs></WSDL></WSDLS></Report>

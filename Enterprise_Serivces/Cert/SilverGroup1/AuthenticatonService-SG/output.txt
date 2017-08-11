@@ -1,0 +1,21 @@
+Virtual User Script started at : 2/24/2017 3:06:54 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action ValidateUser.
+ValidateUser.c(3): Notify: Transaction "AuthenticationService_ValidateUser" started.
+ValidateUser.c(5): Web service call "ValidateUser_101" started
+ValidateUser.c(5): Error: HTTP status code 401 returned by the server
+ValidateUser.c(5): Error: InvokeMethod failure: External component has thrown an exception..
+ValidateUser.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+ValidateUser.c(5): Error: Web service call "ValidateUser_101" execution failed
+ValidateUser.c(5): Notify: Transaction "AuthenticationService_ValidateUser" ended with a "Fail" status (Duration: 1.3515 Wasted Time: 1.2593).
+ValidateUser.c(5): Notify: Transaction "AuthenticationService_ValidateUser" has 1 error message(s).
+ValidateUser.c(5): Notify: The 1st error message associated with transaction "AuthenticationService_ValidateUser" is "Error -26547: Authentication required, please use "web_set_user", e.g. web_set_user("domain\\user", "password", "host:port");"
+Ending action ValidateUser.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

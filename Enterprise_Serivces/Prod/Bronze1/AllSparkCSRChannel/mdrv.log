@@ -1,0 +1,30 @@
+Virtual User Script started at : 2/20/2017 8:23:48 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action RetrieveReadyToDeliverOrders.
+RetrieveReadyToDeliverOrders.c(3): Notify: Transaction "AllSparkAgentService_RetrieveReadyToDeliverOrders" started.
+RetrieveReadyToDeliverOrders.c(5): Web service call "RetrieveReadyToDeliverOrders_101" started
+RetrieveReadyToDeliverOrders.c(5): Web service call "RetrieveReadyToDeliverOrders_101" was successful
+RetrieveReadyToDeliverOrders.c(22): Notify: Transaction "AllSparkAgentService_RetrieveReadyToDeliverOrders" ended with a "Pass" status (Duration: 1.9116 Wasted Time: 0.2863).
+Ending action RetrieveReadyToDeliverOrders.
+Starting action DeliverOrder.
+DeliverOrder.c(3): Notify: Transaction "AllSparkAgentService_DeliverOrder" started.
+DeliverOrder.c(5): Web service call "DeliverOrder_101" started
+DeliverOrder.c(5): Web service call "DeliverOrder_101" was successful
+DeliverOrder.c(23): Notify: Transaction "AllSparkAgentService_DeliverOrder" ended with a "Pass" status (Duration: 0.0365 Wasted Time: 0.0038).
+Ending action DeliverOrder.
+Starting action RetrievePartnerInventoryThresholds.
+RetrievePartnerInventoryThresholds.c(3): Notify: Transaction "AllSparkAgentService_RetrievePartnerInventoryThresholds" started.
+RetrievePartnerInventoryThresholds.c(5): Web service call "RetrievePartnerInventoryThresholds_101" started
+RetrievePartnerInventoryThresholds.c(5): Web service call "RetrievePartnerInventoryThresholds_101" was successful
+RetrievePartnerInventoryThresholds.c(22): Notify: Transaction "AllSparkAgentService_RetrievePartnerInventoryThresholds" ended with a "Pass" status (Duration: 15.9690 Wasted Time: 9.8710).
+Ending action RetrievePartnerInventoryThresholds.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

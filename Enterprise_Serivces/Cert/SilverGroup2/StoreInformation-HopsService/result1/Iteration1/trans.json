@@ -1,0 +1,12 @@
+[
+    {
+        "transactionName": "HopsService_UpdateHopsConfigurationForStore",
+        "rawStartTime": 1487089966797,
+        "rawEndTime": 1487089967080
+    },
+    {
+        "transactionName": "HopsService_GetActiveHopsForStore",
+        "rawStartTime": 1487089967084,
+        "rawEndTime": 1487089967116
+    }
+]

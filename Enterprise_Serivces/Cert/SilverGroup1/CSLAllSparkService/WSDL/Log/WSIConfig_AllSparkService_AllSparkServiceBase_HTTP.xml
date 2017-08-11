@@ -1,0 +1,13 @@
+<configuration xmlns="http://www.ws-i.org/testing/2004/07/analyzerConfig/" xmlns:wsi-common="http://www.ws-i.org/testing/2003/03/common/" xmlns:uddi="urn://uddi-org/api_v2/">
+  <verbose>true</verbose>
+  <assertionResults type="all" messageEntry="false" assertionDescription="true" failureMessage="true" failureDetail="true" />
+  <reportFile replace="true" location="C:\Users\casmith\Documents\VuGen\Scripts\SilverGroup1\CSLAllSparkService\WSDL\WSIValidationReport_AllSparkService_AllSparkServiceBase_HTTP.xml">
+    <addStyleSheet href="C:\Program Files (x86)\HP\LoadRunner\wsi-test-tools\common\xsl\report.xsl" type="text/xsl" alternate="false" />
+  </reportFile>
+  <testAssertionsFile>C:\Program Files (x86)\HP\LoadRunner\wsi-test-tools\common\profiles\SSBP10_BP11_TAD.xml</testAssertionsFile>
+  <wsdlReference>
+    <wsdlElement type="binding" namespace="http://www.gamestop.com/CSL/AllSpark/V1.0">AllSparkServiceBase_HTTP</wsdlElement>
+    <wsdlURI>http://cslallsparkserviceqa1.testgs.pvt/AllSparkService.svc?wsdl</wsdlURI>
+    <serviceLocation>http://DummyServiceLocation:80</serviceLocation>
+  </wsdlReference>
+</configuration>

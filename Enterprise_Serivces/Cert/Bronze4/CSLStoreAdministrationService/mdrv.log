@@ -1,0 +1,86 @@
+Virtual User Script started at : 1/17/2017 12:03:50 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetOrganizationHirearchy.
+GetOrganizationHirearchy.c(3): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchy" started.
+GetOrganizationHirearchy.c(5): Web service call "GetOrganizationHierarchy_101" started
+GetOrganizationHirearchy.c(5): Web service call "GetOrganizationHierarchy_101" was successful
+GetOrganizationHirearchy.c(29): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchy" ended with a "Pass" status (Duration: 10.5584 Wasted Time: 5.9151).
+Ending action GetOrganizationHirearchy.
+Starting action GetOrganizationHierarchyByCompany.
+GetOrganizationHierarchyByCompany.c(3): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByCompany" started.
+GetOrganizationHierarchyByCompany.c(5): Web service call "GetOrganizationHierarchyByCompany_101" started
+GetOrganizationHierarchyByCompany.c(5): Web service call "GetOrganizationHierarchyByCompany_101" was successful
+GetOrganizationHierarchyByCompany.c(33): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByCompany" ended with a "Pass" status (Duration: 0.4474 Wasted Time: 0.0072).
+Ending action GetOrganizationHierarchyByCompany.
+Starting action GetOrganizationHierarchyByCountry.
+GetOrganizationHierarchyByCountry.c(3): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByCountry" started.
+GetOrganizationHierarchyByCountry.c(5): Web service call "GetOrganizationHierarchyByCountry_101" started
+GetOrganizationHierarchyByCountry.c(5): Web service call "GetOrganizationHierarchyByCountry_101" was successful
+GetOrganizationHierarchyByCountry.c(31): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByCountry" ended with a "Pass" status (Duration: 0.4521 Wasted Time: 0.0040).
+Ending action GetOrganizationHierarchyByCountry.
+Starting action GetOrganizationHierarchyByCountryZone.
+GetOrganizationHierarchyByCountryZone.c(3): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByCountryZone" started.
+GetOrganizationHierarchyByCountryZone.c(5): Web service call "GetOrganizationHierarchyByCountryZone_101" started
+GetOrganizationHierarchyByCountryZone.c(5): Web service call "GetOrganizationHierarchyByCountryZone_101" was successful
+GetOrganizationHierarchyByCountryZone.c(31): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByCountryZone" ended with a "Pass" status (Duration: 9.7586 Wasted Time: 5.5895).
+Ending action GetOrganizationHierarchyByCountryZone.
+Starting action GetOrganizationHierarchyByDistrict.
+GetOrganizationHierarchyByDistrict.c(3): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByDistrict" started.
+GetOrganizationHierarchyByDistrict.c(5): Web service call "GetOrganizationHierarchyByDistrict_101" started
+GetOrganizationHierarchyByDistrict.c(5): Web service call "GetOrganizationHierarchyByDistrict_101" was successful
+GetOrganizationHierarchyByDistrict.c(31): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByDistrict" ended with a "Pass" status (Duration: 0.6034 Wasted Time: 0.0289).
+Ending action GetOrganizationHierarchyByDistrict.
+Starting action GetOrganizationHierarchyByMarket.
+GetOrganizationHierarchyByMarket.c(3): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByMarket" started.
+GetOrganizationHierarchyByMarket.c(5): Web service call "GetOrganizationHierarchyByMarket_101" started
+GetOrganizationHierarchyByMarket.c(5): Web service call "GetOrganizationHierarchyByMarket_101" was successful
+GetOrganizationHierarchyByMarket.c(31): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByMarket" ended with a "Pass" status (Duration: 3.0518 Wasted Time: 1.0826).
+Ending action GetOrganizationHierarchyByMarket.
+Starting action GetOrganizationHierarchyByRegion.
+GetOrganizationHierarchyByRegion.c(3): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByRegion" started.
+GetOrganizationHierarchyByRegion.c(5): Web service call "GetOrganizationHierarchyByRegion_101" started
+GetOrganizationHierarchyByRegion.c(5): Web service call "GetOrganizationHierarchyByRegion_101" was successful
+GetOrganizationHierarchyByRegion.c(31): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByRegion" ended with a "Pass" status (Duration: 0.6085 Wasted Time: 0.1065).
+Ending action GetOrganizationHierarchyByRegion.
+Starting action GetOrganizationHierarchyByStore.
+GetOrganizationHierarchyByStore.c(3): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByStore" started.
+GetOrganizationHierarchyByStore.c(5): Web service call "GetOrganizationHierarchyByStore_101" started
+GetOrganizationHierarchyByStore.c(5): Web service call "GetOrganizationHierarchyByStore_101" was successful
+GetOrganizationHierarchyByStore.c(31): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyByStore" ended with a "Pass" status (Duration: 0.5413 Wasted Time: 0.0035).
+Ending action GetOrganizationHierarchyByStore.
+Starting action GetOrganizationHierarchyFlat.
+GetOrganizationHierarchyFlat.c(3): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyFlat" started.
+GetOrganizationHierarchyFlat.c(5): Web service call "GetOrganizationHierarchyFlat_101" started
+GetOrganizationHierarchyFlat.c(5): Web service call "GetOrganizationHierarchyFlat_101" was successful
+GetOrganizationHierarchyFlat.c(29): Notify: Transaction "StoreAdministrationService_GetOrganizationHierarchyFlat" ended with a "Pass" status (Duration: 17.7227 Wasted Time: 11.5875).
+Ending action GetOrganizationHierarchyFlat.
+Starting action GetVersion.
+GetVersion.c(3): Notify: Transaction "StoreAdministrationService_GetVersion" started.
+GetVersion.c(5): Web service call "GetVersion_103" started
+GetVersion.c(5): Web service call "GetVersion_103" was successful
+GetVersion.c(17): Notify: Transaction "StoreAdministrationService_GetVersion" ended with a "Pass" status (Duration: 0.0220 Wasted Time: 0.0062).
+Ending action GetVersion.
+Starting action IsServiceAlive.
+IsServiceAlive.c(3): Notify: Transaction "StoreAdministrationService_IsServiceAlive" started.
+IsServiceAlive.c(5): Web service call "IsServiceAlive_103" started
+IsServiceAlive.c(5): Web service call "IsServiceAlive_103" was successful
+IsServiceAlive.c(17): Notify: Transaction "StoreAdministrationService_IsServiceAlive" ended with a "Pass" status (Duration: 0.0153 Wasted Time: 0.0037).
+Ending action IsServiceAlive.
+Starting action IsServiceHealthy.
+IsServiceHealthy.c(3): Notify: Transaction "StoreAdministrationService_IsServiceHealthy" started.
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_103" started
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_103" was successful
+IsServiceHealthy.c(17): Notify: Transaction "StoreAdministrationService_IsServiceHealthy" ended with a "Pass" status (Duration: 0.0245 Wasted Time: 0.0036).
+IsServiceHealthy.c(19): Web service call "IsServiceHealthy_104" started
+IsServiceHealthy.c(19): Web service call "IsServiceHealthy_104" was successful
+Ending action IsServiceHealthy.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

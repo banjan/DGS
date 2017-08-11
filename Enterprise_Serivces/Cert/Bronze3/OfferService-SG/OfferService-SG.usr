@@ -1,0 +1,73 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=53
+ScriptExitOK=1
+ActiveTypes=WS_SOAP
+GenerateTypes=WS_SOAP
+AdditionalTypes=WS_SOAP,QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.53.0.1203
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+GetOffersForCustomer=GetOffersForCustomer.c
+GetOffersForPOSCustomer=GetOffersForPOSCustomer.c
+CreateOfferForCustomer=CreateOfferForCustomer.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[ExtraFiles]
+globals.h=
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[Modified Actions]
+vuser_init=0
+GetOffersForCustomer=1
+GetOffersForPOSCustomer=1
+CreateOfferForCustomer=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+GetOffersForCustomer=0
+GetOffersForPOSCustomer=0
+CreateOfferForCustomer=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+GetOffersForCustomer=1
+GetOffersForPOSCustomer=1
+CreateOfferForCustomer=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+GetOffersForCustomer=cci
+GetOffersForPOSCustomer=cci
+CreateOfferForCustomer=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="OfferService_GetOffersForCustomer__*delimiter*__OfferService_GetOffersForPOSCustomer__*delimiter*__OfferService_CreateOfferForCustomer"
+[StateManagement]
+LastReplayStatus=2
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+OfferService_GetOffersForCustomer=
+OfferService_GetOffersForPOSCustomer=
+OfferService_CreateOfferForCustomer=

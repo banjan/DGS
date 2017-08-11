@@ -1,0 +1,33 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Message id [-204691] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+Message id [-204696] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+		  		  GIF89a\\x00\\x00€\\x00\\x00ÿÿÿ\\x00\\x00\\x00!ù\\x00\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00„Q\\x00;	[MsgId: MMSG0]
+Message id [-204685] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00222004ms: Error -205177: ** 27: Click on CONTINUE CHECKOUT ?  ** failed - end event error due to network timeout. Open requests: https://4399660.fls.doubleclick.net/activityi;src=4399660;type=ret01;cat=land01;ord=4674146685129.982?;        Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+		  		  GIF89a\\x00\\x00€\\x00\\x00ÿÿÿ\\x00\\x00\\x00!ù	\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00L\\x00;	[MsgId: MMSG0]
+t=00479313ms: "https://syndication.twitter.com/i/jot?dnt=1&l=%7B%22widget_origin%22%3A%22http%3A%2F%2Fqa.gamestop.com%2F%22%2C%22widget_frame%22%3Afalse%2C%22language%22%3A%22en%22%2C%22message%22%3A%22l%3Awithcount%3A%22%2C%22_category_%22%3A%22tfw_client_event%22%2C%22triggered_on%22%3A1501689619277%2C%22dnt%22%3Atrue%2C%22client_version%22%3A%2246ae3e9%3A1501190939221%22%2C%22format_version%22%3A1%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22button%22%2C%22section%22%3A%22follow%22%2C%22action%22%3A%22impression%22%7D%7D" (internal ID=2969) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00654702ms: Error -205177: ** 1: Navigate to http://qa.gamestop.com/ ** timed out. Open requests: https://www.googletagmanager.com/gtm.js?id=GTM-N3V4J6Q;        Snapshot Info [MSH 4 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+		  		  GIF89a\\x00\\x00€\\x00\\x00ÿÿÿ\\x00\\x00\\x00!ù\\x00\\x00\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00D\\x00;	[MsgId: MMSG0]
+t=00628473ms: "http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=d5036505d7636e38377210f8&account=84373748001&destination=http%3A%2F%2Fqa.gamestop.com%2Fgames%2Ftest1239%2F150998&platform_version=6.4.1&player=players.brightcove.com%2F84373748001%2FNyXPEHZOsx_default&player_name=Video%20Cartridge&source=http%3A%2F%2Fqa.gamestop.com%2F&event=error&error_code=MEDIA_ERR_UNKNOWN&time=1501689766891" (internal ID=3984) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00804657ms: Error -205177: ** 4: Press Enter key on Find games, consoles,... textbox ** timed out. Open requests: https://www.google.com/ads/user-lists/1045657028/?random=1501689765773&cv=8&fst=1501689600000&num=1&fmt=1&guid=ON&eid=376635471&u_h=768&u_w=1364&u_ah=724&u_aw=1364&u_cd=16&u_his=10&u_tz=-300&u_java=false&u_nplug=0&u_nmime=0&frm=2&url=http%3A%2F%2F4399660.fls.doubleclick.net%2Factivityi%3Bsrc%3D4399660%3Btype%3Dret01%3Bcat%3Dland01%3Bord%3D1577262207958.6174%3F&ref=http%3A%2F%2Fqa.gamestop.com%2Fgames%2Ftest1239%2F150998&cdct=2&is_vtc=1&random=2965517894&fpvtc=/1045657028/%3Frandom%3D723155117%26cv%3D8%26fst%3D1501689600000%26num%3D1%26fmt%3D1%26guid%3DON%26eid%3D376635471%26u_h%3D768%26u_w%3D1364%26u_ah%3D724%26u_aw%3D1364%26u_cd%3D16%26u_his%3D10%26u_tz%3D-300%26u_java%3Dfalse%26u_nplug%3D0%26u_nmime%3D0%26frm%3D2%26url%3Dhttp%253A%252F%252F4399660.fls.doubleclick.net%252Factivityi%253Bsrc%253D4399660%253Btype%253Dret01%253Bcat%253Dland01%253Bord%253D1577262207958.6174%253F%26ref%3Dhttp%253A%252F%252Fqa.gamestop.com%252Fgames%252Ftest1239%252F150998%26cdct%3D2%26is_vtc%3D1;        Snapshot Info [MSH 5 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+t=00711461ms: 1329 byte(s) received for "https://ad.doubleclick.net/adj/N7050.197812.NSO.CODESRV/B8074538.108087571;dcadv=4399554;sz=1x2;ord=241853544540.56152?" (internal ID=4243)    [MsgId: MMSG-204693]	[MsgId: MMSG-204693]
+t=00711461ms: 1234 byte(s) received for "https://ad.doubleclick.net/adj/N7050.197812.NSO.CODESRV/B8074538.108087571;dcadv=4399554;sz=1x2;ord=241853544540.56152?" (internal ID=4243)    [MsgId: MMSG-204693]	[MsgId: MMSG-204693]
+t=00711461ms: End of response for "https://ad.doubleclick.net/adj/N7050.197812.NSO.CODESRV/B8074538.108087571;dcadv=4399554;sz=1x2;ord=241853544540.56152?" (internal ID=4243)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=00711465ms: Response body for "https://ad.doubleclick.net/adj/N7050.197812.NSO.CODESRV/B8074538.108087571;dcadv=4399554;sz=1x2;ord=241853544540.56152?" (7103 byte(s), decoded) (internal ID=4243)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Message id [0] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00890415ms: Error -205177: ** 9: Click on CONTINUE AS GUEST link ** timed out. Open requests: https://ad.doubleclick.net/adj/N7050.197812.NSO.CODESRV/B8074538.108087571;dcadv=4399554;sz=1x2;ord=241853544540.56152?;        Snapshot Info [MSH 5 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

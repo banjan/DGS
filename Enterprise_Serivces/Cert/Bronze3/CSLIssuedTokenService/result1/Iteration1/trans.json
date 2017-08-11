@@ -1,0 +1,22 @@
+[
+    {
+        "transactionName": "IssuedTokenService_GetIssuedTokenByToken",
+        "rawStartTime": 1484240886625,
+        "rawEndTime": 1484240887991
+    },
+    {
+        "transactionName": "IssuedTokenService_GetVersion",
+        "rawStartTime": 1484240887994,
+        "rawEndTime": 1484240888023
+    },
+    {
+        "transactionName": "IssuedTokenService_IsServiceAlive",
+        "rawStartTime": 1484240888026,
+        "rawEndTime": 1484240888049
+    },
+    {
+        "transactionName": "IssuedTokenService_IsServiceHealthy",
+        "rawStartTime": 1484240888052,
+        "rawEndTime": 1484240888079
+    }
+]

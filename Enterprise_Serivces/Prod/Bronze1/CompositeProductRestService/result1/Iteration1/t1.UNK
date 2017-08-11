@@ -1,0 +1,408 @@
+[
+  {
+    "ProductID": "38695",
+    "Price": 4.990000,
+    "BasePrice": 0.010000,
+    "SKU": "939239",
+    "ProductType": "Games",
+    "DisplayName": "Star Wars Battlefront II",
+    "ShortDescription": "Star Wars Battlefront II improves upon the original game's single-player experience with open-ended, mission-based objectives inspired from all six Star Wars films. The compelling storyline spans more than 12 new locations, many from Episode III, including volcanic Mustafar and the space battle above Coruscant. All-new classic movie moments complete the Star Wars Battlefront II experience, as you battle within the interior of the Death Star and visit Princess Leia's blockade runner, the Tantive IV, as seen at the beginning of Episode IV A New Hope. In addition, at certain key moments within the battles, you can feel the Force as a Jedi.",
+    "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/281281b.jpg",
+    "AverageOverallRating": 9.5,
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "Videos": [],
+    "ProductVariants": [
+      {
+        "Condition": "Used",
+        "SKU": "939239",
+        "IsAvailable": true,
+        "Price": 4.990000,
+        "TradeBasePrice": 0.010000,
+        "CreditPrice": 0.010000,
+        "CashPrice": 0.00800000,
+        "ProCashPrice": 0.008800000,
+        "ProCreditPrice": 0.0110000,
+        "ProPrice": 4.4910000,
+        "ProductID": 0,
+        "StoreInventory": null
+      }
+    ],
+    "Platforms": [
+      "PlayStation 2"
+    ],
+    "ESRBRating": "T",
+    "ESRBDescriptor": [
+      "Mild Language",
+      "Violence"
+    ],
+    "ProductMedias": null
+  },
+  {
+    "ProductID": "39196",
+    "Price": 12.990000,
+    "BasePrice": 0.010000,
+    "SKU": "939250",
+    "ProductType": "Games",
+    "DisplayName": "Magna Carta: Tears of Blood",
+    "ShortDescription": "Revenge is the only thing that can erase this hatred... In the land of Efferia, humans and native-Efferians uneasily co-exist in the throes of an endless war. A young man out for revenge against the natives finds a girl who's lost her memories... Where will destiny lead them...? An RPG of unparalleled drama is about to begin...",
+    "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/281320b.jpg",
+    "AverageOverallRating": 7.7,
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "Videos": [],
+    "ProductVariants": [
+      {
+        "Condition": "Used",
+        "SKU": "939250",
+        "IsAvailable": true,
+        "Price": 12.990000,
+        "TradeBasePrice": 0.010000,
+        "CreditPrice": 0.010000,
+        "CashPrice": 0.00800000,
+        "ProCashPrice": 0.008800000,
+        "ProCreditPrice": 0.0110000,
+        "ProPrice": 11.6910000,
+        "ProductID": 0,
+        "StoreInventory": null
+      }
+    ],
+    "Platforms": [
+      "PlayStation 2"
+    ],
+    "ESRBRating": "T",
+    "ESRBDescriptor": [
+      "Fantasy Violence",
+      "Language",
+      "Suggestive Themes"
+    ],
+    "ProductMedias": null
+  },
+  {
+    "ProductID": "77286",
+    "Price": 19.990000,
+    "BasePrice": 0.0,
+    "SKU": "270529",
+    "ProductType": "Games",
+    "DisplayName": "FINAL FANTASY XIV: A Realm Reborn",
+    "ShortDescription": "FINAL FANTASY® XIV: A Realm Reborn is a massively multiplayer online role-playing game (MMORPG) for Windows® PC and PlayStation®3 that invites you to explore the realm of Eorzea with friends from around the world. Form a party and adventure with a multitude of players from across the globe. Forge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Set out alone or enlist the aid of friends as you undertake epic quests, battle familiar FINAL FANTASY monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark on the adventure of a lifetime to help reforge the fate of Eorzea!",
+    "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/270529b2.jpg",
+    "AverageOverallRating": 7.0,
+    "ReleaseDate": "2013-08-27T00:00:00",
+    "Videos": [
+      {
+        "Key": "2535317249001",
+        "IsAgeRestricted": false,
+        "VideoUrl": "http://gamestopuds-a.akamaihd.net/84373748001/84373748001_2536215849001_FFXIV-ARR-WalkThrough3.mp4",
+        "ImageUrl": "http://gamestoppd-a.akamaihd.net/84373748001/84373748001_2536215855001_vs-51dc135be4b0d732cedf9835-1206954757001.jpg?pubId=84373748001"
+      },
+      {
+        "Key": "2574703766001",
+        "IsAgeRestricted": true,
+        "VideoUrl": "http://gamestopuds-a.akamaihd.net/84373748001/84373748001_2574762445001_FFXIV-A-Realm-Reborn-Dungeon-Crawl-Trailer.mp4",
+        "ImageUrl": "http://gamestoppd-a.akamaihd.net/84373748001/84373748001_2574762446001_vs-51f7ca06e4b061210d9034c1-782203293001.jpg?pubId=84373748001"
+      },
+      {
+        "Key": "2707149891001",
+        "IsAgeRestricted": false,
+        "VideoUrl": "http://gamestopuds-a.akamaihd.net/84373748001/84373748001_2707162919001_FFXIV-LightningPORORI-Fix-EN---US-110492--US-77286--US-109633.mp4",
+        "ImageUrl": "http://gamestoppd-a.akamaihd.net/84373748001/84373748001_2707161668001_video-still-for-video-2707149891001.jpg?pubId=84373748001"
+      }
+    ],
+    "ProductVariants": [
+      {
+        "Condition": "New",
+        "SKU": "270529",
+        "IsAvailable": true,
+        "Price": 19.990000,
+        "TradeBasePrice": 0.0,
+        "CreditPrice": 0.0,
+        "CashPrice": 0.0,
+        "ProCashPrice": 0.0,
+        "ProCreditPrice": 0.0,
+        "ProPrice": 19.990000,
+        "ProductID": 0,
+        "StoreInventory": null
+      }
+    ],
+    "Platforms": [
+      "PlayStation 3"
+    ],
+    "ESRBRating": "T",
+    "ESRBDescriptor": [
+      "Language",
+      "Mild Blood",
+      "Sexual Themes",
+      "Use of Alcohol",
+      "Violence"
+    ],
+    "ProductMedias": null
+  },
+  {
+    "ProductID": "39198",
+    "Price": 4.990000,
+    "BasePrice": 0.010000,
+    "SKU": "939251",
+    "ProductType": "Games",
+    "DisplayName": "GUN",
+    "ShortDescription": "When life robs Colton White of all that matters, the only thing left he can trust is his GUN. From award-winning developer, Neversoft, and accomplished screenwriter, Randall Jahnson (The Mask of Zorro, The Doors), GUN follows Colton on his quest for discovery as he seeks to exact vengeful justice on those who have wronged him. GUN is a realistic epic action/adventure that lets gamers experience the brutality of the lawless West.",
+    "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/281322b.jpg",
+    "AverageOverallRating": 9.7,
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "Videos": [],
+    "ProductVariants": [
+      {
+        "Condition": "Used",
+        "SKU": "939251",
+        "IsAvailable": true,
+        "Price": 4.990000,
+        "TradeBasePrice": 0.010000,
+        "CreditPrice": 0.010000,
+        "CashPrice": 0.00800000,
+        "ProCashPrice": 0.008800000,
+        "ProCreditPrice": 0.0110000,
+        "ProPrice": 4.4910000,
+        "ProductID": 0,
+        "StoreInventory": null
+      }
+    ],
+    "Platforms": [
+      "PlayStation 2"
+    ],
+    "ESRBRating": "M",
+    "ESRBDescriptor": [
+      "Blood and Gore",
+      "Intense Violence",
+      "Sexual Themes",
+      "Strong Language",
+      "Use of Alcohol"
+    ],
+    "ProductMedias": null
+  },
+  {
+    "ProductID": "39624",
+    "Price": 4.990000,
+    "BasePrice": 0.010000,
+    "SKU": "939255",
+    "ProductType": "Games",
+    "DisplayName": "Suikoden Tactics",
+    "ShortDescription": "Breaking from its traditional role-playing roots, Suikoden Tactics incorporates simulation and strategy elements to take players on an all-new fantastical adventure.  The game features stunning environments, extravagant and exciting story scenes and an amazing cast of characters. Told through the eyes of Kyril, a young adventurer investigating the sudden appearance of hideous creatures in the Island Nations, Suikoden Tactics unfolds another perspective to the events of Suikoden® IV and players will discover the secrets of the legendary Rune Cannons.  Successfully blending classic Suikoden and RPG elements that fans of the renowned series have come to expect with new features and game mechanics, Tactics offers players an original, robust gameplay experience like no other.",
+    "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/281372b.jpg",
+    "AverageOverallRating": 6.7,
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "Videos": [],
+    "ProductVariants": [
+      {
+        "Condition": "Used",
+        "SKU": "939255",
+        "IsAvailable": true,
+        "Price": 4.990000,
+        "TradeBasePrice": 0.010000,
+        "CreditPrice": 0.010000,
+        "CashPrice": 0.00800000,
+        "ProCashPrice": 0.008800000,
+        "ProCreditPrice": 0.0110000,
+        "ProPrice": 4.4910000,
+        "ProductID": 0,
+        "StoreInventory": null
+      }
+    ],
+    "Platforms": [
+      "PlayStation 2"
+    ],
+    "ESRBRating": "T",
+    "ESRBDescriptor": [
+      "Mild Cartoon Violence",
+      "Mild Language"
+    ],
+    "ProductMedias": null
+  },
+  {
+    "ProductID": "41612",
+    "Price": 9.990000,
+    "BasePrice": 0.010000,
+    "SKU": "914894",
+    "ProductType": "Games",
+    "DisplayName": "Dogz",
+    "ShortDescription": "Dogz is a pet simulation game that lets owners name, train and play with a realistic puppy. Players create and control a main character and choose one of 49 different dogs from 18 different breeds. As characters in the game, owners can take their puppies everywhere within the virtual environment, from through the house to around the neighborhood to visit friends. Gamers will earn their puppy's love and loyalty by remembering to feed and groom it and reward it when it does things correctly. Owners can train the puppy to lie down, shake, fetch and perform many other tricks.",
+    "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/914894b.jpg",
+    "AverageOverallRating": 8.7,
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "Videos": [],
+    "ProductVariants": [
+      {
+        "Condition": "Used",
+        "SKU": "914894",
+        "IsAvailable": true,
+        "Price": 9.990000,
+        "TradeBasePrice": 0.010000,
+        "CreditPrice": 0.010000,
+        "CashPrice": 0.00800000,
+        "ProCashPrice": 0.008800000,
+        "ProCreditPrice": 0.0110000,
+        "ProPrice": 8.9910000,
+        "ProductID": 0,
+        "StoreInventory": null
+      }
+    ],
+    "Platforms": [
+      "Game Boy Advance"
+    ],
+    "ESRBRating": "E",
+    "ESRBDescriptor": [
+      "Comic Mischief"
+    ],
+    "ProductMedias": null
+  },
+  {
+    "ProductID": "38246",
+    "Price": 4.990000,
+    "BasePrice": 0.0,
+    "SKU": "950836",
+    "ProductType": "Games",
+    "DisplayName": "Peter Jackson's King Kong",
+    "ShortDescription": "Acclaimed game creator Michel Ancel and the Montpellier studio collaborate with triple Academy Award-winning filmmaker Peter Jackson and visual-effects company Weta Ltd. to develop Peter Jackson's King Kong, a video game that will capture the imagination, vision and emotion of the epic film. Delve deeper into the film experience through alternative viewpoints designed to immerse the player into the action and truly \"feel\" the tension of the adventure.",
+    "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/210765b.jpg",
+    "AverageOverallRating": 0.0,
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "Videos": [],
+    "ProductVariants": [
+      {
+        "Condition": "Used",
+        "SKU": "950836",
+        "IsAvailable": true,
+        "Price": 4.990000,
+        "TradeBasePrice": 0.0,
+        "CreditPrice": 0.0,
+        "CashPrice": 0.0,
+        "ProCashPrice": 0.0,
+        "ProCreditPrice": 0.0,
+        "ProPrice": 4.4910000,
+        "ProductID": 0,
+        "StoreInventory": null
+      }
+    ],
+    "Platforms": [
+      "Xbox"
+    ],
+    "ESRBRating": "T",
+    "ESRBDescriptor": [
+      "Blood",
+      "Violence"
+    ],
+    "ProductMedias": null
+  },
+  {
+    "ProductID": "76825",
+    "Price": 29.990000,
+    "BasePrice": 0.0,
+    "SKU": "270496",
+    "ProductType": "Games",
+    "DisplayName": "Dragon Age Origins: Awakening",
+    "ShortDescription": "From the Makers of the Best RPG of 2009, Dragon Age: Origins, comes the first official expansion pack. For centuries, the Grey Wardens - the ancient order of guardians, sworn to unite and defend the lands - have been battling the darkspawn forces. Legend spoke that slaying the Archdemon would have put an end to the darkspawn threat for centuries to come, but somehow they remain. You are the Grey Warden Commander and have been entrusted with the duty of rebuilding the order of Grey Wardens and uncovering the secrets of the darkspawn and how they managed to remain. How you choose to rebuild your order, how you resolve the conflict with \"The Architect\", and how you determine the fate of the darkspawn will be but some of the many complex choices that await and shape your journey as you venture to the new land of Amaranthine. ",
+    "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/270496b.jpg",
+    "AverageOverallRating": 5.9,
+    "ReleaseDate": "2010-03-16T00:00:00",
+    "Videos": [],
+    "ProductVariants": [
+      {
+        "Condition": "New",
+        "SKU": "270496",
+        "IsAvailable": true,
+        "Price": 29.990000,
+        "TradeBasePrice": 0.750000,
+        "CreditPrice": 0.750000,
+        "CashPrice": 0.60000000,
+        "ProCashPrice": 0.660000000,
+        "ProCreditPrice": 0.8250000,
+        "ProPrice": 29.990000,
+        "ProductID": 0,
+        "StoreInventory": null
+      }
+    ],
+    "Platforms": [
+      "PlayStation 3"
+    ],
+    "ESRBRating": "M",
+    "ESRBDescriptor": [
+      "Blood and Gore",
+      "Intense Violence",
+      "Language",
+      "Partial Nudity",
+      "Sexual Content"
+    ],
+    "ProductMedias": null
+  },
+  {
+    "ProductID": "31125",
+    "Price": 6.990000,
+    "BasePrice": 0.010000,
+    "SKU": "938747",
+    "ProductType": "Games",
+    "DisplayName": "Monster 4x4: Masters of Metal",
+    "ShortDescription": "\nWhether you're grinding through mud pits in Louisiana, crunching up cliffs in California, or smashing up trees to make the ride a little bumpier for the guy behind you, keep your eyes on the prize: the cash you earn on the circuit goes to buy new trucks and build up your ultimate Monster machine.",
+    "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/938747b.jpg",
+    "AverageOverallRating": 7.0,
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "Videos": [],
+    "ProductVariants": [
+      {
+        "Condition": "Used",
+        "SKU": "938747",
+        "IsAvailable": true,
+        "Price": 6.990000,
+        "TradeBasePrice": 0.010000,
+        "CreditPrice": 0.010000,
+        "CashPrice": 0.00800000,
+        "ProCashPrice": 0.008800000,
+        "ProCreditPrice": 0.0110000,
+        "ProPrice": 6.2910000,
+        "ProductID": 0,
+        "StoreInventory": null
+      }
+    ],
+    "Platforms": [
+      "PlayStation 2"
+    ],
+    "ESRBRating": "E",
+    "ESRBDescriptor": [
+      "Violence"
+    ],
+    "ProductMedias": null
+  },
+  {
+    "ProductID": "39439",
+    "Price": 14.990000,
+    "BasePrice": 5.000000,
+    "SKU": "919088",
+    "ProductType": "Games",
+    "DisplayName": "Mega Man Battle Network 5 Double Team",
+    "ShortDescription": "ious Navi force has taken control of the lnternet!! Now it's up to Lan and his friends to infiltrate the the Dark Chip Factory in the Nebula Headquarters and destroy the Dark Chip production system .\nThe survival of cyberspace hangs in the balance! The hit Mega Man Battle Network 5 series blasts onto the Nintendo DS system with the cool features of the original Team Protoman and Team Colonel. Create your own dream team by choosing Navis from both teams! Plus, experience advanced new features exclusive to the Nintendo DS including dual screen Pet access, cyber maps and wireless gameplay!",
+    "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/180070b.jpg",
+    "AverageOverallRating": 10.0,
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "Videos": [],
+    "ProductVariants": [
+      {
+        "Condition": "Used",
+        "SKU": "919088",
+        "IsAvailable": true,
+        "Price": 14.990000,
+        "TradeBasePrice": 5.000000,
+        "CreditPrice": 5.000000,
+        "CashPrice": 4.00000000,
+        "ProCashPrice": 4.400000000,
+        "ProCreditPrice": 5.5000000,
+        "ProPrice": 13.4910000,
+        "ProductID": 0,
+        "StoreInventory": null
+      }
+    ],
+    "Platforms": [
+      "Nintendo DS"
+    ],
+    "ESRBRating": "E",
+    "ESRBDescriptor": [
+      "Mild Violence"
+    ],
+    "ProductMedias": null
+  }
+]

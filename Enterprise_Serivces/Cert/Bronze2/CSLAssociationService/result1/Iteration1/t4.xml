@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetVersionResponse xmlns="http://www.gamestop.com/services/core/contracts/2010/05"><GetVersionResult>1.13.628.0</GetVersionResult></GetVersionResponse></s:Body></s:Envelope>

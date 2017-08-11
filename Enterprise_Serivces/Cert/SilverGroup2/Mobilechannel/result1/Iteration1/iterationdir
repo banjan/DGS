@@ -1,0 +1,14 @@
+[Availability]
+SnapshotIndex=I1_Availability
+[SuggestedSearchProduct]
+SnapshotIndex=I1_SuggestedSearchProduct
+[CheckProductAvailabilityByGeoCode]
+SnapshotIndex=I1_CheckProductAvailabilityByGeoCode
+[VerifyHealth]
+SnapshotIndex=I1_VerifyHealth
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[GetConfiguration]
+SnapshotIndex=I1_GetConfiguration

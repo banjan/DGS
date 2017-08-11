@@ -1,0 +1,12 @@
+[
+    {
+        "transactionName": "LoyaltyMerchandisingService_GetMerchandisedProductDetails",
+        "rawStartTime": 1487782190266,
+        "rawEndTime": 1487782190912
+    },
+    {
+        "transactionName": "LoyaltyMerchandisingService_GetMerchandisedProducts",
+        "rawStartTime": 1487782190916,
+        "rawEndTime": 1487782191035
+    }
+]

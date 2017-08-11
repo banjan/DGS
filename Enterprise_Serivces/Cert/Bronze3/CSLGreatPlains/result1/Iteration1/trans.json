@@ -1,0 +1,57 @@
+[
+    {
+        "transactionName": "GreatPlains_GetCompanies",
+        "rawStartTime": 1484260566267,
+        "rawEndTime": 1484260566836
+    },
+    {
+        "transactionName": "GreatPlains_GetVendorsByCompanyIdAndSinceDate",
+        "rawStartTime": 1484260566843,
+        "rawEndTime": 1484260568995
+    },
+    {
+        "transactionName": "GreatPlains_GetCompaniesCompanyIdVendorsVendorId",
+        "rawStartTime": 1484260568999,
+        "rawEndTime": 1484260569113
+    },
+    {
+        "transactionName": "GreatPlains_GetAddressesByCompanyIdAndVendorId",
+        "rawStartTime": 1484260569116,
+        "rawEndTime": 1484260569652
+    },
+    {
+        "transactionName": "GreatPlains_GetFiscalPeriodByDate",
+        "rawStartTime": 1484260569656,
+        "rawEndTime": 1484260569680
+    },
+    {
+        "transactionName": "GreatPlains_PayablesInvoices",
+        "rawStartTime": 1484260569683,
+        "rawEndTime": 1484260576630
+    },
+    {
+        "transactionName": "GreatPlains_GetCompanyIdPayablesDocumentsDocumentId",
+        "rawStartTime": 1484260576635,
+        "rawEndTime": 1484260582826
+    },
+    {
+        "transactionName": "GreatPlains_PostedVendorPaymentsWithModifiedDateTime",
+        "rawStartTime": 1484260582831,
+        "rawEndTime": 1484260591001
+    },
+    {
+        "transactionName": "GreatPlains_GetCompaniesCompanyIdPayablesInvoicePayablesInvoiceId",
+        "rawStartTime": 1484260591007,
+        "rawEndTime": 1484260592277
+    },
+    {
+        "transactionName": "GreatPlains_PayablesInvoiceSummaries",
+        "rawStartTime": 1484260592283,
+        "rawEndTime": 1484260598074
+    },
+    {
+        "transactionName": "GreatPlains_PayablesInvoiceSummariesDocumentId3",
+        "rawStartTime": 1484260598079,
+        "rawEndTime": 1484260598391
+    }
+]

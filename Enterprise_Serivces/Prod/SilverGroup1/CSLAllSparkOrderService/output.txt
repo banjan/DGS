@@ -1,0 +1,44 @@
+Virtual User Script started at : 2/28/2017 10:19:20 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetVersion.
+GetVersion.c(3): Notify: Transaction "OrderService_GetVersion" started.
+GetVersion.c(5): Web service call "GetVersion_105" started
+GetVersion.c(5): Web service call "GetVersion_105" was successful
+GetVersion.c(17): Notify: Transaction "OrderService_GetVersion" ended with a "Pass" status (Duration: 0.2092 Wasted Time: 0.1326).
+Ending action GetVersion.
+Starting action CompleteOrder.
+CompleteOrder.c(3): Notify: Transaction "OrderService_CompleteOrder" started.
+CompleteOrder.c(5): Web service call "CompleteOrder_101" started
+CompleteOrder.c(5): Web service call "CompleteOrder_101" was successful
+CompleteOrder.c(31): Notify: Transaction "OrderService_CompleteOrder" ended with a "Pass" status (Duration: 0.1267 Wasted Time: 0.0922).
+Ending action CompleteOrder.
+Starting action SaveNewOrder.
+Ending action SaveNewOrder.
+Starting action PrepareOrderForDelivery.
+PrepareOrderForDelivery.c(3): Notify: Transaction "OrderService_PrepareOrderForDelivery" started.
+PrepareOrderForDelivery.c(5): Web service call "PrepareOrderForDelivery_101" started
+PrepareOrderForDelivery.c(5): Web service call "PrepareOrderForDelivery_101" was successful
+PrepareOrderForDelivery.c(31): Notify: Transaction "OrderService_PrepareOrderForDelivery" ended with a "Pass" status (Duration: 0.0371 Wasted Time: 0.0092).
+Ending action PrepareOrderForDelivery.
+Starting action RetrieveOrder.
+RetrieveOrder.c(3): Notify: Transaction "OrderService_RetrieveOrder" started.
+RetrieveOrder.c(5): Web service call "RetrieveOrder_101" started
+RetrieveOrder.c(5): Web service call "RetrieveOrder_101" was successful
+RetrieveOrder.c(31): Notify: Transaction "OrderService_RetrieveOrder" ended with a "Pass" status (Duration: 0.0255 Wasted Time: 0.0040).
+Ending action RetrieveOrder.
+Starting action AssignTokenToOrder.
+Ending action AssignTokenToOrder.
+Starting action ValidateAndSubmitOrder.
+ValidateAndSubmitOrder.c(3): Notify: Transaction "OrderService_ValidateAndSubmitOrder" started.
+ValidateAndSubmitOrder.c(5): Web service call "ValidateAndSubmitOrder_101" started
+ValidateAndSubmitOrder.c(5): Web service call "ValidateAndSubmitOrder_101" was successful
+ValidateAndSubmitOrder.c(43): Notify: Transaction "OrderService_ValidateAndSubmitOrder" ended with a "Pass" status (Duration: 0.0615 Wasted Time: 0.0057).
+Ending action ValidateAndSubmitOrder.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,10 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[GetVersion]
+SnapshotIndex=I1_GetVersion
+[GetProductAvailableInventoryByPartner]
+SnapshotIndex=I1_GetProductAvailableInventoryByPartner
+[GetProductAvailableInventory]
+SnapshotIndex=I1_GetProductAvailableInventory

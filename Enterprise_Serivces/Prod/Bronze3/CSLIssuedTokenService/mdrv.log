@@ -1,0 +1,36 @@
+Virtual User Script started at : 1/12/2017 11:08:06 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetIssuedTokenByToken.
+GetIssuedTokenByToken.c(3): Notify: Transaction "IssuedTokenService_GetIssuedTokenByToken" started.
+GetIssuedTokenByToken.c(5): Web service call "GetIssuedTokenByToken_101" started
+GetIssuedTokenByToken.c(5): Web service call "GetIssuedTokenByToken_101" was successful
+GetIssuedTokenByToken.c(22): Notify: Transaction "IssuedTokenService_GetIssuedTokenByToken" ended with a "Pass" status (Duration: 1.3663 Wasted Time: 0.1745).
+Ending action GetIssuedTokenByToken.
+Starting action GetVersion.
+GetVersion.c(3): Notify: Transaction "IssuedTokenService_GetVersion" started.
+GetVersion.c(5): Web service call "GetVersion_102" started
+GetVersion.c(5): Web service call "GetVersion_102" was successful
+GetVersion.c(17): Notify: Transaction "IssuedTokenService_GetVersion" ended with a "Pass" status (Duration: 0.0294 Wasted Time: 0.0034).
+Ending action GetVersion.
+Starting action IsServiceAlive.
+IsServiceAlive.c(3): Notify: Transaction "IssuedTokenService_IsServiceAlive" started.
+IsServiceAlive.c(5): Web service call "IsServiceAlive_102" started
+IsServiceAlive.c(5): Web service call "IsServiceAlive_102" was successful
+IsServiceAlive.c(17): Notify: Transaction "IssuedTokenService_IsServiceAlive" ended with a "Pass" status (Duration: 0.0230 Wasted Time: 0.0048).
+Ending action IsServiceAlive.
+Starting action IsServiceHealthy.
+IsServiceHealthy.c(3): Notify: Transaction "IssuedTokenService_IsServiceHealthy" started.
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_102" started
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_102" was successful
+IsServiceHealthy.c(17): Notify: Transaction "IssuedTokenService_IsServiceHealthy" ended with a "Pass" status (Duration: 0.0277 Wasted Time: 0.0036).
+Ending action IsServiceHealthy.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

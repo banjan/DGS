@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="report_view.xsl"?>
+<Report time="Wed Jan  4 17:46:23 2017
+"><WSDLS><WSDL unc="C:\Users\casmith\Documents\VuGen\Scripts\Bronze3\CSLNonceService\WSDL\nonceService\nonceService.svc" name="http://cslnonceserviceqa1.testgs.pvt/nonceService.svc"><msgs><msg severity="Error" xpath="" col="0" line="0"> WSDL file cannot be loaded</msg><msg severity="Error" xpath="" col="0" line="0">Parsing Error.</msg><msg severity="Error" xpath="" col="0" line="0">WSDLException (at /HTML): faultCode=INVALID_WSDL: Expected element '{http://schemas.xmlsoap.org/wsdl/}definitions'.</msg><msg severity="Notification" xpath="" col="0" line="0">See detailed report in C:\Users\casmith\Documents\VuGen\Scripts\Bronze3\CSLNonceService\WSDL\AxisToolkit.log</msg></msgs></WSDL></WSDLS></Report>

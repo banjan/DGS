@@ -1,0 +1,10 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[GetAssociationBySecuritySettings]
+SnapshotIndex=I1_GetAssociationBySecuritySettings
+[ClearExpiredAssociations]
+SnapshotIndex=I1_ClearExpiredAssociations
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[GetAssociationByHandle]
+SnapshotIndex=I1_GetAssociationByHandle

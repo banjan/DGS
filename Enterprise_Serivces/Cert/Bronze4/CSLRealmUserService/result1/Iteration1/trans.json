@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "RealmUserService_GetRealmUserByClaimedIdentifier",
+        "rawStartTime": 1485796619140,
+        "rawEndTime": 1485796619379
+    },
+    {
+        "transactionName": "RealmUserService_GetRealmUsersByCustomerID",
+        "rawStartTime": 1485796619383,
+        "rawEndTime": 1485796619403
+    },
+    {
+        "transactionName": "RealmUserService_UpdateRealmUserByCustomerID",
+        "rawStartTime": 1485796619406,
+        "rawEndTime": 1485796619427
+    },
+    {
+        "transactionName": "RealmUserService_GetVersion",
+        "rawStartTime": 1485796619430,
+        "rawEndTime": 1485796619443
+    },
+    {
+        "transactionName": "RealmUserService_IsServiceAlive",
+        "rawStartTime": 1485796619446,
+        "rawEndTime": 1485796619459
+    },
+    {
+        "transactionName": "RealmUserService_IsServiceHealthy",
+        "rawStartTime": 1485796619461,
+        "rawEndTime": 1485796619553
+    }
+]

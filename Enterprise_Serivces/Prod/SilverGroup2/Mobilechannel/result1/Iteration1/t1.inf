@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/xml
+StepName=Custom Request: Check Product Availability By Geo Code
+Total=1
+FileName1=t1.xml
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Check Product Availability By Geo Code
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1484866648292
+URL1=http://mobilechannelprod.gha.pvt/product/LOY-144/availability?lat=32.901947&lon=-97.089126

@@ -1,0 +1,12 @@
+<?xml-stylesheet href="..\web_service_call.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\HP\LoadRunner\">
+  <web_service_call>
+    <service name="AllSparkService" />
+    <port name="AllSparkService_HTTP" />
+    <operation name="GetProductAvailableInventory" />
+    <wsdl location="http://cslallsparkserviceqa1.testgs.pvt/AllSparkService.svc?wsdl" />
+    <address url="" />
+    <toolkit name=".Net" />
+    <aspect name="Positive Testing" />
+  </web_service_call>
+</report>

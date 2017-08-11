@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ClearExpiredNoncesResponse xmlns="http://www.gamestop.com/services/csl/realmnonce/contracts/2011/02" /></s:Body></s:Envelope>

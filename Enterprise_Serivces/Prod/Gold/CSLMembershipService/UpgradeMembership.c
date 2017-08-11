@@ -1,0 +1,4 @@
+UpgradeMembership()
+{
+	return 0;
+}

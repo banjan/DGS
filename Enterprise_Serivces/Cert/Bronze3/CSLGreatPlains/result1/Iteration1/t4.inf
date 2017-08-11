@@ -1,0 +1,13 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=DummyContentType
+StepName=Custom Request: Get Addresses By Company Id And Vendor Id
+Total=1
+FileName1=t4.UNK
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Get Addresses By Company Id And Vendor Id
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1484260569116
+URL1=http://cslgreatplainsprod.gha.pvt/v1/GreatPlainsApi/Companies/4/Vendors/300036/Addresses

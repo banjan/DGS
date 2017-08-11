@@ -1,0 +1,12 @@
+<?xml-stylesheet href="..\web_service_call.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\HP\LoadRunner\">
+  <web_service_call>
+    <service name="IssuedUserService_int_vs_v1" />
+    <port name="0" />
+    <operation name="IssuedUserService_int_vs_v1.0.PortName|GetIssuedUserByUserName" />
+    <wsdl location="https://gatewayqa1.testgs.pvt/v1/IssuedUser?wsdl" />
+    <address url="" />
+    <toolkit name=".Net" />
+    <aspect name="Positive Testing" />
+  </web_service_call>
+</report>

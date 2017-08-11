@@ -1,0 +1,18 @@
+Start auto log messages stack - Iteration 1.
+EnrollLoyaltyMembership.c(6):     FaultCode>401.Membership.001</FaultCode><Message>Membership  Already Exists.</Message></Ex
+EnrollLoyaltyMembership.c(6):     pectedFaultDetail></detail></s:Fault></s:Body></s:Envelope>
+EnrollLoyaltyMembership.c(6): t=899ms: Closing connection [0] to cslloyaltyprogramservicesqa1.testgs.pvt after receiving status code 500  	[MsgId: MMSG-26000]
+EnrollLoyaltyMembership.c(6): t=899ms: Closed connection [0] to cslloyaltyprogramservicesqa1.testgs.pvt:80 after completing 0 request(s)  	[MsgId: MMSG-26000]
+EnrollLoyaltyMembership.c(6): t=900ms: Request done "http://cslloyaltyprogramservicesqa1.testgs.pvt/LoyaltyMembershipService.svc"  	[MsgId: MMSG-26000]
+EnrollLoyaltyMembership.c(6): Error: <CENTER><STRONG><FONT COLOR=#FF0031>Expected SOAP result, received SOAP fault</FONT></STRONG></CENTER>
+EnrollLoyaltyMembership.c(6): Error: <CENTER><STRONG><FONT COLOR=#FF0031>Failed to retrieve output arguments/checkpoints - SOAP fault occurred</FONT></STRONG></CENTER>
+End auto log messages stack.
+
+
+Start auto log messages stack - Iteration 1.
+EnrollLoyaltyMembership.c(6): Notify: Saving Parameter "EnrollLoyaltyMembership_101_Response = ".
+EnrollLoyaltyMembership.c(6): Notify: Saving Parameter "response = <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring xml:lang="en-US">The creator of this fault did not specify a Reason.</faultstring><detail><ExpectedFaultDetail xmlns="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><FaultCode>401.Membership.001</FaultCode><Message>Membership  Already Exists.</Message></ExpectedFaultDetail></detail></s:Fault></s:Body></s:Envelope>".
+EnrollLoyaltyMembership.c(6): Error: Web service call "EnrollLoyaltyMembership_101" execution failed
+End auto log messages stack.
+
+

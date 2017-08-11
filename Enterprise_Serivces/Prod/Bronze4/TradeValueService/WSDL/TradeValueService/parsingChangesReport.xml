@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="report_view.xsl"?>
+<Report time="3/2/2017 10:12:01 AM">
+  <WSDLS>
+    <WSDL>
+      <msgs>
+        <msg severity="Information" xpath="" col="0" line="0">A .NET 2.0 interoperability issue was found: Multiple Soap headers with simple types exists in the schema. Service Test was able to resolve this issue and parse the Wsdl. </msg>
+      </msgs>
+    </WSDL>
+  </WSDLS>
+</Report>

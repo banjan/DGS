@@ -1,0 +1,13 @@
+[t7]
+SnapshotXmlFile=snapshot_7.xml
+ContentType=DummyContentType
+StepName=Custom Request: Get Company Id Payables Documents Document Id
+Total=1
+FileName1=t7.UNK
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Get Company Id Payables Documents Document Id
+RequestBodyFile=t7_RequestBody.txt
+RawStepStartTime=1484260576635
+URL1=http://cslgreatplainsprod.gha.pvt/v1/GreatPlainsApi/Companies/4/PayablesDocuments/0

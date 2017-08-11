@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><DeliverOrderResponse xmlns="http://tempuri.org/"><DeliverOrderResult xmlns:a="http://www.gamestop.com/services/channel/allsparkservice/csr/contracts/messages/2010/10" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" /></DeliverOrderResponse></s:Body></s:Envelope>

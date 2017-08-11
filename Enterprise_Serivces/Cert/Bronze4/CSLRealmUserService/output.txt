@@ -1,0 +1,46 @@
+Virtual User Script started at : 1/30/2017 11:16:59 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetRealmUserByClaimedIdentifier.
+GetRealmUserByClaimedIdentifier.c(3): Notify: Transaction "RealmUserService_GetRealmUserByClaimedIdentifier" started.
+GetRealmUserByClaimedIdentifier.c(5): Web service call "GetRealmUserByClaimedIdentifier_101" started
+GetRealmUserByClaimedIdentifier.c(5): Web service call "GetRealmUserByClaimedIdentifier_101" was successful
+GetRealmUserByClaimedIdentifier.c(22): Notify: Transaction "RealmUserService_GetRealmUserByClaimedIdentifier" ended with a "Pass" status (Duration: 0.2394 Wasted Time: 0.1766).
+Ending action GetRealmUserByClaimedIdentifier.
+Starting action GetRealmUsersByCustomerID.
+GetRealmUsersByCustomerID.c(3): Notify: Transaction "RealmUserService_GetRealmUsersByCustomerID" started.
+GetRealmUsersByCustomerID.c(5): Web service call "GetRealmUsersByCustomerID_101" started
+GetRealmUsersByCustomerID.c(5): Web service call "GetRealmUsersByCustomerID_101" was successful
+GetRealmUsersByCustomerID.c(22): Notify: Transaction "RealmUserService_GetRealmUsersByCustomerID" ended with a "Pass" status (Duration: 0.0206 Wasted Time: 0.0078).
+Ending action GetRealmUsersByCustomerID.
+Starting action UpdateRealmUserByCustomerID.
+UpdateRealmUserByCustomerID.c(3): Notify: Transaction "RealmUserService_UpdateRealmUserByCustomerID" started.
+UpdateRealmUserByCustomerID.c(5): Web service call "UpdateRealmUserByCustomerID_101" started
+UpdateRealmUserByCustomerID.c(5): Web service call "UpdateRealmUserByCustomerID_101" was successful
+UpdateRealmUserByCustomerID.c(23): Notify: Transaction "RealmUserService_UpdateRealmUserByCustomerID" ended with a "Pass" status (Duration: 0.0212 Wasted Time: 0.0047).
+Ending action UpdateRealmUserByCustomerID.
+Starting action GetVersion.
+GetVersion.c(3): Notify: Transaction "RealmUserService_GetVersion" started.
+GetVersion.c(5): Web service call "GetVersion_101" started
+GetVersion.c(5): Web service call "GetVersion_101" was successful
+GetVersion.c(17): Notify: Transaction "RealmUserService_GetVersion" ended with a "Pass" status (Duration: 0.0131 Wasted Time: 0.0032).
+Ending action GetVersion.
+Starting action IsServiceAlive.
+IsServiceAlive.c(3): Notify: Transaction "RealmUserService_IsServiceAlive" started.
+IsServiceAlive.c(5): Web service call "IsServiceAlive_101" started
+IsServiceAlive.c(5): Web service call "IsServiceAlive_101" was successful
+IsServiceAlive.c(17): Notify: Transaction "RealmUserService_IsServiceAlive" ended with a "Pass" status (Duration: 0.0131 Wasted Time: 0.0036).
+Ending action IsServiceAlive.
+Starting action IsServiceHealthy.
+IsServiceHealthy.c(3): Notify: Transaction "RealmUserService_IsServiceHealthy" started.
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_101" started
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_101" was successful
+IsServiceHealthy.c(17): Notify: Transaction "RealmUserService_IsServiceHealthy" ended with a "Pass" status (Duration: 0.0913 Wasted Time: 0.0046).
+Ending action IsServiceHealthy.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

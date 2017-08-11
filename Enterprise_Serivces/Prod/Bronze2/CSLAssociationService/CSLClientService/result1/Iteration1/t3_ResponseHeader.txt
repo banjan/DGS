@@ -1,0 +1,6 @@
+HTTP/1.1 500 Internal Server Error
+Content-Length: 937
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.5
+Date: Thu, 19 Jan 2017 22:00:11 GMT
+

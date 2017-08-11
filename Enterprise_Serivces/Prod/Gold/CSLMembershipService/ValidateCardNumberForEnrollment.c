@@ -1,0 +1,4 @@
+ValidateCardNumberForEnrollment()
+{
+	return 0;
+}

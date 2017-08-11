@@ -1,0 +1,8 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[GetMerchandisedProductDetails]
+SnapshotIndex=I1_GetMerchandisedProductDetails
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[GetMerchandisedProducts]
+SnapshotIndex=I1_GetMerchandisedProducts

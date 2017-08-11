@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="report_view.xsl"?>
+<Report time="1/30/2017 2:55:55 PM">
+  <WSDLS>
+    <WSDL>
+      <msgs>
+        <msg severity="Information" xpath="" col="0" line="0">A .NET 2.0 interoperability issue was found: The WSDL could not be parsed using the document/literal/wrapped style. Instead, Service Test parsed it using the document/literal/bare style.</msg>
+        <msg severity="Information" xpath="" col="0" line="0">A .NET 2.0 interoperability issue was found: Multiple Soap headers with simple types exists in the schema. Service Test was able to resolve this issue and parse the Wsdl. </msg>
+      </msgs>
+    </WSDL>
+  </WSDLS>
+</Report>

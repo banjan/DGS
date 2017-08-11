@@ -1,0 +1,67 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=53
+ScriptExitOK=1
+ActiveTypes=WS_SOAP
+GenerateTypes=WS_SOAP
+AdditionalTypes=WS_SOAP,QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.53.0.1203
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+GetValidDevices=GetValidDevices.c
+ValidateDevice=ValidateDevice.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[ExtraFiles]
+globals.h=
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[Modified Actions]
+vuser_init=0
+GetValidDevices=1
+ValidateDevice=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+GetValidDevices=0
+ValidateDevice=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+GetValidDevices=1
+ValidateDevice=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+GetValidDevices=cci
+ValidateDevice=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="SecurityService_GetValidDevices__*delimiter*__SecurityService_ValidateDevice"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+SecurityService_GetValidDevices=
+SecurityService_ValidateDevice=

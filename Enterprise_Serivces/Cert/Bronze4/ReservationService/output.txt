@@ -1,0 +1,46 @@
+Virtual User Script started at : 1/17/2017 1:31:08 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action AddDeposit.
+AddDeposit.c(3): Notify: Transaction "ReservationService_AddDeposit" started.
+AddDeposit.c(5): Web service call "AddDeposit_101" started
+AddDeposit.c(5): Web service call "AddDeposit_101" was successful
+AddDeposit.c(32): Notify: Transaction "ReservationService_AddDeposit" ended with a "Pass" status (Duration: 0.2700 Wasted Time: 0.1697).
+Ending action AddDeposit.
+Starting action GetReservations.
+GetReservations.c(3): Notify: Transaction "ReservationService_GetReservations" started.
+GetReservations.c(5): Web service call "GetReservations_101" started
+GetReservations.c(5): Web service call "GetReservations_101" was successful
+GetReservations.c(33): Notify: Transaction "ReservationService_GetReservations" ended with a "Pass" status (Duration: 0.0354 Wasted Time: 0.0081).
+Ending action GetReservations.
+Starting action GetReservationsByOrderNumber.
+GetReservationsByOrderNumber.c(3): Notify: Transaction "ReservationService_GetReservationsByOrderNumber" started.
+GetReservationsByOrderNumber.c(5): Web service call "GetReservationsByOrderNumber_102" started
+GetReservationsByOrderNumber.c(5): Web service call "GetReservationsByOrderNumber_102" was successful
+GetReservationsByOrderNumber.c(30): Notify: Transaction "ReservationService_GetReservationsByOrderNumber" ended with a "Pass" status (Duration: 0.0748 Wasted Time: 0.0041).
+Ending action GetReservationsByOrderNumber.
+Starting action GetVersion.
+GetVersion.c(3): Notify: Transaction "ReservationService_GetVersion" started.
+GetVersion.c(5): Web service call "GetVersion_102" started
+GetVersion.c(5): Web service call "GetVersion_102" was successful
+GetVersion.c(17): Notify: Transaction "ReservationService_GetVersion" ended with a "Pass" status (Duration: 0.0283 Wasted Time: 0.0032).
+Ending action GetVersion.
+Starting action IsServiceAlive.
+IsServiceAlive.c(3): Notify: Transaction "ReservationService_IsServiceAlive" started.
+IsServiceAlive.c(5): Web service call "IsServiceAlive_102" started
+IsServiceAlive.c(5): Web service call "IsServiceAlive_102" was successful
+IsServiceAlive.c(17): Notify: Transaction "ReservationService_IsServiceAlive" ended with a "Pass" status (Duration: 0.0275 Wasted Time: 0.0038).
+Ending action IsServiceAlive.
+Starting action IsServiceHealthy.
+IsServiceHealthy.c(3): Notify: Transaction "ReservationService_IsServiceHealthy" started.
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_102" started
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_102" was successful
+IsServiceHealthy.c(17): Notify: Transaction "ReservationService_IsServiceHealthy" ended with a "Pass" status (Duration: 0.0433 Wasted Time: 0.0040).
+Ending action IsServiceHealthy.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

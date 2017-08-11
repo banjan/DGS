@@ -1,0 +1,536 @@
+Virtual User Script started at : 2/9/2017 9:48:56 AM
+Starting action vuser_init.
+Web Services replay version 12.53.0 for Windows 7; Toolkit: "NotDefined"; build 1203
+Run-Time Settings file: "C:\Users\casmith\Documents\VuGen\Scripts\Bronze1\CompositeProductRestService\\default.cfg"
+Vuser directory: "C:\Users\casmith\Documents\VuGen\Scripts\Bronze1\CompositeProductRestService"
+Vuser output directory: "C:\Users\casmith\Documents\VuGen\Scripts\Bronze1\CompositeProductRestService\"
+LOCAL start date/time : 2017-02-09 09:48:56
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action TradeValues.
+TradeValues.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+TradeValues.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+TradeValues.c(7): web_add_header("SKUs") started  	[MsgId: MMSG-26355]
+TradeValues.c(7): An unrecognized header ("SKUs") is being added  	[MsgId: MMSG-26595]
+TradeValues.c(7): "SKUs: 270529,270496,919088,939251,938747,939239,939250,914894,950836,939255,935065,970097" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+TradeValues.c(7): web_add_header("SKUs") was successful  	[MsgId: MMSG-26392]
+TradeValues.c(8): Notify: Transaction "TradeValues" started.
+TradeValues.c(9): web_custom_request("Trade Values") started  	[MsgId: MMSG-26355]
+TradeValues.c(9): t=173ms: Connecting [0] to host 172.31.160.34:80  	[MsgId: MMSG-26000]
+TradeValues.c(9): t=178ms: Connected socket [0] from 172.22.80.199:16944 to 172.31.160.34:80 in 4 ms  	[MsgId: MMSG-26000]
+TradeValues.c(9): t=179ms: 359-byte request headers for "http://compositeproductrestserviceqa.testgs.pvt/v1/Products/TradeValues" (RelFrameId=1, Internal ID=1)
+TradeValues.c(9):     GET /v1/Products/TradeValues HTTP/1.1\r\n
+TradeValues.c(9):     Content-Type: application/json\r\n
+TradeValues.c(9):     SKUs: 270529,270496,919088,939251,938747,939239,939250,914894,950836,939255,935065,970097\r
+TradeValues.c(9):     \n
+TradeValues.c(9):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+TradeValues.c(9):     Accept-Encoding: gzip, deflate\r\n
+TradeValues.c(9):     Accept: */*\r\n
+TradeValues.c(9):     Connection: Keep-Alive\r\n
+TradeValues.c(9):     Host: compositeproductrestserviceqa.testgs.pvt\r\n
+TradeValues.c(9):     \r\n
+TradeValues.c(9): t=2994ms: 280-byte response headers for "http://compositeproductrestserviceqa.testgs.pvt/v1/Products/TradeValues" (RelFrameId=1, Internal ID=1)
+TradeValues.c(9):     HTTP/1.1 200 OK\r\n
+TradeValues.c(9):     Cache-Control: no-cache\r\n
+TradeValues.c(9):     Pragma: no-cache\r\n
+TradeValues.c(9):     Content-Type: application/json; charset=utf-8\r\n
+TradeValues.c(9):     Expires: -1\r\n
+TradeValues.c(9):     Server: Microsoft-IIS/8.5\r\n
+TradeValues.c(9):     X-Total-Count: 10\r\n
+TradeValues.c(9):     X-AspNet-Version: 4.0.30319\r\n
+TradeValues.c(9):     X-Powered-By: ASP.NET\r\n
+TradeValues.c(9):     Date: Thu, 09 Feb 2017 15:48:59 GMT\r\n
+TradeValues.c(9):     Content-Length: 16995\r\n
+TradeValues.c(9):     \r\n
+TradeValues.c(9): t=3011ms: 1100-byte response body for "http://compositeproductrestserviceqa.testgs.pvt/v1/Products/TradeValues" (RelFrameId=1, Internal ID=1)
+TradeValues.c(9):     [\r\n
+TradeValues.c(9):       {\r\n
+TradeValues.c(9):         "ProductID": "38695",\r\n
+TradeValues.c(9):         "Price": 4.990000,\r\n
+TradeValues.c(9):         "BasePrice": 0.010000,\r\n
+TradeValues.c(9):         "SKU": "939239",\r\n
+TradeValues.c(9):         "ProductType": "Games",\r\n
+TradeValues.c(9):         "DisplayName": "Star Wars Battlefront II",\r\n
+TradeValues.c(9):         "ShortDescription": "Star Wars Battlefront II improves upon the original game's single
+TradeValues.c(9):     -player experience with open-ended, mission-based objectives inspired from all six Star Wa
+TradeValues.c(9):     rs films. The compelling storyline spans more than 12 new locations, many from Episode III
+TradeValues.c(9):     , including volcanic Mustafar and the space battle above Coruscant. All-new classic movie 
+TradeValues.c(9):     moments complete the Star Wars Battlefront II experience, as you battle within the interio
+TradeValues.c(9):     r of the Death Star and visit Princess Leia's blockade runner, the Tantive IV, as seen at 
+TradeValues.c(9):     the beginning of Episode IV A New Hope. In addition, at certain key moments within the bat
+TradeValues.c(9):     tles, you can feel the Force as a Jedi.",\r\n
+TradeValues.c(9):         "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/281281b.jpg",\r\n
+TradeValues.c(9):         "AverageOverallRating": 9.5,\r\n
+TradeValues.c(9):         "ReleaseDate": "0001-01-01T00:00:00",\r\n
+TradeValues.c(9):         "Videos": [],\r\n
+TradeValues.c(9):         "ProductVariants": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Condition": "Used",\r\n
+TradeValues.c(9):         
+TradeValues.c(9): t=3014ms: 8760-byte response body for "http://compositeproductrestserviceqa.testgs.pvt/v1/Products/TradeValues" (RelFrameId=1, Internal ID=1)
+TradeValues.c(9):         "SKU": "939239",\r\n
+TradeValues.c(9):             "IsAvailable": true,\r\n
+TradeValues.c(9):             "Price": 4.990000,\r\n
+TradeValues.c(9):             "TradeBasePrice": 0.010000,\r\n
+TradeValues.c(9):             "CreditPrice": 0.010000,\r\n
+TradeValues.c(9):             "CashPrice": 0.00800000,\r\n
+TradeValues.c(9):             "ProCashPrice": 0.008800000,\r\n
+TradeValues.c(9):             "ProCreditPrice": 0.0110000,\r\n
+TradeValues.c(9):             "ProPrice": 4.4910000,\r\n
+TradeValues.c(9):             "ProductID": 0,\r\n
+TradeValues.c(9):             "StoreInventory": null\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "Platforms": [\r\n
+TradeValues.c(9):           "PlayStation 2"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ESRBRating": "T",\r\n
+TradeValues.c(9):         "ESRBDescriptor": [\r\n
+TradeValues.c(9):           "Mild Language",\r\n
+TradeValues.c(9):           "Violence"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductMedias": null\r\n
+TradeValues.c(9):       },\r\n
+TradeValues.c(9):       {\r\n
+TradeValues.c(9):         "ProductID": "39196",\r\n
+TradeValues.c(9):         "Price": 12.990000,\r\n
+TradeValues.c(9):         "BasePrice": 0.010000,\r\n
+TradeValues.c(9):         "SKU": "939250",\r\n
+TradeValues.c(9):         "ProductType": "Games",\r\n
+TradeValues.c(9):         "DisplayName": "Magna Carta: Tears of Blood",\r\n
+TradeValues.c(9):         "ShortDescription": "Revenge is the only thing that can erase this hatred... In the la
+TradeValues.c(9):     nd of Efferia, humans and native-Efferians uneasily co-exist in the throes of an endless w
+TradeValues.c(9):     ar. A young man out for revenge against the natives finds a girl who's lost her memories..
+TradeValues.c(9):     . Where will destiny lead them...? An RPG of unparalleled drama is about to begin...",\r\n
+TradeValues.c(9):         "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/281320b.jpg",\r\n
+TradeValues.c(9):         "AverageOverallRating": 7.7,\r\n
+TradeValues.c(9):         "ReleaseDate": "0001-01-01T00:00:00",\r\n
+TradeValues.c(9):         "Videos": [],\r\n
+TradeValues.c(9):         "ProductVariants": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Condition": "Used",\r\n
+TradeValues.c(9):             "SKU": "939250",\r\n
+TradeValues.c(9):             "IsAvailable": true,\r\n
+TradeValues.c(9):             "Price": 12.990000,\r\n
+TradeValues.c(9):             "TradeBasePrice": 0.010000,\r\n
+TradeValues.c(9):             "CreditPrice": 0.010000,\r\n
+TradeValues.c(9):             "CashPrice": 0.00800000,\r\n
+TradeValues.c(9):             "ProCashPrice": 0.008800000,\r\n
+TradeValues.c(9):             "ProCreditPrice": 0.0110000,\r\n
+TradeValues.c(9):             "ProPrice": 11.6910000,\r\n
+TradeValues.c(9):             "ProductID": 0,\r\n
+TradeValues.c(9):             "StoreInventory": null\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "Platforms": [\r\n
+TradeValues.c(9):           "PlayStation 2"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ESRBRating": "T",\r\n
+TradeValues.c(9):         "ESRBDescriptor": [\r\n
+TradeValues.c(9):           "Fantasy Violence",\r\n
+TradeValues.c(9):           "Language",\r\n
+TradeValues.c(9):           "Suggestive Themes"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductMedias": null\r\n
+TradeValues.c(9):       },\r\n
+TradeValues.c(9):       {\r\n
+TradeValues.c(9):         "ProductID": "77286",\r\n
+TradeValues.c(9):         "Price": 19.990000,\r\n
+TradeValues.c(9):         "BasePrice": 0.0,\r\n
+TradeValues.c(9):         "SKU": "270529",\r\n
+TradeValues.c(9):         "ProductType": "Games",\r\n
+TradeValues.c(9):         "DisplayName": "FINAL FANTASY XIV: A Realm Reborn",\r\n
+TradeValues.c(9):         "ShortDescription": "FINAL FANTASY\xC2\xAE XIV: A Realm Reborn is a massively multipla
+TradeValues.c(9):     yer online role-playing game (MMORPG) for Windows\xC2\xAE PC and PlayStation\xC2\xAE3 that
+TradeValues.c(9):      invites you to explore the realm of Eorzea with friends from around the world. Form a par
+TradeValues.c(9):     ty and adventure with a multitude of players from across the globe. Forge friendships, mou
+TradeValues.c(9):     nt chocobos, and board airships as you and your companions create your own unique stories 
+TradeValues.c(9):     in Eorzea. Set out alone or enlist the aid of friends as you undertake epic quests, battle
+TradeValues.c(9):      familiar FINAL FANTASY monsters, and acquire unique abilities and equipment. All the clas
+TradeValues.c(9):     sic elements from the series that you have come to know and love are waiting! Embark on th
+TradeValues.c(9):     e adventure of a lifetime to help reforge the fate of Eorzea!",\r\n
+TradeValues.c(9):         "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/270529b2.jpg",\r\n
+TradeValues.c(9):         "AverageOverallRating": 7.0,\r\n
+TradeValues.c(9):         "ReleaseDate": "2013-08-27T00:00:00",\r\n
+TradeValues.c(9):         "Videos": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Key": "2535317249001",\r\n
+TradeValues.c(9):             "IsAgeRestricted": false,\r\n
+TradeValues.c(9):             "VideoUrl": "http://gamestopuds-a.akamaihd.net/84373748001/84373748001_25362158490
+TradeValues.c(9):     01_FFXIV-ARR-WalkThrough3.mp4",\r\n
+TradeValues.c(9):             "ImageUrl": "http://gamestoppd-a.akamaihd.net/84373748001/84373748001_253621585500
+TradeValues.c(9):     1_vs-51dc135be4b0d732cedf9835-1206954757001.jpg?pubId=84373748001"\r\n
+TradeValues.c(9):           },\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Key": "2574703766001",\r\n
+TradeValues.c(9):             "IsAgeRestricted": true,\r\n
+TradeValues.c(9):             "VideoUrl": "http://gamestopuds-a.akamaihd.net/84373748001/84373748001_25747624450
+TradeValues.c(9):     01_FFXIV-A-Realm-Reborn-Dungeon-Crawl-Trailer.mp4",\r\n
+TradeValues.c(9):             "ImageUrl": "http://gamestoppd-a.akamaihd.net/84373748001/84373748001_257476244600
+TradeValues.c(9):     1_vs-51f7ca06e4b061210d9034c1-782203293001.jpg?pubId=84373748001"\r\n
+TradeValues.c(9):           },\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Key": "2707149891001",\r\n
+TradeValues.c(9):             "IsAgeRestricted": false,\r\n
+TradeValues.c(9):             "VideoUrl": "http://gamestopuds-a.akamaihd.net/84373748001/84373748001_27071629190
+TradeValues.c(9):     01_FFXIV-LightningPORORI-Fix-EN---US-110492--US-77286--US-109633.mp4",\r\n
+TradeValues.c(9):             "ImageUrl": "http://gamestoppd-a.akamaihd.net/84373748001/84373748001_270716166800
+TradeValues.c(9):     1_video-still-for-video-2707149891001.jpg?pubId=84373748001"\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductVariants": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Condition": "New",\r\n
+TradeValues.c(9):             "SKU": "270529",\r\n
+TradeValues.c(9):             "IsAvailable": true,\r\n
+TradeValues.c(9):             "Price": 19.990000,\r\n
+TradeValues.c(9):             "TradeBasePrice": 0.0,\r\n
+TradeValues.c(9):             "CreditPrice": 0.0,\r\n
+TradeValues.c(9):             "CashPrice": 0.0,\r\n
+TradeValues.c(9):             "ProCashPrice": 0.0,\r\n
+TradeValues.c(9):             "ProCreditPrice": 0.0,\r\n
+TradeValues.c(9):             "ProPrice": 19.990000,\r\n
+TradeValues.c(9):             "ProductID": 0,\r\n
+TradeValues.c(9):             "StoreInventory": null\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "Platforms": [\r\n
+TradeValues.c(9):           "PlayStation 3"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ESRBRating": "T",\r\n
+TradeValues.c(9):         "ESRBDescriptor": [\r\n
+TradeValues.c(9):           "Language",\r\n
+TradeValues.c(9):           "Mild Blood",\r\n
+TradeValues.c(9):           "Sexual Themes",\r\n
+TradeValues.c(9):           "Use of Alcohol",\r\n
+TradeValues.c(9):           "Violence"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductMedias": null\r\n
+TradeValues.c(9):       },\r\n
+TradeValues.c(9):       {\r\n
+TradeValues.c(9):         "ProductID": "39198",\r\n
+TradeValues.c(9):         "Price": 4.990000,\r\n
+TradeValues.c(9):         "BasePrice": 0.010000,\r\n
+TradeValues.c(9):         "SKU": "939251",\r\n
+TradeValues.c(9):         "ProductType": "Games",\r\n
+TradeValues.c(9):         "DisplayName": "GUN",\r\n
+TradeValues.c(9):         "ShortDescription": "When life robs Colton White of all that matters, the only thing l
+TradeValues.c(9):     eft he can trust is his GUN. From award-winning developer, Neversoft, and accomplished scr
+TradeValues.c(9):     eenwriter, Randall Jahnson (The Mask of Zorro, The Doors), GUN follows Colton on his quest
+TradeValues.c(9):      for discovery as he seeks to exact vengeful justice on those who have wronged him. GUN is
+TradeValues.c(9):      a realistic epic action/adventure that lets gamers experience the brutality of the lawles
+TradeValues.c(9):     s West.",\r\n
+TradeValues.c(9):         "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/281322b.jpg",\r\n
+TradeValues.c(9):         "AverageOverallRating": 9.7,\r\n
+TradeValues.c(9):         "ReleaseDate": "0001-01-01T00:00:00",\r\n
+TradeValues.c(9):         "Videos": [],\r\n
+TradeValues.c(9):         "ProductVariants": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Condition": "Used",\r\n
+TradeValues.c(9):             "SKU": "939251",\r\n
+TradeValues.c(9):             "IsAvailable": true,\r\n
+TradeValues.c(9):             "Price": 4.990000,\r\n
+TradeValues.c(9):             "TradeBasePrice": 0.010000,\r\n
+TradeValues.c(9):             "CreditPrice": 0.010000,\r\n
+TradeValues.c(9):             "CashPrice": 0.00800000,\r\n
+TradeValues.c(9):             "ProCashPrice": 0.008800000,\r\n
+TradeValues.c(9):             "ProCreditPrice": 0.0110000,\r\n
+TradeValues.c(9):             "ProPrice": 4.4910000,\r\n
+TradeValues.c(9):             "ProductID": 0,\r\n
+TradeValues.c(9):             "StoreInventory": null\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "Platforms": [\r\n
+TradeValues.c(9):           "PlayStation 2"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ESRBRating": "M",\r\n
+TradeValues.c(9):         "ESRBDescriptor": [\r\n
+TradeValues.c(9):           "Blood and Gore",\r\n
+TradeValues.c(9):           "Intense Violence",\r\n
+TradeValues.c(9):           "Sexual Themes",\r\n
+TradeValues.c(9):           "Strong Language",\r\n
+TradeValues.c(9):           "Use of Alcohol"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductMedias": null\r\n
+TradeValues.c(9):       },\r\n
+TradeValues.c(9):       {\r\n
+TradeValues.c(9):         "ProductID": "39624",\r\n
+TradeValues.c(9):         "Price": 4.990000,\r\n
+TradeValues.c(9):         "BasePrice": 0.010000,\r\n
+TradeValues.c(9):         "SKU": "939255",\r\n
+TradeValues.c(9):         "ProductType": "Games",\r\n
+TradeValues.c(9):         "DisplayName": "Suikoden Tactics",\r\n
+TradeValues.c(9):         "ShortDescription": "Breaking from its traditional role-playing roots, Suikoden Tactic
+TradeValues.c(9):     s incorporates simulation and strategy elements to take players on an all-new fantastical 
+TradeValues.c(9):     adventure.  The game features stunning environments, extravagant and exciting story scenes
+TradeValues.c(9):      and an amazing cast of characters. Told through the eyes of Kyril, a young adventurer inv
+TradeValues.c(9):     estigating the sudden appearance of hideous creatures in the Island Nations, Suikoden Tact
+TradeValues.c(9):     ics unfolds another perspective to the events of Suikoden\xC2\xAE IV and players will disc
+TradeValues.c(9):     over the secrets of the legendary Rune Cannons.  Successfully blending classic Suikoden an
+TradeValues.c(9):     d RPG elements that fans of the renowned series have come to expect with new features and 
+TradeValues.c(9):     game mechanics, Tactics offers players an original, robust gameplay experience like no oth
+TradeValues.c(9):     er.",\r\n
+TradeValues.c(9):         "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/281372b.jpg",\r\n
+TradeValues.c(9):         "AverageOverallRating": 6.7,\r\n
+TradeValues.c(9):         "ReleaseDate": "0001-01-01T00:00:00",\r\n
+TradeValues.c(9):         "Videos": [],\r\n
+TradeValues.c(9):         "ProductVariants": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Condition": "Used",\r\n
+TradeValues.c(9):             "SKU": "939255",\r\n
+TradeValues.c(9):             "IsAvailable": true,\r\n
+TradeValues.c(9):             "Price": 4.990000,\r\n
+TradeValues.c(9):             "TradeBasePrice": 0.010000,\r\n
+TradeValues.c(9):             "CreditPrice": 0.010000,\r\n
+TradeValues.c(9):             "CashPrice": 0.00800000,\r\n
+TradeValues.c(9):             "ProCashPrice": 0.008800000,\r\n
+TradeValues.c(9):             "ProCreditPrice": 0.0110000,\r\n
+TradeValues.c(9):             "ProPrice": 4.4910000,\r\n
+TradeValues.c(9):             "ProductID": 0,\r\n
+TradeValues.c(9):             "StoreInventory": null\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "Platforms": [\r\n
+TradeValues.c(9):           "PlayStation 2"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ESRBRating": "T",\r\n
+TradeValues.c(9):         "ESRBDescriptor": [\r\n
+TradeValues.c(9):           "Mild Cartoon Violence",\r\n
+TradeValues.c(9):           "Mild Language"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductMedias": null\r\n
+TradeValues.c(9):       },\r\n
+TradeValues.c(9):       {\r\n
+TradeValues.c(9):         "ProductID": "41612",\r\n
+TradeValues.c(9):         "Price": 9.990000,\r\n
+TradeValues.c(9):         "BasePrice": 0.010000,\r\n
+TradeValues.c(9):         "SKU": "914894",\r\n
+TradeValues.c(9):         "ProductType": "Games",\r\n
+TradeValues.c(9):         "DisplayName": "Dogz",\r\n
+TradeValues.c(9):         "ShortDescription": "Dogz is a pet simulation game that lets owners name, train and pl
+TradeValues.c(9):     ay with a realistic puppy. Players create and control a main character and choose one of 4
+TradeValues.c(9):     9 different dogs from 18 different breeds. As characters in the game, owners can take thei
+TradeValues.c(9):     r puppies everywhere within the virtual environment, from through the house to around the 
+TradeValues.c(9):     neighborhood to visit friends. Gamers will earn their puppy's love and loyalty by remembe
+TradeValues.c(9): t=3030ms: 7135-byte response body for "http://compositeproductrestserviceqa.testgs.pvt/v1/Products/TradeValues" (RelFrameId=1, Internal ID=1)
+TradeValues.c(9):     ring to feed and groom it and reward it when it does things correctly. Owners can train th
+TradeValues.c(9):     e puppy to lie down, shake, fetch and perform many other tricks.",\r\n
+TradeValues.c(9):         "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/914894b.jpg",\r\n
+TradeValues.c(9):         "AverageOverallRating": 8.7,\r\n
+TradeValues.c(9):         "ReleaseDate": "0001-01-01T00:00:00",\r\n
+TradeValues.c(9):         "Videos": [],\r\n
+TradeValues.c(9):         "ProductVariants": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Condition": "Used",\r\n
+TradeValues.c(9):             "SKU": "914894",\r\n
+TradeValues.c(9):             "IsAvailable": true,\r\n
+TradeValues.c(9):             "Price": 9.990000,\r\n
+TradeValues.c(9):             "TradeBasePrice": 0.010000,\r\n
+TradeValues.c(9):             "CreditPrice": 0.010000,\r\n
+TradeValues.c(9):             "CashPrice": 0.00800000,\r\n
+TradeValues.c(9):             "ProCashPrice": 0.008800000,\r\n
+TradeValues.c(9):             "ProCreditPrice": 0.0110000,\r\n
+TradeValues.c(9):             "ProPrice": 8.9910000,\r\n
+TradeValues.c(9):             "ProductID": 0,\r\n
+TradeValues.c(9):             "StoreInventory": null\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "Platforms": [\r\n
+TradeValues.c(9):           "Game Boy Advance"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ESRBRating": "E",\r\n
+TradeValues.c(9):         "ESRBDescriptor": [\r\n
+TradeValues.c(9):           "Comic Mischief"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductMedias": null\r\n
+TradeValues.c(9):       },\r\n
+TradeValues.c(9):       {\r\n
+TradeValues.c(9):         "ProductID": "38246",\r\n
+TradeValues.c(9):         "Price": 4.990000,\r\n
+TradeValues.c(9):         "BasePrice": 0.0,\r\n
+TradeValues.c(9):         "SKU": "950836",\r\n
+TradeValues.c(9):         "ProductType": "Games",\r\n
+TradeValues.c(9):         "DisplayName": "Peter Jackson's King Kong",\r\n
+TradeValues.c(9):         "ShortDescription": "Acclaimed game creator Michel Ancel and the Montpellier studio co
+TradeValues.c(9):     llaborate with triple Academy Award-winning filmmaker Peter Jackson and visual-effects com
+TradeValues.c(9):     pany Weta Ltd. to develop Peter Jackson's King Kong, a video game that will capture the im
+TradeValues.c(9):     agination, vision and emotion of the epic film. Delve deeper into the film experience thro
+TradeValues.c(9):     ugh alternative viewpoints designed to immerse the player into the action and truly \\"fee
+TradeValues.c(9):     l\\" the tension of the adventure.",\r\n
+TradeValues.c(9):         "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/210765b.jpg",\r\n
+TradeValues.c(9):         "AverageOverallRating": 0.0,\r\n
+TradeValues.c(9):         "ReleaseDate": "0001-01-01T00:00:00",\r\n
+TradeValues.c(9):         "Videos": [],\r\n
+TradeValues.c(9):         "ProductVariants": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Condition": "Used",\r\n
+TradeValues.c(9):             "SKU": "950836",\r\n
+TradeValues.c(9):             "IsAvailable": true,\r\n
+TradeValues.c(9):             "Price": 4.990000,\r\n
+TradeValues.c(9):             "TradeBasePrice": 0.0,\r\n
+TradeValues.c(9):             "CreditPrice": 0.0,\r\n
+TradeValues.c(9):             "CashPrice": 0.0,\r\n
+TradeValues.c(9):             "ProCashPrice": 0.0,\r\n
+TradeValues.c(9):             "ProCreditPrice": 0.0,\r\n
+TradeValues.c(9):             "ProPrice": 4.4910000,\r\n
+TradeValues.c(9):             "ProductID": 0,\r\n
+TradeValues.c(9):             "StoreInventory": null\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "Platforms": [\r\n
+TradeValues.c(9):           "Xbox"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ESRBRating": "T",\r\n
+TradeValues.c(9):         "ESRBDescriptor": [\r\n
+TradeValues.c(9):           "Blood",\r\n
+TradeValues.c(9):           "Violence"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductMedias": null\r\n
+TradeValues.c(9):       },\r\n
+TradeValues.c(9):       {\r\n
+TradeValues.c(9):         "ProductID": "76825",\r\n
+TradeValues.c(9):         "Price": 29.990000,\r\n
+TradeValues.c(9):         "BasePrice": 0.0,\r\n
+TradeValues.c(9):         "SKU": "270496",\r\n
+TradeValues.c(9):         "ProductType": "Games",\r\n
+TradeValues.c(9):         "DisplayName": "Dragon Age Origins: Awakening",\r\n
+TradeValues.c(9):         "ShortDescription": "From the Makers of the Best RPG of 2009, Dragon Age: Origins, com
+TradeValues.c(9):     es the first official expansion pack. For centuries, the Grey Wardens - the ancient order 
+TradeValues.c(9):     of guardians, sworn to unite and defend the lands - have been battling the darkspawn force
+TradeValues.c(9):     s. Legend spoke that slaying the Archdemon would have put an end to the darkspawn threat f
+TradeValues.c(9):     or centuries to come, but somehow they remain. You are the Grey Warden Commander and have 
+TradeValues.c(9):     been entrusted with the duty of rebuilding the order of Grey Wardens and uncovering the se
+TradeValues.c(9):     crets of the darkspawn and how they managed to remain. How you choose to rebuild your orde
+TradeValues.c(9):     r, how you resolve the conflict with \\"The Architect\\", and how you determine the fate o
+TradeValues.c(9):     f the darkspawn will be but some of the many complex choices that await and shape your jou
+TradeValues.c(9):     rney as you venture to the new land of Amaranthine. ",\r\n
+TradeValues.c(9):         "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/270496b.jpg",\r\n
+TradeValues.c(9):         "AverageOverallRating": 5.9,\r\n
+TradeValues.c(9):         "ReleaseDate": "2010-03-16T00:00:00",\r\n
+TradeValues.c(9):         "Videos": [],\r\n
+TradeValues.c(9):         "ProductVariants": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Condition": "New",\r\n
+TradeValues.c(9):             "SKU": "270496",\r\n
+TradeValues.c(9):             "IsAvailable": true,\r\n
+TradeValues.c(9):             "Price": 29.990000,\r\n
+TradeValues.c(9):             "TradeBasePrice": 0.750000,\r\n
+TradeValues.c(9):             "CreditPrice": 0.750000,\r\n
+TradeValues.c(9):             "CashPrice": 0.60000000,\r\n
+TradeValues.c(9):             "ProCashPrice": 0.660000000,\r\n
+TradeValues.c(9):             "ProCreditPrice": 0.8250000,\r\n
+TradeValues.c(9):             "ProPrice": 29.990000,\r\n
+TradeValues.c(9):             "ProductID": 0,\r\n
+TradeValues.c(9):             "StoreInventory": null\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "Platforms": [\r\n
+TradeValues.c(9):           "PlayStation 3"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ESRBRating": "M",\r\n
+TradeValues.c(9):         "ESRBDescriptor": [\r\n
+TradeValues.c(9):           "Blood and Gore",\r\n
+TradeValues.c(9):           "Intense Violence",\r\n
+TradeValues.c(9):           "Language",\r\n
+TradeValues.c(9):           "Partial Nudity",\r\n
+TradeValues.c(9):           "Sexual Content"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductMedias": null\r\n
+TradeValues.c(9):       },\r\n
+TradeValues.c(9):       {\r\n
+TradeValues.c(9):         "ProductID": "31125",\r\n
+TradeValues.c(9):         "Price": 6.990000,\r\n
+TradeValues.c(9):         "BasePrice": 0.010000,\r\n
+TradeValues.c(9):         "SKU": "938747",\r\n
+TradeValues.c(9):         "ProductType": "Games",\r\n
+TradeValues.c(9):         "DisplayName": "Monster 4x4: Masters of Metal",\r\n
+TradeValues.c(9):         "ShortDescription": "\\nWhether you're grinding through mud pits in Louisiana, crunchi
+TradeValues.c(9):     ng up cliffs in California, or smashing up trees to make the ride a little bumpier for the
+TradeValues.c(9):      guy behind you, keep your eyes on the prize: the cash you earn on the circuit goes to buy
+TradeValues.c(9):      new trucks and build up your ultimate Monster machine.",\r\n
+TradeValues.c(9):         "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/938747b.jpg",\r\n
+TradeValues.c(9):         "AverageOverallRating": 7.0,\r\n
+TradeValues.c(9):         "ReleaseDate": "0001-01-01T00:00:00",\r\n
+TradeValues.c(9):         "Videos": [],\r\n
+TradeValues.c(9):         "ProductVariants": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Condition": "Used",\r\n
+TradeValues.c(9):             "SKU": "938747",\r\n
+TradeValues.c(9):             "IsAvailable": true,\r\n
+TradeValues.c(9):             "Price": 6.990000,\r\n
+TradeValues.c(9):             "TradeBasePrice": 0.010000,\r\n
+TradeValues.c(9):             "CreditPrice": 0.010000,\r\n
+TradeValues.c(9):             "CashPrice": 0.00800000,\r\n
+TradeValues.c(9):             "ProCashPrice": 0.008800000,\r\n
+TradeValues.c(9):             "ProCreditPrice": 0.0110000,\r\n
+TradeValues.c(9):             "ProPrice": 6.2910000,\r\n
+TradeValues.c(9):             "ProductID": 0,\r\n
+TradeValues.c(9):             "StoreInventory": null\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "Platforms": [\r\n
+TradeValues.c(9):           "PlayStation 2"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ESRBRating": "E",\r\n
+TradeValues.c(9):         "ESRBDescriptor": [\r\n
+TradeValues.c(9):           "Violence"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductMedias": null\r\n
+TradeValues.c(9):       },\r\n
+TradeValues.c(9):       {\r\n
+TradeValues.c(9):         "ProductID": "39439",\r\n
+TradeValues.c(9):         "Price": 14.990000,\r\n
+TradeValues.c(9):         "BasePrice": 5.000000,\r\n
+TradeValues.c(9):         "SKU": "919088",\r\n
+TradeValues.c(9):         "ProductType": "Games",\r\n
+TradeValues.c(9):         "DisplayName": "Mega Man Battle Network 5 Double Team",\r\n
+TradeValues.c(9):         "ShortDescription": "ious Navi force has taken control of the lnternet!! Now it's up t
+TradeValues.c(9):     o Lan and his friends to infiltrate the the Dark Chip Factory in the Nebula Headquarters a
+TradeValues.c(9):     nd destroy the Dark Chip production system .\\nThe survival of cyberspace hangs in the bal
+TradeValues.c(9):     ance! The hit Mega Man Battle Network 5 series blasts onto the Nintendo DS system with the
+TradeValues.c(9):      cool features of the original Team Protoman and Team Colonel. Create your own dream team 
+TradeValues.c(9):     by choosing Navis from both teams! Plus, experience advanced new features exclusive to the
+TradeValues.c(9):      Nintendo DS including dual screen Pet access, cyber maps and wireless gameplay!",\r\n
+TradeValues.c(9):         "BoxArtUrl": "http://www.gamestop.com/common/images/lbox/180070b.jpg",\r\n
+TradeValues.c(9):         "AverageOverallRating": 10.0,\r\n
+TradeValues.c(9):         "ReleaseDate": "0001-01-01T00:00:00",\r\n
+TradeValues.c(9):         "Videos": [],\r\n
+TradeValues.c(9):         "ProductVariants": [\r\n
+TradeValues.c(9):           {\r\n
+TradeValues.c(9):             "Condition": "Used",\r\n
+TradeValues.c(9):             "SKU": "919088",\r\n
+TradeValues.c(9):             "IsAvailable": true,\r\n
+TradeValues.c(9):             "Price": 14.990000,\r\n
+TradeValues.c(9):             "TradeBasePrice": 5.000000,\r\n
+TradeValues.c(9):             "CreditPrice": 5.000000,\r\n
+TradeValues.c(9):             "CashPrice": 4.00000000,\r\n
+TradeValues.c(9):             "ProCashPrice": 4.400000000,\r\n
+TradeValues.c(9):             "ProCreditPrice": 5.5000000,\r\n
+TradeValues.c(9):             "ProPrice": 13.4910000,\r\n
+TradeValues.c(9):             "ProductID": 0,\r\n
+TradeValues.c(9):             "StoreInventory": null\r\n
+TradeValues.c(9):           }\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "Platforms": [\r\n
+TradeValues.c(9):           "Nintendo DS"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ESRBRating": "E",\r\n
+TradeValues.c(9):         "ESRBDescriptor": [\r\n
+TradeValues.c(9):           "Mild Violence"\r\n
+TradeValues.c(9):         ],\r\n
+TradeValues.c(9):         "ProductMedias": null\r\n
+TradeValues.c(9):       }\r\n
+TradeValues.c(9):     ]
+TradeValues.c(9): t=3045ms: Request done "http://compositeproductrestserviceqa.testgs.pvt/v1/Products/TradeValues"  	[MsgId: MMSG-26000]
+TradeValues.c(9): Registered web_reg_find successful for "Text=Price" (count=90)  	[MsgId: MMSG-26364]
+TradeValues.c(9): web_custom_request("Trade Values") was successful, 16995 body bytes, 280 header bytes  	[MsgId: MMSG-26386]
+TradeValues.c(16): Notify: Transaction "TradeValues" ended with a "Pass" status (Duration: 2.9587 Wasted Time: 0.1026).
+Ending action TradeValues.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=3112ms: Closed connection [0] to compositeproductrestserviceqa.testgs.pvt:80 after completing 1 request(s)  	[MsgId: MMSG-26000]

@@ -1,0 +1,42 @@
+[
+    {
+        "transactionName": "AssociationService_ClearExpiredAssociations",
+        "rawStartTime": 1483457084862,
+        "rawEndTime": 1483457085433
+    },
+    {
+        "transactionName": "AssociationService_GetAssociationByHandle",
+        "rawStartTime": 1483457085435,
+        "rawEndTime": 1483457085471
+    },
+    {
+        "transactionName": "AssociationService_GetAssociationBySecuritySettings",
+        "rawStartTime": 1483457085474,
+        "rawEndTime": 1483457085494
+    },
+    {
+        "transactionName": "AssociationService_GetVersion",
+        "rawStartTime": 1483457085497,
+        "rawEndTime": 1483457086134
+    },
+    {
+        "transactionName": "AssociationService_IsServiceAlive",
+        "rawStartTime": 1483457086138,
+        "rawEndTime": 1483457086503
+    },
+    {
+        "transactionName": "AssociationService_IsServiceHealthy",
+        "rawStartTime": 1483457086506,
+        "rawEndTime": 1483457086646
+    },
+    {
+        "transactionName": "AssociationService_RemoveAssociation",
+        "rawStartTime": 1483457086650,
+        "rawEndTime": 1483457086670
+    },
+    {
+        "transactionName": "AssociationService_StoreAssociation",
+        "rawStartTime": 1483457086673,
+        "rawEndTime": 1483457086693
+    }
+]

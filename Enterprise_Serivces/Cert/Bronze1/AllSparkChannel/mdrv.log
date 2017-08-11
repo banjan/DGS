@@ -1,0 +1,32 @@
+Virtual User Script started at : 2/24/2017 10:51:44 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action PurchaseDigitalToken.
+PurchaseDigitalToken.c(3): Notify: Transaction "AllSparkService_PurchaseDigitalToken" started.
+PurchaseDigitalToken.c(5): Web service call "PurchaseDigitalToken_101" started
+PurchaseDigitalToken.c(5): Web service call "PurchaseDigitalToken_101" was successful
+PurchaseDigitalToken.c(33): Notify: Transaction "AllSparkService_PurchaseDigitalToken" ended with a "Pass" status (Duration: 0.3298 Wasted Time: 0.1486).
+Ending action PurchaseDigitalToken.
+Starting action FinalizeDigitalToken.
+FinalizeDigitalToken.c(3): Notify: Transaction "AllSparkService_FinalizeDigitalToken" started.
+FinalizeDigitalToken.c(5): Web service call "FinalizeDigitalToken_101" started
+FinalizeDigitalToken.c(5): Web service call "FinalizeDigitalToken_101" was successful
+FinalizeDigitalToken.c(26): Notify: Transaction "AllSparkService_FinalizeDigitalToken" ended with a "Pass" status (Duration: 0.0518 Wasted Time: 0.0052).
+FinalizeDigitalToken.c(28): "lr_xml_find" succeeded, 1 match processed
+Ending action FinalizeDigitalToken.
+Starting action ReleaseDigitalToken.
+ReleaseDigitalToken.c(3): Notify: Transaction "AllSparkService_ReleaseDigitalToken" started.
+ReleaseDigitalToken.c(5): Web service call "ReleaseDigitalToken_101" started
+ReleaseDigitalToken.c(5): Web service call "ReleaseDigitalToken_101" was successful
+ReleaseDigitalToken.c(29): Notify: Transaction "AllSparkService_ReleaseDigitalToken" ended with a "Pass" status (Duration: 0.0345 Wasted Time: 0.0053).
+ReleaseDigitalToken.c(31): "lr_xml_find" succeeded, 1 match processed
+Ending action ReleaseDigitalToken.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

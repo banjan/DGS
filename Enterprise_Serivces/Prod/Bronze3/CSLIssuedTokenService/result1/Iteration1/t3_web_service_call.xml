@@ -1,0 +1,12 @@
+<?xml-stylesheet href="..\web_service_call.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\HP\LoadRunner\">
+  <web_service_call>
+    <service name="IssuedTokenService" />
+    <port name="BasicHttpBinding_IIssuedTokenService" />
+    <operation name="IsServiceHealthy" />
+    <wsdl location="http://cslissuedtokenserviceqa1.testgs.pvt/IssuedTokenService.svc?singleWsdl" />
+    <address url="http://cslissuedtokenserviceprod.gha.pvt/IssuedTokenService.svc" />
+    <toolkit name=".Net" />
+    <aspect name="Positive Testing" />
+  </web_service_call>
+</report>

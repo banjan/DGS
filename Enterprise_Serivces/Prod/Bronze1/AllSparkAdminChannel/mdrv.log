@@ -1,0 +1,7 @@
+Start auto log messages stack - Iteration 1.
+Starting action GetCatalogWithResources.
+GetCatalogWithResources.c(4): Notify: Transaction "GetCatalogWithResources" started.
+GetCatalogWithResources.c(6): Error: To continue, WSE2 and WSE3 must be installed on your machine. The setup programs for WSE2.0 SP3 and WSE3.0 are included in the [LoadRunner installation DVD]\lrunner\Common folder or can be downloaded from the Internet.
+End auto log messages stack.
+
+

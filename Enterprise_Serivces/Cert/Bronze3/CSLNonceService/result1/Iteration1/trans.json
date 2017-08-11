@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "NonceService_ClearExpiredNonces",
+        "rawStartTime": 1484927486856,
+        "rawEndTime": 1484927487093
+    },
+    {
+        "transactionName": "NonceService_GetVersion",
+        "rawStartTime": 1484927487097,
+        "rawEndTime": 1484927487114
+    },
+    {
+        "transactionName": "NonceService_IsServiceAlive",
+        "rawStartTime": 1484927487117,
+        "rawEndTime": 1484927487142
+    },
+    {
+        "transactionName": "NonceService_IsServiceHealthy",
+        "rawStartTime": 1484927487145,
+        "rawEndTime": 1484927487168
+    },
+    {
+        "transactionName": "NonceService_StoreNonce",
+        "rawStartTime": 1484927487170,
+        "rawEndTime": 1484927487312
+    }
+]

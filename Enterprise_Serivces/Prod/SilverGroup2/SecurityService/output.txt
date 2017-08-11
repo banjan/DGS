@@ -1,0 +1,22 @@
+Virtual User Script started at : 2/14/2017 11:44:54 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetValidDevices.
+GetValidDevices.c(3): Notify: Transaction "SecurityService_GetValidDevices" started.
+GetValidDevices.c(5): Web service call "GetValidDevices_101" started
+GetValidDevices.c(5): Web service call "GetValidDevices_101" was successful
+GetValidDevices.c(22): Notify: Transaction "SecurityService_GetValidDevices" ended with a "Pass" status (Duration: 0.3263 Wasted Time: 0.2336).
+Ending action GetValidDevices.
+Starting action ValidateDevice.
+ValidateDevice.c(3): Notify: Transaction "SecurityService_ValidateDevice" started.
+ValidateDevice.c(5): Web service call "ValidateDevice_101" started
+ValidateDevice.c(5): Web service call "ValidateDevice_101" was successful
+ValidateDevice.c(23): Notify: Transaction "SecurityService_ValidateDevice" ended with a "Pass" status (Duration: 0.0766 Wasted Time: 0.0055).
+Ending action ValidateDevice.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

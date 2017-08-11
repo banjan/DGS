@@ -1,0 +1,81 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Starting action ClearExpiredAssociations.	[MsgId: MMSG-15919]
+ClearExpiredAssociations.c(4): Notify: Transaction "AssociationService_ClearExpiredAssociations" started.	[MsgId: MMSG-16999]
+ClearExpiredAssociations.c(5): Error: InvokeMethod failure: Failed to connect to server "cslassociationserviceprod.gha.pvt:80": [10061] Connection refused.	[MsgId: MERR-108906]
+ClearExpiredAssociations.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ClearExpiredAssociations.c(5): Error: Web service call "ClearExpiredAssociations_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Starting action ClearExpiredAssociations.	[MsgId: MMSG-15919]
+ClearExpiredAssociations.c(4): Notify: Transaction "AssociationService_ClearExpiredAssociations" started.	[MsgId: MMSG-16999]
+ClearExpiredAssociations.c(5): Error: InvokeMethod failure: Failed to connect to server "cslassociationserviceprod.gha.pvt:80": [10061] Connection refused.	[MsgId: MERR-108906]
+ClearExpiredAssociations.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ClearExpiredAssociations.c(5): Error: Web service call "ClearExpiredAssociations_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Starting action ClearExpiredAssociations.	[MsgId: MMSG-15919]
+ClearExpiredAssociations.c(4): Notify: Transaction "AssociationService_ClearExpiredAssociations" started.	[MsgId: MMSG-16999]
+ClearExpiredAssociations.c(5): Error: InvokeMethod failure: Failed to connect to server "cslassociationserviceprod.gha.pvt:80": [10061] Connection refused.	[MsgId: MERR-108906]
+ClearExpiredAssociations.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ClearExpiredAssociations.c(5): Error: Web service call "ClearExpiredAssociations_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Starting action ClearExpiredAssociations.	[MsgId: MMSG-15919]
+ClearExpiredAssociations.c(4): Notify: Transaction "AssociationService_ClearExpiredAssociations" started.	[MsgId: MMSG-16999]
+ClearExpiredAssociations.c(5): Error: InvokeMethod failure: Failed to connect to server "cslassociationserviceprod.gha.pvt:80": [10061] Connection refused.	[MsgId: MERR-108906]
+ClearExpiredAssociations.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ClearExpiredAssociations.c(5): Error: Web service call "ClearExpiredAssociations_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Starting action ClearExpiredAssociations.	[MsgId: MMSG-15919]
+ClearExpiredAssociations.c(4): Notify: Transaction "AssociationService_ClearExpiredAssociations" started.	[MsgId: MMSG-16999]
+ClearExpiredAssociations.c(5): Error: InvokeMethod failure: Failed to connect to server "cslassociationserviceprod.gha.pvt:80": [10061] Connection refused.	[MsgId: MERR-108906]
+ClearExpiredAssociations.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ClearExpiredAssociations.c(5): Error: Web service call "ClearExpiredAssociations_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action ClearExpiredAssociations.	[MsgId: MMSG-15919]
+ClearExpiredAssociations.c(4): Notify: Transaction "AssociationService_ClearExpiredAssociations" started.	[MsgId: MMSG-16999]
+ClearExpiredAssociations.c(5): Error: InvokeMethod failure: Failed to connect to server "cslassociationserviceprod.gha.pvt:80": [10061] Connection refused.	[MsgId: MERR-108906]
+ClearExpiredAssociations.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ClearExpiredAssociations.c(5): Error: Web service call "ClearExpiredAssociations_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Starting action ClearExpiredAssociations.	[MsgId: MMSG-15919]
+ClearExpiredAssociations.c(4): Notify: Transaction "AssociationService_ClearExpiredAssociations" started.	[MsgId: MMSG-16999]
+ClearExpiredAssociations.c(5): Error: InvokeMethod failure: Failed to connect to server "cslassociationserviceprod.gha.pvt:80": [10061] Connection refused.	[MsgId: MERR-108906]
+ClearExpiredAssociations.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ClearExpiredAssociations.c(5): Error: Web service call "ClearExpiredAssociations_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Starting action ClearExpiredAssociations.	[MsgId: MMSG-15919]
+ClearExpiredAssociations.c(4): Notify: Transaction "AssociationService_ClearExpiredAssociations" started.	[MsgId: MMSG-16999]
+ClearExpiredAssociations.c(5): Error: InvokeMethod failure: Failed to connect to server "cslassociationserviceprod.gha.pvt:80": [10061] Connection refused.	[MsgId: MERR-108906]
+ClearExpiredAssociations.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ClearExpiredAssociations.c(5): Error: Web service call "ClearExpiredAssociations_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Starting action ClearExpiredAssociations.	[MsgId: MMSG-15919]
+ClearExpiredAssociations.c(4): Notify: Transaction "AssociationService_ClearExpiredAssociations" started.	[MsgId: MMSG-16999]
+ClearExpiredAssociations.c(5): Error: InvokeMethod failure: Failed to connect to server "cslassociationserviceprod.gha.pvt:80": [10061] Connection refused.	[MsgId: MERR-108906]
+ClearExpiredAssociations.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ClearExpiredAssociations.c(5): Error: Web service call "ClearExpiredAssociations_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -1,0 +1,4 @@
+MergeCancelMembership()
+{
+	return 0;
+}

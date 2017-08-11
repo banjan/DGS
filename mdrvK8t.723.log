@@ -1,0 +1,256 @@
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+t=00294370ms: 1237 byte(s) received for "https://ad.doubleclick.net/adj/N7050.197812.NSO.CODESRV/B8074538.108087571;dcadv=4399554;sz=1x2;ord=423720981869.6831?" (internal ID=1584)    [MsgId: MMSG-204693]	[MsgId: MMSG-204693]
+t=00294370ms: End of response for "https://ad.doubleclick.net/adj/N7050.197812.NSO.CODESRV/B8074538.108087571;dcadv=4399554;sz=1x2;ord=423720981869.6831?" (internal ID=1584)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=00294372ms: Response body for "https://ad.doubleclick.net/adj/N7050.197812.NSO.CODESRV/B8074538.108087571;dcadv=4399554;sz=1x2;ord=423720981869.6831?" (7103 byte(s), decoded) (internal ID=1584)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Message id [0] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00295781ms: ** 23: Wait 3 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00296284ms: ** 25: Scroll We are committed to protecting...  into view ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00326562ms: Error -205177: ** 25: Scroll We are committed to protecting...  into view ** failed - target object was not found.       Snapshot Info [MSH 2 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+t=00369181ms: End of response for "https://qa.gamestop.com//common/images/lbox/170855b1.jpg" (internal ID=2585)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=00369181ms: "https://qa.gamestop.com//common/images/lbox/020419b1.jpg" (internal ID=2587) ended with HTTP Status Code 404 (Not Found) and internal status 0x00000000=NS_OK     [MsgId: MMSG-204679]	[MsgId: MMSG-204679]
+Message id [-204696] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+		  		  <html><body style="background-color:transparent"></body></html>	[MsgId: MMSG0]
+Message id [-204696] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+		  		  <html><body style="background-color:transparent"></body></html>	[MsgId: MMSG0]
+Message id [-204685] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00369187ms: "https://qa.gamestop.com//common/images/lbox/170855b1.jpg" (internal ID=2585) ended with HTTP Status Code 404 (Not Found) and internal status 0x00000000=NS_OK     [MsgId: MMSG-204679]	[MsgId: MMSG-204679]
+t=00401908ms: Error -205177: ** 27: Click on CONTINUE CHECKOUT ?  ** failed - end event error due to network timeout. Open requests: https://4399660.fls.doubleclick.net/activityi;src=4399660;type=ret01;cat=land01;ord=5484775996856.325?;        Snapshot Info [MSH 3 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Message id [-204691] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+Message id [-204696] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+		  		  GIF89a\\x00\\x00€\\x00\\x00ÿÿÿ\\x00\\x00\\x00!ù\\x00\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00„Q\\x00;	[MsgId: MMSG0]
+Message id [-204685] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00599152ms: Error -205177: ** 27: Click on CONTINUE CHECKOUT ?  ** failed - end event error due to network timeout. Open requests: https://4399660.fls.doubleclick.net/activityi;src=4399660;type=ret01;cat=land01;ord=3606460119168.975?;        Snapshot Info [MSH 4 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+t=00826294ms: End of response for "http://media.poweruprewards.com/Maint/gamestop_maint/images/gamestoplogo.png" (internal ID=5468)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=00826295ms: Response body for "http://media.poweruprewards.com/Maint/gamestop_maint/images/gamestoplogo.png" (5392 byte(s), decoded) (internal ID=5468)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Message id [0] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00826296ms: "http://media.poweruprewards.com/Maint/gamestop_maint/images/gamestoplogo.png" (internal ID=5468) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00826506ms: ** 1: Navigate to http://qa.gamestop.com/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00827011ms: ** 2: Click on Find games, consoles,... textbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00857482ms: Error -205177: ** 2: Click on Find games, consoles,... textbox ** failed - target object was not found.       Snapshot Info [MSH 7 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+t=00829117ms: End of response for "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-bold.ttf" (internal ID=5282)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=00829119ms: Response body for "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-bold.ttf" (101656 byte(s), decoded) (internal ID=5282)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Unable to format message id [0].	[MsgId: MMSG-10548]
+t=00829128ms: "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-bold.ttf" (internal ID=5282) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00829345ms: ** 1: Navigate to http://qa.gamestop.com/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00829851ms: ** 2: Click on Find games, consoles,... textbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00860611ms: Error -205177: ** 2: Click on Find games, consoles,... textbox ** failed - target object was not found.       Snapshot Info [MSH 7 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Unable to format message id [0].	[MsgId: MMSG-10548]
+t=00831198ms: "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-book.ttf" (internal ID=5684) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00831209ms: Response body for "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-bold.ttf" (38993 byte(s), decoded) (internal ID=5685)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Unable to format message id [0].	[MsgId: MMSG-10548]
+t=00831212ms: "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-bold.ttf" (internal ID=5685) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00831433ms: ** 4: Press Enter key on Find games, consoles,... textbox ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00831939ms: ** 5: Click on Add to Cart javascript_link ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00862611ms: Error -205177: ** 5: Click on Add to Cart javascript_link ** failed - target object was not found.       Snapshot Info [MSH 7 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Unable to format message id [0].	[MsgId: MMSG-10548]
+t=00837270ms: "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-book.ttf" (internal ID=5483) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00837281ms: Response body for "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-bold.ttf" (43129 byte(s), decoded) (internal ID=5484)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Unable to format message id [0].	[MsgId: MMSG-10548]
+t=00837284ms: "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-bold.ttf" (internal ID=5484) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00837499ms: ** 1: Navigate to http://qa.gamestop.com/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00838006ms: ** 2: Click on Find games, consoles,... textbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00868264ms: Error -205177: ** 2: Click on Find games, consoles,... textbox ** failed - target object was not found.       Snapshot Info [MSH 7 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+t=00898900ms: End of response for "http://qa.gamestop.com/" (internal ID=5486)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=00898913ms: Response body for "http://qa.gamestop.com/" (5251 byte(s), decoded) (internal ID=5486)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Message id [0] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00898913ms: "http://qa.gamestop.com/" (internal ID=5486) ended with HTTP Status Code 500 (Internal Server Error) and internal status 0x00000000=NS_OK     [MsgId: MMSG-204679]	[MsgId: MMSG-204679]
+t=00898979ms: Navigate failed on url undefined with errorCode = 500    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00898980ms: Navigate failed on url undefined with errorCode = 500    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00898983ms: Navigate failed on url undefined with errorCode = 500    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00898986ms: Navigate failed on url undefined with errorCode = 500    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00899318ms: Error -205177: ** 1: Navigate to http://qa.gamestop.com/ ** failed - end event error due to HTTP status code : 500       Snapshot Info [MSH 7 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+		  		  NREUM.setToken({'stn':0,'err':0,'ins':1,'cap':0,'spa':0})	[MsgId: MMSG0]
+t=00899859ms: "https://bam.nr-data.net/1/64e6137a20?a=11406325&v=1044.a6554e7&to=MVcDMRFRXBBWVxFcXAgdIDYzH1YGUVUQWUdIUxIVGw%3D%3D&rst=45260&ref=http://qa.gamestop.com/&ap=45136&be=45146&fe=45209&dc=45199&tt=1F45967EDBA42A36&perf=%7B%22timing%22:%7B%22of%22:1501688304261,%22n%22:0,%22f%22:1,%22dn%22:4,%22dne%22:4,%22c%22:4,%22ce%22:5,%22rq%22:5,%22rp%22:45144,%22rpe%22:45145,%22dl%22:45146,%22di%22:45175,%22ds%22:45194,%22de%22:45199,%22dc%22:45200,%22l%22:45200,%22le%22:45209%7D,%22navigation%22:%7B%7D%7D&jsonp=NREUM.setToken" (internal ID=5462) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00899984ms: Error -205177: ** 1: Navigate to http://qa.gamestop.com/ ** failed - end event error due to HTTP status code : 500       Snapshot Info [MSH 7 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+t=00905917ms: End of response for "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=79764598972.82567&ev=t%3Dtop%26f%3D131" (internal ID=5210)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=00905918ms: Response body for "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=79764598972.82567&ev=t%3Dtop%26f%3D131" (35 byte(s), decoded) (internal ID=5210)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+		  		  GIF87a\\x00\\x00€\\x00\\x00\\x00\\x00\\x00ÿÿÿ,\\x00\\x00\\x00\\x00\\x00\\x00\\x00„Q\\x00;	[MsgId: MMSG0]
+t=00905919ms: "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=79764598972.82567&ev=t%3Dtop%26f%3D131" (internal ID=5210) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00911575ms: Error -205177: ** 27: Click on CONTINUE CHECKOUT ?  ** failed - end event error due to network timeout. Open requests: https://qa.gamestop.com/Checkout/en/Addresses/Shipping;        Snapshot Info [MSH 6 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+t=00939696ms: Response body for "http://qa.gamestop.com/" (10045 byte(s), decoded) (internal ID=1)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Message id [0] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00939697ms: "http://qa.gamestop.com/" (internal ID=1) ended with HTTP Status Code 500 (Internal Server Error) and internal status 0x00000000=NS_OK     [MsgId: MMSG-204679]	[MsgId: MMSG-204679]
+t=00939704ms: Navigate failed on url undefined with errorCode = 500    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00939706ms: Navigate failed on url undefined with errorCode = 500    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00939708ms: Navigate failed on url undefined with errorCode = 500    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00939711ms: Navigate failed on url undefined with errorCode = 500    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00939778ms: Request initiated for "https://js-agent.newrelic.com/nr-1044.min.js" (internal ID=4)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+t=00940110ms: Error -205177: ** 1: Navigate to http://qa.gamestop.com/ ** failed - end event error due to HTTP status code : 500       Snapshot Info [MSH 8 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+t=00944531ms: Response headers for "http://gn.symcd.com/" (354 byte(s)) (internal ID=6)    [MsgId: MMSG-204697]	[MsgId: MMSG-204697]
+		  		  HTTP/1.1 200 OK
+		  		  Date: Wed, 02 Aug 2017 15:39:54 GMT
+		  		  Server: nginx/1.10.2
+		  		  Expires: Tue, 8 Aug 2017 16:17:10 GMT
+		  		  Connection: Keep-Alive
+		  		  Content-Type: application/ocsp-response
+		  		  Cache-Control: max-age=520759, public, no-transform, must-revalidate
+		  		  Last-Modified: Tue, 1 Aug 2017 16:17:10 GMT
+		  		  Content-Length: 1419
+		  		  content-transfer-encoding: binary
+		  		  
+	[MsgId: MMSG0]
+t=00944532ms: End of response for "http://gn.symcd.com/" (internal ID=6)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=00944601ms: Response body for "http://gn.symcd.com/" (1419 byte(s), decoded) (internal ID=6)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Message id [0] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00944603ms: "http://gn.symcd.com/" (internal ID=6) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00944690ms: Error -205177: ** 1: Navigate to http://qa.gamestop.com/ ** failed - end event error due to HTTP status code : 500       Snapshot Info [MSH 8 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+t=00955603ms: End of response for "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=32875417338.0982&ev=t%3Dtop%26f%3D30" (internal ID=5276)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=00955604ms: Response body for "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=32875417338.0982&ev=t%3Dtop%26f%3D30" (35 byte(s), decoded) (internal ID=5276)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+		  		  GIF87a\\x00\\x00€\\x00\\x00\\x00\\x00\\x00ÿÿÿ,\\x00\\x00\\x00\\x00\\x00\\x00\\x00„Q\\x00;	[MsgId: MMSG0]
+t=00955605ms: "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=32875417338.0982&ev=t%3Dtop%26f%3D30" (internal ID=5276) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00962632ms: Error -205177: ** 30: Scroll SUBMIT ORDER  into view ** failed - target object was not found.       Snapshot Info [MSH 6 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+t=00975939ms: End of response for "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=6323023630.419456&ev=t%3Dtop%26f%3D30" (internal ID=5122)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=00975940ms: Response body for "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=6323023630.419456&ev=t%3Dtop%26f%3D30" (35 byte(s), decoded) (internal ID=5122)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+		  		  GIF87a\\x00\\x00€\\x00\\x00\\x00\\x00\\x00ÿÿÿ,\\x00\\x00\\x00\\x00\\x00\\x00\\x00„Q\\x00;	[MsgId: MMSG0]
+t=00975940ms: "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=6323023630.419456&ev=t%3Dtop%26f%3D30" (internal ID=5122) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00980903ms: Error -205177: ** 30: Scroll SUBMIT ORDER  into view ** failed - target object was not found.       Snapshot Info [MSH 6 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+t=00963640ms: Response headers for "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-bold.ttf" (13981 byte(s)) (internal ID=5461)    [MsgId: MMSG-204697]	[MsgId: MMSG-204697]
+Message id [0] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00963640ms: Response body for "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-bold.ttf" (7132 byte(s), decoded) (internal ID=5461)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Message id [0] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00963642ms: "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-bold.ttf" (internal ID=5461) ended with internal status 0x00000000=NS_OK     [MsgId: MMSG-204683]	[MsgId: MMSG-204683]
+t=00963852ms: ** 4: Press Enter key on Find games, consoles,... textbox ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00964358ms: ** 5: Click on Add to Cart javascript_link ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00994563ms: Error -205177: ** 5: Click on Add to Cart javascript_link ** failed - target object was not found.       Snapshot Info [MSH 7 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+t=00967098ms: Response body for "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-book.ttf" (50623 byte(s), decoded) (internal ID=5612)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Message id [0] was not saved - Auto Log cache is too small to contain the message.	[MsgId: MMSG-10547]
+t=00967101ms: "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-book.ttf" (internal ID=5612) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00967316ms: ** 6: Click on Checkout link ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00967322ms: ** 7: Wait 3 seconds ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00970533ms: ** 7: Wait 3 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00971044ms: ** 8: Click on CONTINUE CHECKOUT ? link ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01001602ms: Error -205177: ** 8: Click on CONTINUE CHECKOUT ? link ** failed - target object was not found.       Snapshot Info [MSH 7 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+t=00997023ms: Response body for "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-book.ttf" (23196 byte(s), decoded) (internal ID=428)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+Unable to format message id [0].	[MsgId: MMSG-10548]
+t=00997025ms: "http://media.poweruprewards.com/Maint/gamestop_maint/fonts/solidogs-book.ttf" (internal ID=428) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=00997185ms: ** 6: Click on Checkout link ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00997190ms: ** 7: Wait 3 seconds ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01000401ms: ** 7: Wait 3 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01000906ms: ** 8: Click on CONTINUE CHECKOUT ? link ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01031192ms: Error -205177: ** 8: Click on CONTINUE CHECKOUT ? link ** failed - target object was not found.       Snapshot Info [MSH 9 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+		  		  NREUM.setToken({'stn':0,'err':0,'ins':1,'cap':0,'spa':0})	[MsgId: MMSG0]
+t=01038650ms: "https://bam.nr-data.net/1/64e6137a20?a=11406325&v=1044.a6554e7&to=MVcDMRFRXBBWVxFcXAgdIDYzH1YGUVUQWUdIUxIVGw%3D%3D&rst=45279&ref=http://qa.gamestop.com/&ap=45136&be=45167&fe=45221&dc=45210&tt=E31E982797E7D145&perf=%7B%22timing%22:%7B%22of%22:1501688443043,%22n%22:0,%22f%22:1,%22dn%22:3,%22dne%22:4,%22c%22:4,%22ce%22:4,%22rq%22:5,%22rp%22:45144,%22rpe%22:45144,%22dl%22:45147,%22di%22:45175,%22ds%22:45205,%22de%22:45210,%22dc%22:45211,%22l%22:45211,%22le%22:45221%7D,%22navigation%22:%7B%7D%7D&jsonp=NREUM.setToken" (internal ID=5282) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=01038768ms: Error -205177: ** 1: Navigate to http://qa.gamestop.com/ ** failed - end event error due to HTTP status code : 500       Snapshot Info [MSH 7 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+		  		  NREUM.setToken({'stn':0,'err':0,'ins':1,'cap':0,'spa':0})	[MsgId: MMSG0]
+t=01056916ms: "https://bam.nr-data.net/1/64e6137a20?a=11406325&v=1044.a6554e7&to=MVcDMRFRXBBWVxFcXAgdIDYzH1YGUVUQWUdIUxIVGw%3D%3D&rst=45260&ref=http://qa.gamestop.com/&ap=45134&be=45168&fe=45208&dc=45198&tt=7618709D1668F371&perf=%7B%22timing%22:%7B%22of%22:1501688461327,%22n%22:0,%22f%22:1,%22dn%22:3,%22dne%22:4,%22c%22:4,%22ce%22:4,%22rq%22:5,%22rp%22:45142,%22rpe%22:45143,%22dl%22:45145,%22di%22:45173,%22ds%22:45193,%22de%22:45198,%22dc%22:45199,%22l%22:45199,%22le%22:45209%7D,%22navigation%22:%7B%7D%7D&jsonp=NREUM.setToken" (internal ID=5128) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=01057038ms: Error -205177: ** 1: Navigate to http://qa.gamestop.com/ ** failed - end event error due to HTTP status code : 500       Snapshot Info [MSH 7 2]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+t=00933056ms: Response body for "https://aus4.mozilla.org/update/3/GMP/40.0.3/20150826023504/WINNT_x86-msvc/en-US/release/Windows_NT%206.1.1.0%20(x64)/default/default/update.xml" (398 byte(s), decoded) (internal ID=170)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+		  		  <?xml version="1.0"?>
+		  		  <updates>
+		  		      <addons>
+		  		          <addon id="gmp-gmpopenh264" URL="http://ciscobinary.openh264.org/openh264-win32-2706e36bf0a8b7c539c803ed877148c005ffca59.zip" hashFunction="sha512" hashValue="45124a776054dcfc81bfc65ad4ff85bd65113900c86f98b70917c695cd9d8924d9b0878da39d14b2af5708029bc0346be6d7d92f1d856443b3051f0d3180894d" size="341180" version="1.5.3"/>
+		  		      </addons>
+		  		  </updates>	[MsgId: MMSG0]
+t=00933057ms: "https://aus4.mozilla.org/update/3/GMP/40.0.3/20150826023504/WINNT_x86-msvc/en-US/release/Windows_NT%206.1.1.0%20(x64)/default/default/update.xml" (internal ID=170) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=01084345ms: Error -205177: ** 1: Navigate to http://qa.gamestop.com/ ** timed out. Open requests: https://apis.google.com/js/plusone.js;        Snapshot Info [MSH 8 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+t=01054092ms: ** 8: Click on CONTINUE CHECKOUT ? link ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01054597ms: ** 9: Click on CONTINUE AS GUEST link ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01084918ms: Error -205177: ** 9: Click on CONTINUE AS GUEST link ** failed - target object was not found.       Snapshot Info [MSH 8 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+t=01054374ms: ** 9: Click on CONTINUE AS GUEST link ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01054879ms: ** 10: Click on First Name textbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01085440ms: Error -205177: ** 10: Click on First Name textbox ** failed - target object was not found.       Snapshot Info [MSH 8 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+t=01169080ms: End of response for "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=40156005604.10173&ev=t%3Dtop%26f%3D101" (internal ID=682)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=01169082ms: Response body for "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=40156005604.10173&ev=t%3Dtop%26f%3D101" (35 byte(s), decoded) (internal ID=682)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+		  		  GIF87a\\x00\\x00€\\x00\\x00\\x00\\x00\\x00ÿÿÿ,\\x00\\x00\\x00\\x00\\x00\\x00\\x00„Q\\x00;	[MsgId: MMSG0]
+t=01169082ms: "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=40156005604.10173&ev=t%3Dtop%26f%3D101" (internal ID=682) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=01174006ms: Error -205177: ** 30: Scroll SUBMIT ORDER  into view ** failed - target object was not found.       Snapshot Info [MSH 8 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+t=01178223ms: End of response for "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=31065092900.37798&ev=t%3Dtop%26f%3D104" (internal ID=680)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+t=01178224ms: Response body for "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=31065092900.37798&ev=t%3Dtop%26f%3D104" (35 byte(s), decoded) (internal ID=680)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+		  		  GIF87a\\x00\\x00€\\x00\\x00\\x00\\x00\\x00ÿÿÿ,\\x00\\x00\\x00\\x00\\x00\\x00\\x00„Q\\x00;	[MsgId: MMSG0]
+t=01178224ms: "https://d.adroll.com/onp/HGAM45IRB5GXVJPUZ3AIJV/CWCJVNECPVH55FDDSNFWB4?pv=31065092900.37798&ev=t%3Dtop%26f%3D104" (internal ID=680) ended    [MsgId: MMSG-204685]	[MsgId: MMSG-204685]
+t=01183136ms: Error -205177: ** 30: Scroll SUBMIT ORDER  into view ** failed - target object was not found.       Snapshot Info [MSH 9 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

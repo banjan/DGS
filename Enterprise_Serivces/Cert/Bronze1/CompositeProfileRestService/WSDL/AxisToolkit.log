@@ -1,0 +1,9 @@
+Tue Dec 20 16:56:53 CST 2016: Start logging .....
+Tue Dec 20 16:56:53 CST 2016: WSDL - http://compositeprofilerestserviceqa1.testgs.pvt/?wsdl
+Tue Dec 20 16:56:54 CST 2016: null
+Tue Dec 20 16:56:54 CST 2016: WSDL2Java throw an exception:
+com.mercury.ws.exception.LiterateException
+	at com.mercury.ws.util.WSDL2JavaInvoker$NoneExitWSDL2Java.run(WSDL2JavaInvoker.java:358)
+	at com.mercury.ws.util.WSDL2JavaInvoker.invoke(WSDL2JavaInvoker.java:84)
+	at com.mercury.ws.generator.ProxyGenerator.generateProxy(ProxyGenerator.java:174)
+Tue Dec 20 16:56:54 CST 2016: null

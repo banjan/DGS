@@ -1,0 +1,146 @@
+Start auto log messages stack - Iteration 3.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Notify: Transaction "OfferService_CreateOfferForCustomer" ended with a "Stop" status (Duration: 0.6142 Wasted Time: 0.0002).
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Abort was called.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 7.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Notify: Transaction "OfferService_CreateOfferForCustomer" ended with a "Stop" status (Duration: 0.0842 Wasted Time: 0.0001).
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Abort was called.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 630.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Server "cslofferserviceqa1.testgs.pvt" has shut down the connection prematurely.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 631.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Server "cslofferserviceqa1.testgs.pvt" has shut down the connection prematurely.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1053.
+CreateOfferForCustomer.c(5): Warning -26000: Failure in writing snapshot file "C:\Users\casmith\Documents\VuGen\Scripts\Bronze3\CSLOfferService\result1\Iteration1053\t1_RequestBody.txt": miBufLen=1151, dwNumberOfBytesWrittenForBuf=0, iMsgLen=0, dwNumberOfBytesWrittenForBuf=0, hFile=-1, dwCreateFileError=3, bWriteBufOK=0, dwWriteBufError=0, bWriteMsgOK=0, dwWriteMsgError=0, bCloseHandleOK=0, dwCloseHandleError=0  	[MsgId: MWAR-26000]
+CreateOfferForCustomer.c(5): Warning -26000: Failure in writing snapshot file "C:\Users\casmith\Documents\VuGen\Scripts\Bronze3\CSLOfferService\result1\Iteration1053\t1_ResponseHeader.txt": miBufLen=196, dwNumberOfBytesWrittenForBuf=0, iMsgLen=0, dwNumberOfBytesWrittenForBuf=0, hFile=-1, dwCreateFileError=3, bWriteBufOK=0, dwWriteBufError=0, bWriteMsgOK=0, dwWriteMsgError=0, bCloseHandleOK=0, dwCloseHandleError=0  	[MsgId: MWAR-26000]
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1054.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1055.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1056.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1057.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1058.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1059.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1060.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1061.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1062.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1063.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1064.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1065.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1066.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Send request unrecognized exception.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+End auto log messages stack.
+

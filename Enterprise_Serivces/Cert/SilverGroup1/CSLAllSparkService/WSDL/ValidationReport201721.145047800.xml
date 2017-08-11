@@ -1,0 +1,10 @@
+<Report time="Wednesday, February 01, 2017">
+  <WSDLS>
+    <WSDL unc="http://cslallsparkserviceqa1.testgs.pvt/AllSparkService.svc?wsdl" name="http://cslallsparkserviceqa1.testgs.pvt/AllSparkService.svc?wsdl">
+      <msgs>
+        <msg severity="Notification" xpath="" col="0" line="">WS-I report C:\Users\casmith\Documents\VuGen\Scripts\SilverGroup1\CSLAllSparkService\WSDL\WSIValidationReport_AllSparkService_AllSparkService_HTTP.xml was created  service: "AllSparkService" binding: tns:AllSparkService_HTTP; Summary status:passed</msg>
+        <msg severity="Notification" xpath="" col="0" line="">WS-I report C:\Users\casmith\Documents\VuGen\Scripts\SilverGroup1\CSLAllSparkService\WSDL\WSIValidationReport_AllSparkService_AllSparkServiceBase_HTTP.xml was created  service: "AllSparkService" binding: tns:AllSparkServiceBase_HTTP; Summary status:passed</msg>
+      </msgs>
+    </WSDL>
+  </WSDLS>
+</Report>

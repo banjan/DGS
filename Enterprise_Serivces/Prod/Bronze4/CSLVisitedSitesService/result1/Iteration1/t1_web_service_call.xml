@@ -1,0 +1,12 @@
+<?xml-stylesheet href="..\web_service_call.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\HP\LoadRunner\">
+  <web_service_call>
+    <service name="VisitedSiteService" />
+    <port name="BasicHttpBinding_IVisitedSiteService" />
+    <operation name="GetVisitedSites" />
+    <wsdl location="http://cslvisitedsitesserviceqa1.testgs.pvt/VisitedSiteService.svc?singleWsdl" />
+    <address url="" />
+    <toolkit name=".Net" />
+    <aspect name="Positive Testing" />
+  </web_service_call>
+</report>

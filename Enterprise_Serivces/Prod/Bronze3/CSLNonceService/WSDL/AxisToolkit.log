@@ -1,0 +1,9 @@
+Wed Jan 04 17:46:23 CST 2017: Start logging .....
+Wed Jan 04 17:46:23 CST 2017: WSDL - http://cslnonceserviceqa1.testgs.pvt/nonceService.svc
+Wed Jan 04 17:46:24 CST 2017: WSDLException (at /HTML): faultCode=INVALID_WSDL: Expected element '{http://schemas.xmlsoap.org/wsdl/}definitions'.
+Wed Jan 04 17:46:24 CST 2017: WSDL2Java throw an exception:
+com.mercury.ws.exception.LiterateException: WSDLException (at /HTML): faultCode=INVALID_WSDL: Expected element '{http://schemas.xmlsoap.org/wsdl/}definitions'.
+	at com.mercury.ws.util.WSDL2JavaInvoker$NoneExitWSDL2Java.run(WSDL2JavaInvoker.java:358)
+	at com.mercury.ws.util.WSDL2JavaInvoker.invoke(WSDL2JavaInvoker.java:84)
+	at com.mercury.ws.generator.ProxyGenerator.generateProxy(ProxyGenerator.java:174)
+Wed Jan 04 17:46:24 CST 2017: WSDLException (at /HTML): faultCode=INVALID_WSDL: Expected element '{http://schemas.xmlsoap.org/wsdl/}definitions'.

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="report_view.xsl"?>
+<Report time="Thu Jan 19 14:50:33 2017
+"><WSDLS><WSDL unc="C:\Users\casmith\Documents\VuGen\Scripts\SilverGroup2\Mobilechannel\WSDL\_singleWsdl\_singleWsdl" name="http://mobilechannelqa1.testgs.pvt/?singleWsdl"><msgs><msg severity="Error" xpath="" col="0" line="0"> WSDL file cannot be loaded</msg></msgs></WSDL></WSDLS></Report>

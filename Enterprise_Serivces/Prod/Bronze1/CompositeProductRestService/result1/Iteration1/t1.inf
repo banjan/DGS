@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=DummyContentType
+StepName=Custom Request: Trade Values
+Total=1
+FileName1=t1.UNK
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Trade Values
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1486655336098
+URL1=http://compositeproductrestserviceqa.testgs.pvt/v1/Products/TradeValues

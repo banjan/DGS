@@ -1,0 +1,13 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=application/xml
+StepName=Custom Request: Availability
+Total=1
+FileName1=t3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Availability
+RequestBodyFile=t3_RequestBody.txt
+RawStepStartTime=1484866649839
+URL1=http://mobilechannelprod.gha.pvt/configuration/

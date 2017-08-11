@@ -1,0 +1,9 @@
+Tue Dec 27 11:05:39 CST 2016: Start logging .....
+Tue Dec 27 11:05:39 CST 2016: WSDL - http://cslemployeeserviceqa1.testgs.pvt/EmployeeService.svc
+Tue Dec 27 11:05:39 CST 2016: WSDLException (at /HTML): faultCode=INVALID_WSDL: Expected element '{http://schemas.xmlsoap.org/wsdl/}definitions'.
+Tue Dec 27 11:05:39 CST 2016: WSDL2Java throw an exception:
+com.mercury.ws.exception.LiterateException: WSDLException (at /HTML): faultCode=INVALID_WSDL: Expected element '{http://schemas.xmlsoap.org/wsdl/}definitions'.
+	at com.mercury.ws.util.WSDL2JavaInvoker$NoneExitWSDL2Java.run(WSDL2JavaInvoker.java:358)
+	at com.mercury.ws.util.WSDL2JavaInvoker.invoke(WSDL2JavaInvoker.java:84)
+	at com.mercury.ws.generator.ProxyGenerator.generateProxy(ProxyGenerator.java:174)
+Tue Dec 27 11:05:39 CST 2016: WSDLException (at /HTML): faultCode=INVALID_WSDL: Expected element '{http://schemas.xmlsoap.org/wsdl/}definitions'.

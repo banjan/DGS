@@ -1,0 +1,30 @@
+Virtual User Script started at : 1/18/2017 5:20:41 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action ClearExpiredAssociations.
+ClearExpiredAssociations.c(3): Notify: Transaction "RealmAssociationService_ClearExpiredAssociations" started.
+ClearExpiredAssociations.c(5): Web service call "ClearExpiredAssociations_101" started
+ClearExpiredAssociations.c(5): Web service call "ClearExpiredAssociations_101" was successful
+ClearExpiredAssociations.c(22): Notify: Transaction "RealmAssociationService_ClearExpiredAssociations" ended with a "Pass" status (Duration: 0.2537 Wasted Time: 0.1740).
+Ending action ClearExpiredAssociations.
+Starting action GetAssociationByHandle.
+GetAssociationByHandle.c(3): Notify: Transaction "RealmAssociationService_GetAssociationByHandle" started.
+GetAssociationByHandle.c(5): Web service call "GetAssociationByHandle_101" started
+GetAssociationByHandle.c(5): Web service call "GetAssociationByHandle_101" was successful
+GetAssociationByHandle.c(23): Notify: Transaction "RealmAssociationService_GetAssociationByHandle" ended with a "Pass" status (Duration: 0.0292 Wasted Time: 0.0128).
+Ending action GetAssociationByHandle.
+Starting action GetAssociationBySecuritySettings.
+GetAssociationBySecuritySettings.c(3): Notify: Transaction "RealmAssociationService_GetAssociationBySecuritySettings" started.
+GetAssociationBySecuritySettings.c(5): Web service call "GetAssociationBySecuritySettings_101" started
+GetAssociationBySecuritySettings.c(5): Web service call "GetAssociationBySecuritySettings_101" was successful
+GetAssociationBySecuritySettings.c(24): Notify: Transaction "RealmAssociationService_GetAssociationBySecuritySettings" ended with a "Pass" status (Duration: 0.0366 Wasted Time: 0.0043).
+Ending action GetAssociationBySecuritySettings.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

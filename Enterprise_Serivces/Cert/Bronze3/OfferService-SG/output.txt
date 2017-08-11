@@ -1,0 +1,22 @@
+Virtual User Script started at : 6/5/2017 2:29:39 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action CreateOfferForCustomer.
+CreateOfferForCustomer.c(3): Notify: Transaction "OfferService_CreateOfferForCustomer" started.
+CreateOfferForCustomer.c(5): Web service call "CreateOfferForCustomer_102" started
+CreateOfferForCustomer.c(5): Error: InvokeMethod failure: Server "gatewayqa1.testecom.pvt" has shut down the connection prematurely.
+CreateOfferForCustomer.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+CreateOfferForCustomer.c(5): Error: Web service call "CreateOfferForCustomer_102" execution failed
+CreateOfferForCustomer.c(5): Notify: Transaction "OfferService_CreateOfferForCustomer" ended with a "Fail" status (Duration: 1.3695 Wasted Time: 1.2682).
+CreateOfferForCustomer.c(5): Notify: Transaction "OfferService_CreateOfferForCustomer" has 2 error message(s).
+CreateOfferForCustomer.c(5): Notify: The 1st error message associated with transaction "OfferService_CreateOfferForCustomer" is "Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]read to host "gatewayqa1.testecom.pvt" failed: [10054] Connection reset by peer
+This is probably because the SSL protocol version is not supported. Try switching the TLS/SSL version using "web_set_sockets_option" API."
+CreateOfferForCustomer.c(5): Notify: The 2nd error message associated with transaction "OfferService_CreateOfferForCustomer" is "Error -27787: Server "gatewayqa1.testecom.pvt" has shut down the connection prematurely"
+Ending action CreateOfferForCustomer.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

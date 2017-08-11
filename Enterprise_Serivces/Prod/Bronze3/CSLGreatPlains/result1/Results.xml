@@ -1,0 +1,435 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="Central Standard Time">
+<General productName="Vugen" productVer="12" os="" host="USGVLJ954KC2"><DocLocation><![CDATA[C:\Users\casmith\Documents\VuGen\Scripts\Bronze3\CSLGreatPlains]]></DocLocation></General>
+<Doc rID="T1"   productName= "Vugen"  >
+<DName><![CDATA[CSLGreatPlains]]></DName>
+<Res><![CDATA[result1]]></Res>
+<Action rID="T2">
+<AName><![CDATA[vuser_init]]></AName>
+<Summary sTime="1/12/2017 - 16:36:06" eTime="1/12/2017 - 16:36:06" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="5" >
+<Disp><![CDATA[vuser_init Summary]]></Disp>
+</NodeArgs>
+</Action>
+<DIter rID="T3" iterID="1" >
+<Action rID="T4">
+<AName><![CDATA[GetCompanies]]></AName>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=CompanyId</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:06]]></Time>
+<TimeTick>1484260566</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="9" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Get Companies]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:06]]></Time>
+<TimeTick>1484260566</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
+<Disp><![CDATA[Custom Request: Get Companies]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:06" eTime="1/12/2017 - 16:36:06" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Disp><![CDATA[GetCompanies Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T7">
+<AName><![CDATA[GetVendorsByCompanyIdAndSinceDate]]></AName>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=CreatedDate</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:06]]></Time>
+<TimeTick>1484260566</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="13" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Get Vendors By Company Id And Since Date]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:08]]></Time>
+<TimeTick>1484260568</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="14" status="Passed" >
+<Disp><![CDATA[Custom Request: Get Vendors By Company Id And Since Date]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:06" eTime="1/12/2017 - 16:36:08" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="12" status="Passed" >
+<Disp><![CDATA[GetVendorsByCompanyIdAndSinceDate Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T10">
+<AName><![CDATA[GetCompaniesCompanyIdVendorsVendorId]]></AName>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=CompanyId</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:08]]></Time>
+<TimeTick>1484260568</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="17" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Get Companies Company Id Vendors Vendor Id]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:09]]></Time>
+<TimeTick>1484260569</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="18" status="Passed" >
+<Disp><![CDATA[Custom Request: Get Companies Company Id Vendors Vendor Id]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:08" eTime="1/12/2017 - 16:36:09" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="16" status="Passed" >
+<Disp><![CDATA[GetCompaniesCompanyIdVendorsVendorId Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T13">
+<AName><![CDATA[GetAddressesByCompanyIdAndVendorId]]></AName>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=VendorKey</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:09]]></Time>
+<TimeTick>1484260569</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="21" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Get Addresses By Company Id And Vendor Id]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:09]]></Time>
+<TimeTick>1484260569</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="22" status="Passed" >
+<Disp><![CDATA[Custom Request: Get Addresses By Company Id And Vendor Id]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:09" eTime="1/12/2017 - 16:36:09" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="20" status="Passed" >
+<Disp><![CDATA[GetAddressesByCompanyIdAndVendorId Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T16">
+<AName><![CDATA[GetFiscalPeriodByDate]]></AName>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=FiscalYear</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:09]]></Time>
+<TimeTick>1484260569</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="25" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Get Fiscal Period By Date]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:09]]></Time>
+<TimeTick>1484260569</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="26" status="Passed" >
+<Disp><![CDATA[Custom Request: Get Fiscal Period By Date]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:09" eTime="1/12/2017 - 16:36:09" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="24" status="Passed" >
+<Disp><![CDATA[GetFiscalPeriodByDate Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T19">
+<AName><![CDATA[PayablesInvoices]]></AName>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=BatchKey</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:09]]></Time>
+<TimeTick>1484260569</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="29" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Payables Invoices]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:16]]></Time>
+<TimeTick>1484260576</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="30" status="Passed" >
+<Disp><![CDATA[Custom Request: Payables Invoices]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:09" eTime="1/12/2017 - 16:36:16" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="28" status="Passed" >
+<Disp><![CDATA[PayablesInvoices Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T22">
+<AName><![CDATA[GetCompanyIdPayablesDocumentsDocumentId]]></AName>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=BatchKey</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:16]]></Time>
+<TimeTick>1484260576</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="33" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Get Company Id Payables Documents Document Id]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:22]]></Time>
+<TimeTick>1484260582</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="34" status="Passed" >
+<Disp><![CDATA[Custom Request: Get Company Id Payables Documents Document Id]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:16" eTime="1/12/2017 - 16:36:22" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="32" status="Passed" >
+<Disp><![CDATA[GetCompanyIdPayablesDocumentsDocumentId Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T25">
+<AName><![CDATA[PostedVendorPaymentsWithModifiedDateTime]]></AName>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=BatchKey</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:22]]></Time>
+<TimeTick>1484260582</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="37" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Posted Vendor Payments With Modified Date Time]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:30]]></Time>
+<TimeTick>1484260590</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="38" status="Passed" >
+<Disp><![CDATA[Custom Request: Posted Vendor Payments With Modified Date Time]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:22" eTime="1/12/2017 - 16:36:31" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="36" status="Passed" >
+<Disp><![CDATA[PostedVendorPaymentsWithModifiedDateTime Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T28">
+<AName><![CDATA[GetCompaniesCompanyIdPayablesInvoicePayablesInvoiceId]]></AName>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=CompanyKey</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:31]]></Time>
+<TimeTick>1484260591</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="41" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Get Companies Company Id Payables Invoice Payables Invoice Id]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:32]]></Time>
+<TimeTick>1484260592</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="42" status="Passed" >
+<Disp><![CDATA[Custom Request: Get Companies Company Id Payables Invoice Payables Invoice Id]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:31" eTime="1/12/2017 - 16:36:32" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="40" status="Passed" >
+<Disp><![CDATA[GetCompaniesCompanyIdPayablesInvoicePayablesInvoiceId Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T31">
+<AName><![CDATA[PayablesInvoiceSummaries]]></AName>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=BatchKey</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:32]]></Time>
+<TimeTick>1484260592</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="45" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Payables Invoice Summaries]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:38]]></Time>
+<TimeTick>1484260598</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="46" status="Passed" >
+<Disp><![CDATA[Custom Request: Payables Invoice Summaries]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:32" eTime="1/12/2017 - 16:36:38" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="44" status="Passed" >
+<Disp><![CDATA[PayablesInvoiceSummaries Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T34">
+<AName><![CDATA[PayablesInvoiceSummariesDocumentId3]]></AName>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=BatchKey</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:38]]></Time>
+<TimeTick>1484260598</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="49" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T36">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Payables Invoice Summaries Document Id 3]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[1/12/2017 - 16:36:38]]></Time>
+<TimeTick>1484260598</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="50" status="Passed" >
+<Disp><![CDATA[Custom Request: Payables Invoice Summaries Document Id 3]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="1/12/2017 - 16:36:38" eTime="1/12/2017 - 16:36:38" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="48" status="Passed" >
+<Disp><![CDATA[PayablesInvoiceSummariesDocumentId3 Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
+<Disp><![CDATA[CSLGreatPlains Iteration 1 (Row 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Action rID="T37">
+<AName><![CDATA[vuser_end]]></AName>
+<Summary sTime="1/12/2017 - 16:36:38" eTime="1/12/2017 - 16:36:38" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="53" >
+<Disp><![CDATA[vuser_end Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="1/12/2017 - 16:36:06" eTime="1/12/2017 - 16:36:38" passed="11" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Disp><![CDATA[Test CSLGreatPlains Summary]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

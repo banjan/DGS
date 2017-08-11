@@ -1,0 +1,10 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[GetClientByClientKey]
+SnapshotIndex=I1_GetClientByClientKey
+[AuthenticateClient]
+SnapshotIndex=I1_AuthenticateClient
+[ChangeClientByClientKey]
+SnapshotIndex=I1_ChangeClientByClientKey
+[vuser_end]
+SnapshotIndex=I1_vuser_end

@@ -1,0 +1,9 @@
+GET /v1/GreatPlainsApi/Companies/4/PayablesDocuments HTTP/1.1
+Content-Type: application/json
+Referer: http://cslgreatplainsprod.gha.pvt/v1/GreatPlainsApi/FiscalPeriods?date=11/13/2015%2011:12:59%20AM
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: cslgreatplainsprod.gha.pvt
+

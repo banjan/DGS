@@ -1,0 +1,4 @@
+ValidateMembershipForUpgrade()
+{
+	return 0;
+}

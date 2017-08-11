@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/xml
+StepName=Custom Request: Get Number
+Total=1
+FileName1=t1.xml
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Get Number
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1498508630861
+URL1=http://partnerchannelqa1.testgs.pvt/loyalty/Number/3876952402141?token=704EB0F6-7EA7-4691-9D22-CEC10CF4EC5C&clientKey=F3C25177-1740-412C-8FE7-36B1D6C92AFE

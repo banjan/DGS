@@ -1,0 +1,24 @@
+Virtual User Script started at : 2/22/2017 10:49:50 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetMerchandisedProductDetails.
+GetMerchandisedProductDetails.c(3): Notify: Transaction "LoyaltyMerchandisingService_GetMerchandisedProductDetails" started.
+GetMerchandisedProductDetails.c(5): Web service call "GetMerchandisedProductDetails_101" started
+GetMerchandisedProductDetails.c(5): Web service call "GetMerchandisedProductDetails_101" was successful
+GetMerchandisedProductDetails.c(23): Notify: Transaction "LoyaltyMerchandisingService_GetMerchandisedProductDetails" ended with a "Pass" status (Duration: 0.6457 Wasted Time: 0.1958).
+Ending action GetMerchandisedProductDetails.
+Starting action GetMerchandisedProducts.
+GetMerchandisedProducts.c(3): Notify: Transaction "LoyaltyMerchandisingService_GetMerchandisedProducts" started.
+GetMerchandisedProducts.c(5): Web service call "GetMerchandisedProducts_101" started
+GetMerchandisedProducts.c(5): Web service call "GetMerchandisedProducts_101" was successful
+GetMerchandisedProducts.c(23): Notify: Transaction "LoyaltyMerchandisingService_GetMerchandisedProducts" ended with a "Pass" status (Duration: 0.1195 Wasted Time: 0.0819).
+Ending action GetMerchandisedProducts.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

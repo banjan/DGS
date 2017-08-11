@@ -1,0 +1,10 @@
+[DeliverOrder]
+SnapshotIndex=I1_DeliverOrder
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[RetrieveReadyToDeliverOrders]
+SnapshotIndex=I1_RetrieveReadyToDeliverOrders
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[RetrievePartnerInventoryThresholds]
+SnapshotIndex=I1_RetrievePartnerInventoryThresholds

@@ -1,0 +1,30 @@
+Virtual User Script started at : 2/22/2017 11:33:58 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Web service call "GetAllPointsHistory_102" started
+Action.c(4): Web service call "GetAllPointsHistory_102" was successful
+Action.c(23): Web service call "GetPointsBalance_103" started
+Action.c(23): Web service call "GetPointsBalance_103" was successful
+Action.c(40): Web service call "GetPointsHistory_102" started
+Action.c(40): Web service call "GetPointsHistory_102" was successful
+Action.c(59): Web service call "GetPointSubTypes_102" started
+Action.c(59): Web service call "GetPointSubTypes_102" was successful
+Action.c(100): Web service call "IsServiceHealthy_101" started
+Action.c(100): Web service call "IsServiceHealthy_101" was successful
+Action.c(112): Web service call "SendPointsActivity_101" started
+Action.c(112): Web service call "SendPointsActivity_101" was successful
+Ending action Action.
+Starting action GetPointsHistory.
+GetPointsHistory.c(3): Notify: Transaction "LoyaltyPointsService_GetPointsHistory" started.
+GetPointsHistory.c(5): Web service call "GetPointsHistory_101" started
+GetPointsHistory.c(5): Web service call "GetPointsHistory_101" was successful
+GetPointsHistory.c(24): Notify: Transaction "LoyaltyPointsService_GetPointsHistory" ended with a "Pass" status (Duration: 0.1155 Wasted Time: 0.0027).
+Ending action GetPointsHistory.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

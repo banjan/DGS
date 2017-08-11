@@ -1,0 +1,22 @@
+Virtual User Script started at : 1/3/2017 9:27:56 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetFreeDlcCodesForProducts.
+GetFreeDlcCodesForProducts.c(3): Notify: Transaction "DigitalContentService_GetFreeDlcCodesForProducts" started.
+GetFreeDlcCodesForProducts.c(5): Web service call "GetFreeDlcCodesForProducts_101" started
+GetFreeDlcCodesForProducts.c(5): Web service call "GetFreeDlcCodesForProducts_101" was successful
+GetFreeDlcCodesForProducts.c(28): Notify: Transaction "DigitalContentService_GetFreeDlcCodesForProducts" ended with a "Pass" status (Duration: 0.4378 Wasted Time: 0.3353).
+Ending action GetFreeDlcCodesForProducts.
+Starting action GetSkusWithFreeDLC.
+GetSkusWithFreeDLC.c(3): Notify: Transaction "DigitalContentService_GetSkusWithFreeDLC" started.
+GetSkusWithFreeDLC.c(5): Web service call "GetSkusWithFreeDLC_102" started
+GetSkusWithFreeDLC.c(5): Web service call "GetSkusWithFreeDLC_102" was successful
+GetSkusWithFreeDLC.c(21): Notify: Transaction "DigitalContentService_GetSkusWithFreeDLC" ended with a "Pass" status (Duration: 0.0278 Wasted Time: 0.0060).
+Ending action GetSkusWithFreeDLC.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

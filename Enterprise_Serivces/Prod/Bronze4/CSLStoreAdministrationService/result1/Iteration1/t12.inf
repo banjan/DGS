@@ -1,0 +1,13 @@
+[t12]
+SnapshotXmlFile=snapshot_12.xml
+ContentType=application/xml
+StepName=
+Total=1
+FileName1=t12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=
+RequestBodyFile=t12_RequestBody.txt
+RawStepStartTime=0
+URL1=http://cslstoreadministrationserviceqa1.testgs.pvt/StoreAdministrationService.svc

@@ -1,0 +1,12 @@
+<?xml-stylesheet href="..\web_service_call.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\HP\LoadRunner\">
+  <web_service_call>
+    <service name="ProductService" />
+    <port name="ProductServiceHttp" />
+    <operation name="GetProduct" />
+    <wsdl location="http://cslproductserviceqa1.testgs.pvt/ProductService.svc?singleWsdl" />
+    <address url="" />
+    <toolkit name=".Net" />
+    <aspect name="Positive Testing" />
+  </web_service_call>
+</report>

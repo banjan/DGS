@@ -1,0 +1,24 @@
+Virtual User Script started at : 2/14/2017 10:32:46 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action UpdateHopsConfigurationForStore.
+UpdateHopsConfigurationForStore.c(3): Notify: Transaction "HopsService_UpdateHopsConfigurationForStore" started.
+UpdateHopsConfigurationForStore.c(5): Web service call "UpdateHopsConfigurationForStore_101" started
+UpdateHopsConfigurationForStore.c(5): Web service call "UpdateHopsConfigurationForStore_101" was successful
+UpdateHopsConfigurationForStore.c(31): Notify: Transaction "HopsService_UpdateHopsConfigurationForStore" ended with a "Pass" status (Duration: 0.2840 Wasted Time: 0.2208).
+Ending action UpdateHopsConfigurationForStore.
+Starting action GetActiveHopsForStore.
+GetActiveHopsForStore.c(3): Notify: Transaction "HopsService_GetActiveHopsForStore" started.
+GetActiveHopsForStore.c(5): Web service call "GetActiveHopsForStore_101" started
+GetActiveHopsForStore.c(5): Web service call "GetActiveHopsForStore_101" was successful
+GetActiveHopsForStore.c(24): Notify: Transaction "HopsService_GetActiveHopsForStore" ended with a "Pass" status (Duration: 0.0323 Wasted Time: 0.0083).
+Ending action GetActiveHopsForStore.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

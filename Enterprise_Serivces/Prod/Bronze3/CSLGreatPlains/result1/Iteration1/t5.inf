@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=DummyContentType
+StepName=Custom Request: Get Fiscal Period By Date
+Total=1
+FileName1=t5.UNK
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Get Fiscal Period By Date
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1484260569656
+URL1=http://cslgreatplainsprod.gha.pvt/v1/GreatPlainsApi/FiscalPeriods?date=11/13/2015 11:12:59 AM

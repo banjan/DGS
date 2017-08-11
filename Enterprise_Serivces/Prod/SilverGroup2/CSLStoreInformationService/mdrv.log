@@ -1,0 +1,18 @@
+Virtual User Script started at : 2/14/2017 11:01:55 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetStoreInformation.
+GetStoreInformation.c(3): Notify: Transaction "StoreInformationService_GetStoreInformation" started.
+GetStoreInformation.c(5): Web service call "GetStoreInformation_101" started
+GetStoreInformation.c(5): Web service call "GetStoreInformation_101" was successful
+GetStoreInformation.c(24): Notify: Transaction "StoreInformationService_GetStoreInformation" ended with a "Pass" status (Duration: 0.3618 Wasted Time: 0.2925).
+Ending action GetStoreInformation.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

@@ -1,0 +1,16 @@
+Virtual User Script started at : 3/1/2017 2:10:48 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action DeclineHops.
+DeclineHops.c(3): Notify: Transaction "HopsService_DeclineHops" started.
+DeclineHops.c(5): Web service call "DeclineHops_101" started
+DeclineHops.c(5): Web service call "DeclineHops_101" was successful
+DeclineHops.c(26): Notify: Transaction "HopsService_DeclineHops" ended with a "Pass" status (Duration: 0.2113 Wasted Time: 0.1383).
+Ending action DeclineHops.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

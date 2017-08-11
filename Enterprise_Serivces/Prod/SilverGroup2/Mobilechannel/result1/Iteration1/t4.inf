@@ -1,0 +1,13 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=application/xml
+StepName=Custom Request: Availability
+Total=1
+FileName1=t4.xml
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Availability
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1484866649948
+URL1=http://mobilechannelprod.gha.pvt/configuration/verify/health

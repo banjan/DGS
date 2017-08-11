@@ -1,0 +1,6 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[CreateOfferForCustomer]
+SnapshotIndex=I1_CreateOfferForCustomer
+[vuser_end]
+SnapshotIndex=I1_vuser_end

@@ -1,0 +1,8 @@
+[GetValidDevices]
+SnapshotIndex=I1_GetValidDevices
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[ValidateDevice]
+SnapshotIndex=I1_ValidateDevice
+[vuser_end]
+SnapshotIndex=I1_vuser_end

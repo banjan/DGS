@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetProductInstructionResponse xmlns="http://www.gamestop.com/CSL/AllSparkCatalog/V1.0"><ProductInstruction xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AllSparkID>20140</AllSparkID><ProductsInstructions><Instruction><InstructionTypeID>289</InstructionTypeID><DeliveryMethod>MobileTextMessage</DeliveryMethod><CultureCode>en-US</CultureCode><InstructionTypeName>20140_World of Warcraft: Panda DNC SD9/25</InstructionTypeName><IsPlatformLevelInstruction>false</IsPlatformLevelInstruction><InstructionText>TO REDEEM YOUR CODE ON BATTLE.NET: 1. Go to battle.net/code 2. Create a FREE Battle.net account or Log in. 3. Enter the activation code.</InstructionText><InstructionLink /></Instruction><Instruction><InstructionTypeID>289</InstructionTypeID><DeliveryMethod>Locker</DeliveryMethod><CultureCode>en-US</CultureCode><InstructionTypeName>20140_World of Warcraft: Panda DNC SD9/25</InstructionTypeName><IsPlatformLevelInstruction>false</IsPlatformLevelInstruction><InstructionText>
+
+ TO REDEEM YOUR CODE ON BATTLE.NET: 
+1. Go to battle.net/code 
+ 2. Create a FREE Battle.netÂ® account. If you already have one, log in. 
+ 3. Enter the activation code printed on your receipt. 
+ 4. Download &amp; install the client. Youâ€™re ready to play!</InstructionText><InstructionLink /></Instruction><Instruction><InstructionTypeID>289</InstructionTypeID><DeliveryMethod>Receipt</DeliveryMethod><CultureCode>en-US</CultureCode><InstructionTypeName>20140_World of Warcraft: Panda DNC SD9/25</InstructionTypeName><IsPlatformLevelInstruction>false</IsPlatformLevelInstruction><InstructionText>
+
+ TO REDEEM YOUR CODE ON BATTLE.NET: 
+1. Go to battle.net/code 
+ 2. Create a FREE Battle.netÂ® account. If you already have one, log in. 
+ 3. Enter the activation code printed on your receipt. 
+ 4. Download &amp; install the client. Youâ€™re ready to play!</InstructionText><InstructionLink /></Instruction><Instruction><InstructionTypeID>5</InstructionTypeID><DeliveryMethod>Receipt</DeliveryMethod><CultureCode>en-CA</CultureCode><InstructionTypeName>Activision_PC</InstructionTypeName><IsPlatformLevelInstruction>true</IsPlatformLevelInstruction><InstructionText>
+
+ TO REDEEM YOUR CODE ON BATTLE.NET: 
+1. Go to battle.net/code 
+ 2. Create a FREE Battle.netÂ® account. If you already have one, log in. 
+ 3. Enter the activation code printed on your receipt. 
+ 4. Download &amp; install the client. Youâ€™re ready to play!</InstructionText><InstructionLink /></Instruction><Instruction><InstructionTypeID>5</InstructionTypeID><DeliveryMethod>Receipt</DeliveryMethod><CultureCode>fr-CA</CultureCode><InstructionTypeName>Activision_PC</InstructionTypeName><IsPlatformLevelInstruction>true</IsPlatformLevelInstruction><InstructionText>POUR Ã‰CHANGER VOTRE CODE SUR BATTLE.NET :
+1. Rendez-vous Ã  battle.net/code
+2. CrÃ©ez GRATUITEMENT un compte Battle.netÂ®. Si vous en avez dÃ©jÃ  un, ouvrez une session.
+3. Entrez le code dâ€™activation qui figure sur le reÃ§u.
+4. TÃ©lÃ©chargez &amp;amp; installez le client. Vous Ãªtes prÃªts Ã  jouer!</InstructionText><InstructionLink /></Instruction><Instruction><InstructionTypeID>5</InstructionTypeID><DeliveryMethod>EmailAddress</DeliveryMethod><CultureCode>en-US</CultureCode><InstructionTypeName>Activision_PC</InstructionTypeName><IsPlatformLevelInstruction>true</IsPlatformLevelInstruction><InstructionText>&lt;p&gt;&lt;p&gt;-&lt;br /&gt;Go to www.battle.net/playd3&lt;br /&gt;- Create a FREE Battle.net account or if you already have one, log in.&lt;br /&gt;- Enter the activation code printed on this receipt&lt;br /&gt;- Create a BattleTag (this is your Battle.net user name)&lt;br /&gt;- Download and install Diablo III&lt;/p&gt;&lt;/p&gt;</InstructionText><InstructionLink /></Instruction></ProductsInstructions></ProductInstruction></GetProductInstructionResponse></s:Body></s:Envelope>

@@ -1,0 +1,17 @@
+[
+    {
+        "transactionName": "RealmAssociationService_ClearExpiredAssociations",
+        "rawStartTime": 1484781641209,
+        "rawEndTime": 1484781641463
+    },
+    {
+        "transactionName": "RealmAssociationService_GetAssociationByHandle",
+        "rawStartTime": 1484781641466,
+        "rawEndTime": 1484781641495
+    },
+    {
+        "transactionName": "RealmAssociationService_GetAssociationBySecuritySettings",
+        "rawStartTime": 1484781641498,
+        "rawEndTime": 1484781641535
+    }
+]

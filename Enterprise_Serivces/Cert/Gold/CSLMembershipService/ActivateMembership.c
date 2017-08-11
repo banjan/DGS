@@ -1,0 +1,4 @@
+ActivateMembership()
+{
+	return 0;
+}

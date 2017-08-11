@@ -1,0 +1,1809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://www.gamestop.com/csl/configuration/v1.0" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:tns="http://www.gamestop.com/csl/configuration/v1.0" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.gamestop.com/CSL/Configuration/v1.0" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/CSL/Configuration/v1.0" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:complexType name="DefaultValue"><xs:sequence><xs:element minOccurs="0" name="ObjectListValue" nillable="true" type="q1:ArrayOfArrayOfKeyValueOfstringstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="ObjectValue" nillable="true" type="q2:ArrayOfKeyValueOfstringstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="SettingDefinitionId" nillable="true" type="xs:int"/><xs:element minOccurs="0" name="StringListValue" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="DefaultValue" nillable="true" type="tns:DefaultValue"/></xs:schema>
+    <xsd:schema targetNamespace="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/csl/configuration/v1.0" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xsd:import namespace="http://www.gamestop.com/csl/configuration/v1.0"/><xsd:import namespace="http://www.gamestop.com/services/core/contracts/faults/2011/04"/><xsd:import namespace="http://www.gamestop.com/CSL/Core/V1.0"/><xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/"/></xsd:schema>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xs:complexType name="ArrayOfArrayOfKeyValueOfstringstring"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="ArrayOfKeyValueOfstringstring" nillable="true" type="tns:ArrayOfKeyValueOfstringstring"/></xs:sequence></xs:complexType><xs:element name="ArrayOfArrayOfKeyValueOfstringstring" nillable="true" type="tns:ArrayOfArrayOfKeyValueOfstringstring"/><xs:complexType name="ArrayOfKeyValueOfstringstring"><xs:annotation><xs:appinfo><IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary></xs:appinfo></xs:annotation><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="KeyValueOfstringstring"><xs:complexType><xs:sequence><xs:element name="Key" nillable="true" type="xs:string"/><xs:element name="Value" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element></xs:sequence></xs:complexType><xs:element name="ArrayOfKeyValueOfstringstring" nillable="true" type="tns:ArrayOfKeyValueOfstringstring"/><xs:complexType name="ArrayOfstring"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="string" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring"/><xs:complexType name="ArrayOfint"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="int" type="xs:int"/></xs:sequence></xs:complexType><xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint"/></xs:schema>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.gamestop.com/csl/configuration/v1.0" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/csl/configuration/v1.0" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/"/><xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element name="CreateTemplateRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="CorrelationID" type="ser:guid"/><xs:element name="MachineName" nillable="true" type="xs:string"/><xs:element name="CreateTemplateResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="TemplateId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="ChangeTemplateNameRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="TemplateId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="ChangeTemplateNameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteTemplateRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="TemplateId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteTemplateResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="CreateSectionRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="TemplateId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="CreateSectionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="SectionId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteSectionRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="SectionId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteSectionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="ChangeSectionNameRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="SectionId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="ChangeSectionNameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="CreateSettingDefinitionRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="SectionId" type="xs:int"/><xs:element minOccurs="0" name="SettingValueType" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="ValueProperties" nillable="true" type="q1:ArrayOfPropertyDefinition" xmlns:q1="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType></xs:element><xs:complexType name="ArrayOfPropertyDefinition"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="PropertyDefinition" nillable="true" type="q2:PropertyDefinition" xmlns:q2="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="ArrayOfPropertyDefinition" nillable="true" type="q3:ArrayOfPropertyDefinition" xmlns:q3="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="PropertyDefinition"><xs:sequence><xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="ValidationExpression" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="PropertyDefinition" nillable="true" type="q4:PropertyDefinition" xmlns:q4="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element name="CreateSettingDefinitionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="UpdateSettingDefinitionRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/><xs:element minOccurs="0" name="ValueProperties" nillable="true" type="q5:ArrayOfPropertyDefinition" xmlns:q5="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType></xs:element><xs:element name="UpdateSettingDefinitionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteSettingDefinitionRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteSettingDefinitionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="CreateGroupRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="ParentGroupId" nillable="true" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="CreateGroupResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GroupId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="ChangeGroupNameRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GroupId" type="xs:int"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="ChangeGroupNameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteGroupRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GroupId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteGroupResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="AssignOverridePermissionRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GroupId" nillable="true" type="xs:int"/><xs:element minOccurs="0" name="GroupName" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="AssignOverridePermissionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="RemoveOverridePermissionRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="RemoveOverridePermissionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetAllTemplatesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Templates" nillable="true" type="q6:ArrayOfTemplateHeader" xmlns:q6="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType></xs:element><xs:complexType name="ArrayOfTemplateHeader"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="TemplateHeader" nillable="true" type="q7:TemplateHeader" xmlns:q7="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="ArrayOfTemplateHeader" nillable="true" type="q8:ArrayOfTemplateHeader" xmlns:q8="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="TemplateHeader"><xs:sequence><xs:element minOccurs="0" name="Configurations" nillable="true" type="q9:ArrayOfConfigurationHeader" xmlns:q9="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="TemplateId" type="xs:int"/></xs:sequence></xs:complexType><xs:element name="TemplateHeader" nillable="true" type="q10:TemplateHeader" xmlns:q10="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="ArrayOfConfigurationHeader"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="ConfigurationHeader" nillable="true" type="q11:ConfigurationHeader" xmlns:q11="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="ArrayOfConfigurationHeader" nillable="true" type="q12:ArrayOfConfigurationHeader" xmlns:q12="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="ConfigurationHeader"><xs:sequence><xs:element minOccurs="0" name="ConfigurationId" type="xs:int"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="ConfigurationHeader" nillable="true" type="q13:ConfigurationHeader" xmlns:q13="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element name="GetTemplateDetailsRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="TemplateId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateDetailsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Template" nillable="true" type="q14:TemplateDetail" xmlns:q14="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType></xs:element><xs:complexType name="TemplateDetail"><xs:sequence><xs:element minOccurs="0" name="Header" nillable="true" type="q15:TemplateHeader" xmlns:q15="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element minOccurs="0" name="Sections" nillable="true" type="q16:ArrayOfSectionDetail" xmlns:q16="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="TemplateDetail" nillable="true" type="q17:TemplateDetail" xmlns:q17="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="ArrayOfSectionDetail"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="SectionDetail" nillable="true" type="q18:SectionDetail" xmlns:q18="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="ArrayOfSectionDetail" nillable="true" type="q19:ArrayOfSectionDetail" xmlns:q19="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="SectionDetail"><xs:sequence><xs:element minOccurs="0" name="Id" type="xs:int"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="SettingDefinitions" nillable="true" type="q20:ArrayOfSettingDefinitionHeader" xmlns:q20="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="SectionDetail" nillable="true" type="q21:SectionDetail" xmlns:q21="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="ArrayOfSettingDefinitionHeader"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="SettingDefinitionHeader" nillable="true" type="q22:SettingDefinitionHeader" xmlns:q22="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="ArrayOfSettingDefinitionHeader" nillable="true" type="q23:ArrayOfSettingDefinitionHeader" xmlns:q23="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="SettingDefinitionHeader"><xs:sequence><xs:element minOccurs="0" name="Id" type="xs:int"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="ValueType" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="SettingDefinitionHeader" nillable="true" type="q24:SettingDefinitionHeader" xmlns:q24="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element name="GetDefaultConfigurationRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ConfigurationId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetDefaultConfigurationResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Configuration" nillable="true" type="q25:Configuration" xmlns:q25="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType></xs:element><xs:complexType name="Configuration"><xs:sequence><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="Sections" nillable="true" type="q26:ArrayOfConfiguredSection" xmlns:q26="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element minOccurs="0" name="Template" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="Configuration" nillable="true" type="q27:Configuration" xmlns:q27="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="ArrayOfConfiguredSection"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="ConfiguredSection" nillable="true" type="q28:ConfiguredSection" xmlns:q28="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="ArrayOfConfiguredSection" nillable="true" type="q29:ArrayOfConfiguredSection" xmlns:q29="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="ConfiguredSection"><xs:sequence><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="Settings" nillable="true" type="q30:ArrayOfSetting" xmlns:q30="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="ConfiguredSection" nillable="true" type="q31:ConfiguredSection" xmlns:q31="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="ArrayOfSetting"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="Setting" nillable="true" type="q32:Setting" xmlns:q32="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="ArrayOfSetting" nillable="true" type="q33:ArrayOfSetting" xmlns:q33="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="Setting"><xs:sequence><xs:element minOccurs="0" name="ObjectListValue" nillable="true" type="q34:ArrayOfArrayOfKeyValueOfstringstring" xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="ObjectValue" nillable="true" type="q35:ArrayOfKeyValueOfstringstring" xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="SettingDefintion" nillable="true" type="q36:SettingDefinitionHeader" xmlns:q36="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element minOccurs="0" name="StringListValue" nillable="true" type="q37:ArrayOfstring" xmlns:q37="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="Setting" nillable="true" type="q38:Setting" xmlns:q38="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element name="GetOverrideValuesRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ConfigurationId" type="xs:int"/><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetOverrideValuesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="DefaultValue" nillable="true" type="q39:DefaultValue" xmlns:q39="http://www.gamestop.com/CSL/Configuration/v1.0"/><xs:element minOccurs="0" name="Definition" nillable="true" type="q40:SettingDefinition" xmlns:q40="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element minOccurs="0" name="Group" nillable="true" type="q41:Group" xmlns:q41="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType></xs:element><xs:complexType name="SettingDefinition"><xs:sequence><xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/><xs:element minOccurs="0" name="ValueProperties" nillable="true" type="q42:ArrayOfPropertyDefinition" xmlns:q42="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element minOccurs="0" name="ValueType" nillable="true" type="xs:string"/></xs:sequence><xs:attribute ref="ser:Id"/><xs:attribute ref="ser:Ref"/></xs:complexType><xs:element name="SettingDefinition" nillable="true" type="q43:SettingDefinition" xmlns:q43="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="Group"><xs:sequence><xs:element minOccurs="0" name="ChildGroups" nillable="true" type="q44:ArrayOfGroup" xmlns:q44="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element minOccurs="0" name="GroupId" type="xs:int"/><xs:element minOccurs="0" name="GroupName" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="OverrideValues" nillable="true" type="q45:ArrayOfOverrideValue" xmlns:q45="http://www.gamestop.com/CSL/Configuration/V1"/><xs:element minOccurs="0" name="StoresInGroup" nillable="true" type="q46:ArrayOfStoreGroup" xmlns:q46="http://www.gamestop.com/CSL/Configuration/V1"/></xs:sequence><xs:attribute ref="ser:Id"/><xs:attribute ref="ser:Ref"/></xs:complexType><xs:element name="Group" nillable="true" type="q47:Group" xmlns:q47="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="ArrayOfGroup"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="Group" nillable="true" type="q48:Group" xmlns:q48="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="ArrayOfGroup" nillable="true" type="q49:ArrayOfGroup" xmlns:q49="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element name="SetValueOverrideRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ConfigurationId" type="xs:int"/><xs:element minOccurs="0" name="GroupId" nillable="true" type="xs:int"/><xs:element minOccurs="0" name="ObjectListValue" nillable="true" type="q50:ArrayOfArrayOfKeyValueOfstringstring" xmlns:q50="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="ObjectValue" nillable="true" type="q51:ArrayOfKeyValueOfstringstring" xmlns:q51="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/><xs:element minOccurs="0" name="StoreNumber" nillable="true" type="xs:int"/><xs:element minOccurs="0" name="StringListValue" nillable="true" type="q52:ArrayOfstring" xmlns:q52="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="SetValueOverrideResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteOverrideValueRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ConfigurationId" type="xs:int"/><xs:element minOccurs="0" name="GroupId" nillable="true" type="xs:int"/><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/><xs:element minOccurs="0" name="StoreId" nillable="true" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteOverrideValueResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetRootGroupsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Groups" nillable="true" type="q53:ArrayOfGroupHeader" xmlns:q53="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType></xs:element><xs:complexType name="ArrayOfGroupHeader"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="GroupHeader" nillable="true" type="q54:GroupHeader" xmlns:q54="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType><xs:element name="ArrayOfGroupHeader" nillable="true" type="q55:ArrayOfGroupHeader" xmlns:q55="http://www.gamestop.com/csl/configuration/v1.0"/><xs:complexType name="GroupHeader"><xs:sequence><xs:element minOccurs="0" name="GroupId" type="xs:int"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="GroupHeader" nillable="true" type="q56:GroupHeader" xmlns:q56="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element name="AddStoresToGroupRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GroupId" type="xs:int"/><xs:element minOccurs="0" name="StoreNumbers" nillable="true" type="q57:ArrayOfint" xmlns:q57="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddStoresToGroupResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="RemoveStoreFromGroupRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GroupId" type="xs:int"/><xs:element minOccurs="0" name="StoreNumber" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="RemoveStoreFromGroupResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetStoreConfigurationRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ConfigurationId" type="xs:int"/><xs:element minOccurs="0" name="StoreNumber" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetStoreConfigurationResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Configuration" nillable="true" type="q58:Configuration" xmlns:q58="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element minOccurs="0" name="StoreNumber" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetStoreConfigurationByNameRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="BaseConfigName" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="StoreNumber" type="xs:int"/><xs:element minOccurs="0" name="TemplateName" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetStoreConfigurationByNameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Configuration" nillable="true" type="q59:Configuration" xmlns:q59="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element minOccurs="0" name="StoreNumber" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetGroupConfigurationRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ConfigurationId" type="xs:int"/><xs:element minOccurs="0" name="GroupId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetGroupConfigurationResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Configuration" nillable="true" type="q60:Configuration" xmlns:q60="http://www.gamestop.com/csl/configuration/v1.0"/><xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="SetDefaultValueRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ConfigurationId" type="xs:int"/><xs:element minOccurs="0" name="ObjectListValue" nillable="true" type="q61:ArrayOfArrayOfKeyValueOfstringstring" xmlns:q61="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="ObjectValue" nillable="true" type="q62:ArrayOfKeyValueOfstringstring" xmlns:q62="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/><xs:element minOccurs="0" name="StringListValue" nillable="true" type="q63:ArrayOfstring" xmlns:q63="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="SetDefaultValueResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ResponseType" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetGroupByGroupIdRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GroupId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetGroupByGroupIdResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Group" nillable="true" type="q64:Group" xmlns:q64="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetSettingDefinitionRequest"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="SettingDefinitionId" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetSettingDefinitionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="SettingDefinition" nillable="true" type="q65:SettingDefinition" xmlns:q65="http://www.gamestop.com/csl/configuration/v1.0"/></xs:sequence></xs:complexType></xs:element></xs:schema>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.gamestop.com/services/core/messages/2010/08" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/services/core/messages/2010/08" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xs:complexType name="IsServiceAliveResponse"><xs:sequence><xs:element minOccurs="0" name="IsAlive" type="xs:boolean"/></xs:sequence></xs:complexType><xs:element name="IsServiceAliveResponse" nillable="true" type="tns:IsServiceAliveResponse"/><xs:complexType name="IsServiceHealthyResponse"><xs:sequence><xs:element minOccurs="0" name="IsHealthy" type="xs:boolean"/></xs:sequence></xs:complexType><xs:element name="IsServiceHealthyResponse" nillable="true" type="tns:IsServiceHealthyResponse"/></xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xs:element name="anyType" nillable="true" type="xs:anyType"/><xs:element name="anyURI" nillable="true" type="xs:anyURI"/><xs:element name="base64Binary" nillable="true" type="xs:base64Binary"/><xs:element name="boolean" nillable="true" type="xs:boolean"/><xs:element name="byte" nillable="true" type="xs:byte"/><xs:element name="dateTime" nillable="true" type="xs:dateTime"/><xs:element name="decimal" nillable="true" type="xs:decimal"/><xs:element name="double" nillable="true" type="xs:double"/><xs:element name="float" nillable="true" type="xs:float"/><xs:element name="int" nillable="true" type="xs:int"/><xs:element name="long" nillable="true" type="xs:long"/><xs:element name="QName" nillable="true" type="xs:QName"/><xs:element name="short" nillable="true" type="xs:short"/><xs:element name="string" nillable="true" type="xs:string"/><xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte"/><xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt"/><xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong"/><xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort"/><xs:element name="char" nillable="true" type="tns:char"/><xs:simpleType name="char"><xs:restriction base="xs:int"/></xs:simpleType><xs:element name="duration" nillable="true" type="tns:duration"/><xs:simpleType name="duration"><xs:restriction base="xs:duration"><xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?"/><xs:minInclusive value="-P10675199DT2H48M5.4775808S"/><xs:maxInclusive value="P10675199DT2H48M5.4775807S"/></xs:restriction></xs:simpleType><xs:element name="guid" nillable="true" type="tns:guid"/><xs:simpleType name="guid"><xs:restriction base="xs:string"><xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}"/></xs:restriction></xs:simpleType><xs:attribute name="FactoryType" type="xs:QName"/><xs:attribute name="Id" type="xs:ID"/><xs:attribute name="Ref" type="xs:IDREF"/></xs:schema>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xs:complexType name="ExpectedFaultDetail"><xs:sequence><xs:element name="FaultCode" nillable="true" type="xs:string"/><xs:element name="Message" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="ExpectedFaultDetail" nillable="true" type="tns:ExpectedFaultDetail"/></xs:schema>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.gamestop.com/CSL/Core/V1.0" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/CSL/Core/V1.0" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/"/><xs:complexType name="SenderFaultDetail"><xs:sequence><xs:element minOccurs="0" name="ReferenceID" type="ser:guid"/><xs:element name="FailedBodyElements" nillable="true" type="tns:ArrayOfFailedBodyElement"/></xs:sequence></xs:complexType><xs:element name="SenderFaultDetail" nillable="true" type="tns:SenderFaultDetail"/><xs:complexType name="ArrayOfFailedBodyElement"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="FailedBodyElement" nillable="true" type="tns:FailedBodyElement"/></xs:sequence></xs:complexType><xs:element name="ArrayOfFailedBodyElement" nillable="true" type="tns:ArrayOfFailedBodyElement"/><xs:complexType name="FailedBodyElement"><xs:sequence><xs:element name="Name" nillable="true" type="xs:string"/><xs:element name="Message" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="Tag" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="FailedBodyElement" nillable="true" type="tns:FailedBodyElement"/><xs:complexType name="ReceiverFaultDetail"><xs:sequence><xs:element name="Message" nillable="true" type="xs:string"/><xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/><xs:element name="ContactAdministrator" type="xs:boolean"/><xs:element minOccurs="0" name="ReferenceID" type="ser:guid"/></xs:sequence></xs:complexType><xs:element name="ReceiverFaultDetail" nillable="true" type="tns:ReceiverFaultDetail"/></xs:schema>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.gamestop.com/CSL/Configuration/V1" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/CSL/Configuration/V1" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:complexType name="ArrayOfOverrideValue"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="OverrideValue" nillable="true" type="tns:OverrideValue"/></xs:sequence></xs:complexType><xs:element name="ArrayOfOverrideValue" nillable="true" type="tns:ArrayOfOverrideValue"/><xs:complexType name="OverrideValue"><xs:sequence><xs:element minOccurs="0" name="BaseConfigurationId" nillable="true" type="xs:int"/><xs:element minOccurs="0" name="ObjectListValue" nillable="true" type="q1:ArrayOfArrayOfKeyValueOfstringstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="ObjectValue" nillable="true" type="q2:ArrayOfKeyValueOfstringstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="SettingDefinitionId" nillable="true" type="xs:int"/><xs:element minOccurs="0" name="StringListValue" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string"/></xs:sequence></xs:complexType><xs:element name="OverrideValue" nillable="true" type="tns:OverrideValue"/><xs:complexType name="ArrayOfStoreGroup"><xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="StoreGroup" nillable="true" type="tns:StoreGroup"/></xs:sequence></xs:complexType><xs:element name="ArrayOfStoreGroup" nillable="true" type="tns:ArrayOfStoreGroup"/><xs:complexType name="StoreGroup"><xs:sequence><xs:element minOccurs="0" name="GroupId" nillable="true" type="xs:int"/><xs:element minOccurs="0" name="OverrideValues" nillable="true" type="tns:ArrayOfOverrideValue"/><xs:element minOccurs="0" name="StoreNumber" type="xs:int"/></xs:sequence></xs:complexType><xs:element name="StoreGroup" nillable="true" type="tns:StoreGroup"/></xs:schema>
+    <xsd:schema targetNamespace="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xs:import namespace="http://www.gamestop.com/services/core/messages/2010/08"/><xs:element name="GetVersion"><xs:complexType><xs:sequence/></xs:complexType></xs:element><xs:element name="GetVersionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetVersionResult" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="IsServiceAlive"><xs:complexType><xs:sequence/></xs:complexType></xs:element><xs:element name="IsServiceAliveResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="IsServiceAliveResult" nillable="true" type="q1:IsServiceAliveResponse" xmlns:q1="http://www.gamestop.com/services/core/messages/2010/08"/></xs:sequence></xs:complexType></xs:element><xs:element name="IsServiceHealthy"><xs:complexType><xs:sequence/></xs:complexType></xs:element><xs:element name="IsServiceHealthyResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="IsServiceHealthyResult" nillable="true" type="q2:IsServiceHealthyResponse" xmlns:q2="http://www.gamestop.com/services/core/messages/2010/08"/></xs:sequence></xs:complexType></xs:element></xs:schema>
+  </wsdl:types>
+  <wsdl:message name="IConfigurationService_CreateTemplate_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_CreateSettingDefinition_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetRootGroups_InputMessage">
+  </wsdl:message>
+  <wsdl:message name="AddStoresToGroupResponse">
+    <wsdl:part name="parameters" element="tns:AddStoresToGroupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteOverrideValue_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_UpdateSettingDefintion_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SetValueOverrideRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetGroupByGroupIdResponse">
+    <wsdl:part name="parameters" element="tns:GetGroupByGroupIdResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateSectionRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_RemoveOverridePermission_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_ChangeTemplateName_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetStoreConfigurationRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetTemplateDetails_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_UpdateSettingDefintion_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteSettingDefinition_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AssignOverridePermissionRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ChangeSectionNameRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetStoreConfigurationByNameRequest">
+    <wsdl:part name="parameters" element="tns:GetStoreConfigurationByNameRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetStoreConfiguration_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_ChangeSectionName_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetGroupConfiguration_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetRootGroups_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetSettingDefinitionRequest">
+    <wsdl:part name="parameters" element="tns:GetSettingDefinitionRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteSectionRequest">
+    <wsdl:part name="parameters" element="tns:DeleteSectionRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_SetDefaultValue_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetAllTemplatesResponse">
+    <wsdl:part name="parameters" element="tns:GetAllTemplatesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateSettingDefinitionResponse">
+    <wsdl:part name="parameters" element="tns:CreateSettingDefinitionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AddStoresToGroupRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetRootGroups_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteSettingDefinition_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteTemplateRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_SetOverrideValue_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_ChangeGroupName_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetDefaultConfigurationResponse">
+    <wsdl:part name="parameters" element="tns:GetDefaultConfigurationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateGroupResponse">
+    <wsdl:part name="parameters" element="tns:CreateGroupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetTemplateDetailsRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetStoreConfigurationByName_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetSettingDefinition_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetTemplateDetails_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetDefaultConfiguration_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetGroupByGroupId_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ChangeGroupNameRequest">
+    <wsdl:part name="parameters" element="tns:ChangeGroupNameRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_CreateSection_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_RemoveStoreFromGroup_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetRootGroups_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateSettingDefinitionRequest">
+    <wsdl:part name="parameters" element="tns:UpdateSettingDefinitionRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetOverrideValuesRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteOverrideValue_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetStoreConfigurationRequest">
+    <wsdl:part name="parameters" element="tns:GetStoreConfigurationRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ChangeGroupNameRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_CreateTemplate_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IServiceBase_IsServiceAlive_InputMessage">
+    <wsdl:part name="parameters" element="i0:IsServiceAlive">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_ChangeGroupName_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ChangeGroupNameResponse">
+    <wsdl:part name="parameters" element="tns:ChangeGroupNameResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_SetOverrideValue_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetDefaultConfiguration_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetOverrideValuesRequest">
+    <wsdl:part name="parameters" element="tns:GetOverrideValuesRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SetDefaultValueResponse">
+    <wsdl:part name="parameters" element="tns:SetDefaultValueResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetStoreConfigurationByNameResponse">
+    <wsdl:part name="parameters" element="tns:GetStoreConfigurationByNameResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetGroupByGroupId_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetGroupConfigurationResponse">
+    <wsdl:part name="parameters" element="tns:GetGroupConfigurationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteTemplate_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetStoreConfiguration_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AddStoresToGroupRequest">
+    <wsdl:part name="parameters" element="tns:AddStoresToGroupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_CreateGroup_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_RemoveOverridePermission_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteTemplateResponse">
+    <wsdl:part name="parameters" element="tns:DeleteTemplateResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetTemplateDetailsRequest">
+    <wsdl:part name="parameters" element="tns:GetTemplateDetailsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteSectionResponse">
+    <wsdl:part name="parameters" element="tns:DeleteSectionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetTemplateDetailsResponse">
+    <wsdl:part name="parameters" element="tns:GetTemplateDetailsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IServiceBase_IsServiceHealthy_InputMessage">
+    <wsdl:part name="parameters" element="i0:IsServiceHealthy">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_RemoveOverridePermission_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteSettingDefinitionResponse">
+    <wsdl:part name="parameters" element="tns:DeleteSettingDefinitionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetOverrideValues_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="RemoveOverridePermissionRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteSectionRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateSettingDefinitionRequest">
+    <wsdl:part name="parameters" element="tns:CreateSettingDefinitionRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateGroupRequest">
+    <wsdl:part name="parameters" element="tns:CreateGroupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateTemplateRequest">
+    <wsdl:part name="parameters" element="tns:CreateTemplateRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_RemoveStoreFromGroup_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetSettingDefinition_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_SetDefaultValue_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateTemplateRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="RemoveStoreFromGroupRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetAllTemplates_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IServiceBase_GetVersion_OutputMessage">
+    <wsdl:part name="parameters" element="i0:GetVersionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetDefaultConfigurationRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteSection_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetSettingDefinition_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_RemoveStoreFromGroup_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="RemoveOverridePermissionRequest">
+    <wsdl:part name="parameters" element="tns:RemoveOverridePermissionRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="RemoveStoreFromGroupResponse">
+    <wsdl:part name="parameters" element="tns:RemoveStoreFromGroupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetStoreConfigurationByName_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateSectionRequest">
+    <wsdl:part name="parameters" element="tns:CreateSectionRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteSettingDefinitionRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AssignOverridePermissionRequest">
+    <wsdl:part name="parameters" element="tns:AssignOverridePermissionRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SetDefaultValueRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteGroupRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteGroup_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteTemplate_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ChangeTemplateNameRequest">
+    <wsdl:part name="parameters" element="tns:ChangeTemplateNameRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetTemplateDetails_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetStoreConfiguration_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_SetOverrideValue_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetOverrideValues_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteGroupRequest">
+    <wsdl:part name="parameters" element="tns:DeleteGroupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ChangeSectionNameRequest">
+    <wsdl:part name="parameters" element="tns:ChangeSectionNameRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_ChangeSectionName_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SetValueOverrideRequest">
+    <wsdl:part name="parameters" element="tns:SetValueOverrideRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteGroupResponse">
+    <wsdl:part name="parameters" element="tns:DeleteGroupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetGroupByGroupId_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SetDefaultValueRequest">
+    <wsdl:part name="parameters" element="tns:SetDefaultValueRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetAllTemplates_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_SetDefaultValue_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="RemoveOverridePermissionResponse">
+    <wsdl:part name="parameters" element="tns:RemoveOverridePermissionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetRootGroupsResponse">
+    <wsdl:part name="parameters" element="tns:GetRootGroupsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteTemplateRequest">
+    <wsdl:part name="parameters" element="tns:DeleteTemplateRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteSettingDefinition_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateTemplateResponse">
+    <wsdl:part name="parameters" element="tns:CreateTemplateResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetAllTemplates_InputMessage">
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_AssignOverridePermission_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteSection_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetSettingDefinitionResponse">
+    <wsdl:part name="parameters" element="tns:GetSettingDefinitionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteTemplate_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_CreateTemplate_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_ChangeGroupName_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_UpdateSettingDefintion_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteSettingDefinitionRequest">
+    <wsdl:part name="parameters" element="tns:DeleteSettingDefinitionRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_CreateGroup_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetGroupByGroupIdRequest">
+    <wsdl:part name="parameters" element="tns:GetGroupByGroupIdRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IServiceBase_IsServiceAlive_OutputMessage">
+    <wsdl:part name="parameters" element="i0:IsServiceAliveResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_AddStoresToGroup_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetDefaultConfiguration_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_ChangeTemplateName_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteGroup_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetGroupConfigurationRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteOverrideValue_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ChangeSectionNameResponse">
+    <wsdl:part name="parameters" element="tns:ChangeSectionNameResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ChangeTemplateNameRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetGroupConfigurationRequest">
+    <wsdl:part name="parameters" element="tns:GetGroupConfigurationRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateSettingDefinitionRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteOverrideValueRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateSettingDefinitionRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_ChangeSectionName_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetGroupConfiguration_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_AddStoresToGroup_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IServiceBase_IsServiceHealthy_OutputMessage">
+    <wsdl:part name="parameters" element="i0:IsServiceHealthyResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_CreateSection_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IServiceBase_GetVersion_InputMessage">
+    <wsdl:part name="parameters" element="i0:GetVersion">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetDefaultConfigurationRequest">
+    <wsdl:part name="parameters" element="tns:GetDefaultConfigurationRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteOverrideValueResponse">
+    <wsdl:part name="parameters" element="tns:DeleteOverrideValueResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetSettingDefinitionRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_CreateGroup_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SetValueOverrideResponse">
+    <wsdl:part name="parameters" element="tns:SetValueOverrideResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ChangeTemplateNameResponse">
+    <wsdl:part name="parameters" element="tns:ChangeTemplateNameResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_AssignOverridePermission_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateGroupRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetStoreConfigurationByName_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteGroup_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AssignOverridePermissionResponse">
+    <wsdl:part name="parameters" element="tns:AssignOverridePermissionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_CreateSection_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetStoreConfigurationByNameRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_AssignOverridePermission_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetOverrideValues_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="RemoveStoreFromGroupRequest">
+    <wsdl:part name="parameters" element="tns:RemoveStoreFromGroupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetGroupConfiguration_ExpectedFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q1:ExpectedFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetStoreConfigurationResponse">
+    <wsdl:part name="parameters" element="tns:GetStoreConfigurationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DeleteOverrideValueRequest">
+    <wsdl:part name="parameters" element="tns:DeleteOverrideValueRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_CreateSettingDefinition_ReceiverFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:ReceiverFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetOverrideValuesResponse">
+    <wsdl:part name="parameters" element="tns:GetOverrideValuesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_DeleteSection_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_AddStoresToGroup_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateSectionResponse">
+    <wsdl:part name="parameters" element="tns:CreateSectionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_GetAllTemplates_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetGroupByGroupIdRequest_Headers">
+    <wsdl:part name="CorrelationID" element="tns:CorrelationID">
+    </wsdl:part>
+    <wsdl:part name="MachineName" element="tns:MachineName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateSettingDefinitionResponse">
+    <wsdl:part name="parameters" element="tns:UpdateSettingDefinitionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IConfigurationService_ChangeTemplateName_SenderFaultDetailFault_FaultMessage">
+    <wsdl:part name="detail" element="q2:SenderFaultDetail">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="IServiceBase">
+    <wsdl:operation name="GetVersion">
+      <wsdl:input message="tns:IServiceBase_GetVersion_InputMessage" wsaw:Action="http://www.gamestop.com/services/core/contracts/2010/05/IServiceBase/GetVersion">
+    </wsdl:input>
+      <wsdl:output message="tns:IServiceBase_GetVersion_OutputMessage" wsaw:Action="http://www.gamestop.com/services/core/contracts/2010/05/IServiceBase/GetVersionResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsServiceAlive">
+      <wsdl:input message="tns:IServiceBase_IsServiceAlive_InputMessage" wsaw:Action="http://www.gamestop.com/services/core/contracts/2010/05/IServiceBase/IsServiceAlive">
+    </wsdl:input>
+      <wsdl:output message="tns:IServiceBase_IsServiceAlive_OutputMessage" wsaw:Action="http://www.gamestop.com/services/core/contracts/2010/05/IServiceBase/IsServiceAliveResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsServiceHealthy">
+      <wsdl:input message="tns:IServiceBase_IsServiceHealthy_InputMessage" wsaw:Action="http://www.gamestop.com/services/core/contracts/2010/05/IServiceBase/IsServiceHealthy">
+    </wsdl:input>
+      <wsdl:output message="tns:IServiceBase_IsServiceHealthy_OutputMessage" wsaw:Action="http://www.gamestop.com/services/core/contracts/2010/05/IServiceBase/IsServiceHealthyResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IConfigurationService">
+    <wsdl:operation name="CreateTemplate">
+      <wsdl:input name="CreateTemplateRequest" message="tns:CreateTemplateRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateTemplate">
+    </wsdl:input>
+      <wsdl:output name="CreateTemplateResponse" message="tns:CreateTemplateResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateTemplateResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_CreateTemplate_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateTemplateReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_CreateTemplate_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateTemplateSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_CreateTemplate_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateTemplateExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeTemplateName">
+      <wsdl:input name="ChangeTemplateNameRequest" message="tns:ChangeTemplateNameRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeTemplateName">
+    </wsdl:input>
+      <wsdl:output name="ChangeTemplateNameResponse" message="tns:ChangeTemplateNameResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeTemplateNameResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_ChangeTemplateName_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeTemplateNameReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_ChangeTemplateName_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeTemplateNameSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_ChangeTemplateName_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeTemplateNameExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTemplate">
+      <wsdl:input name="DeleteTemplateRequest" message="tns:DeleteTemplateRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteTemplate">
+    </wsdl:input>
+      <wsdl:output name="DeleteTemplateResponse" message="tns:DeleteTemplateResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteTemplateResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_DeleteTemplate_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteTemplateReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_DeleteTemplate_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteTemplateSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_DeleteTemplate_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteTemplateExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSection">
+      <wsdl:input name="CreateSectionRequest" message="tns:CreateSectionRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSection">
+    </wsdl:input>
+      <wsdl:output name="CreateSectionResponse" message="tns:CreateSectionResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSectionResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_CreateSection_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSectionReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_CreateSection_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSectionSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_CreateSection_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSectionExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSection">
+      <wsdl:input name="DeleteSectionRequest" message="tns:DeleteSectionRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSection">
+    </wsdl:input>
+      <wsdl:output name="DeleteSectionResponse" message="tns:DeleteSectionResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSectionResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_DeleteSection_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSectionReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_DeleteSection_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSectionSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_DeleteSection_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSectionExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeSectionName">
+      <wsdl:input name="ChangeSectionNameRequest" message="tns:ChangeSectionNameRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeSectionName">
+    </wsdl:input>
+      <wsdl:output name="ChangeSectionNameResponse" message="tns:ChangeSectionNameResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeSectionNameResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_ChangeSectionName_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeSectionNameReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_ChangeSectionName_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeSectionNameSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_ChangeSectionName_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeSectionNameExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSettingDefinition">
+      <wsdl:input name="CreateSettingDefinitionRequest" message="tns:CreateSettingDefinitionRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSettingDefinition">
+    </wsdl:input>
+      <wsdl:output name="CreateSettingDefinitionResponse" message="tns:CreateSettingDefinitionResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSettingDefinitionResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_CreateSettingDefinition_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSettingDefinitionReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_CreateSettingDefinition_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSettingDefinitionSenderFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSettingDefintion">
+      <wsdl:input name="UpdateSettingDefinitionRequest" message="tns:UpdateSettingDefinitionRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/UpdateSettingDefintion">
+    </wsdl:input>
+      <wsdl:output name="UpdateSettingDefinitionResponse" message="tns:UpdateSettingDefinitionResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/UpdateSettingDefintionResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_UpdateSettingDefintion_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/UpdateSettingDefintionReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_UpdateSettingDefintion_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/UpdateSettingDefintionSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_UpdateSettingDefintion_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/UpdateSettingDefintionExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSettingDefinition">
+      <wsdl:input name="DeleteSettingDefinitionRequest" message="tns:DeleteSettingDefinitionRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSettingDefinition">
+    </wsdl:input>
+      <wsdl:output name="DeleteSettingDefinitionResponse" message="tns:DeleteSettingDefinitionResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSettingDefinitionResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_DeleteSettingDefinition_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSettingDefinitionReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_DeleteSettingDefinition_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSettingDefinitionSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_DeleteSettingDefinition_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSettingDefinitionExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateGroup">
+      <wsdl:input name="CreateGroupRequest" message="tns:CreateGroupRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateGroup">
+    </wsdl:input>
+      <wsdl:output name="CreateGroupResponse" message="tns:CreateGroupResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateGroupResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_CreateGroup_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateGroupReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_CreateGroup_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateGroupSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_CreateGroup_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateGroupExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeGroupName">
+      <wsdl:input name="ChangeGroupNameRequest" message="tns:ChangeGroupNameRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeGroupName">
+    </wsdl:input>
+      <wsdl:output name="ChangeGroupNameResponse" message="tns:ChangeGroupNameResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeGroupNameResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_ChangeGroupName_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeGroupNameReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_ChangeGroupName_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeGroupNameSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_ChangeGroupName_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeGroupNameExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <wsdl:input name="DeleteGroupRequest" message="tns:DeleteGroupRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteGroup">
+    </wsdl:input>
+      <wsdl:output name="DeleteGroupResponse" message="tns:DeleteGroupResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteGroupResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_DeleteGroup_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteGroupReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_DeleteGroup_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteGroupSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_DeleteGroup_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteGroupExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AssignOverridePermission">
+      <wsdl:input name="AssignOverridePermissionRequest" message="tns:AssignOverridePermissionRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AssignOverridePermission">
+    </wsdl:input>
+      <wsdl:output name="AssignOverridePermissionResponse" message="tns:AssignOverridePermissionResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AssignOverridePermissionResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_AssignOverridePermission_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AssignOverridePermissionReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_AssignOverridePermission_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AssignOverridePermissionSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_AssignOverridePermission_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AssignOverridePermissionExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveOverridePermission">
+      <wsdl:input name="RemoveOverridePermissionRequest" message="tns:RemoveOverridePermissionRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveOverridePermission">
+    </wsdl:input>
+      <wsdl:output name="RemoveOverridePermissionResponse" message="tns:RemoveOverridePermissionResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveOverridePermissionResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_RemoveOverridePermission_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveOverridePermissionReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_RemoveOverridePermission_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveOverridePermissionSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_RemoveOverridePermission_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveOverridePermissionExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTemplates">
+      <wsdl:input message="tns:IConfigurationService_GetAllTemplates_InputMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetAllTemplates">
+    </wsdl:input>
+      <wsdl:output name="GetAllTemplatesResponse" message="tns:GetAllTemplatesResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetAllTemplatesResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_GetAllTemplates_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetAllTemplatesReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_GetAllTemplates_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetAllTemplatesSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_GetAllTemplates_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetAllTemplatesExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetTemplateDetails">
+      <wsdl:input name="GetTemplateDetailsRequest" message="tns:GetTemplateDetailsRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetTemplateDetails">
+    </wsdl:input>
+      <wsdl:output name="GetTemplateDetailsResponse" message="tns:GetTemplateDetailsResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetTemplateDetailsResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_GetTemplateDetails_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetTemplateDetailsReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_GetTemplateDetails_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetTemplateDetailsSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_GetTemplateDetails_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetTemplateDetailsExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetDefaultConfiguration">
+      <wsdl:input name="GetDefaultConfigurationRequest" message="tns:GetDefaultConfigurationRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetDefaultConfiguration">
+    </wsdl:input>
+      <wsdl:output name="GetDefaultConfigurationResponse" message="tns:GetDefaultConfigurationResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetDefaultConfigurationResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_GetDefaultConfiguration_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetDefaultConfigurationReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_GetDefaultConfiguration_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetDefaultConfigurationSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_GetDefaultConfiguration_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetDefaultConfigurationExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetOverrideValues">
+      <wsdl:input name="GetOverrideValuesRequest" message="tns:GetOverrideValuesRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetOverrideValues">
+    </wsdl:input>
+      <wsdl:output name="GetOverrideValuesResponse" message="tns:GetOverrideValuesResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetOverrideValuesResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_GetOverrideValues_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetOverrideValuesReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_GetOverrideValues_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetOverrideValuesSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_GetOverrideValues_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetOverrideValuesExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SetOverrideValue">
+      <wsdl:input name="SetValueOverrideRequest" message="tns:SetValueOverrideRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetOverrideValue">
+    </wsdl:input>
+      <wsdl:output name="SetValueOverrideResponse" message="tns:SetValueOverrideResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetOverrideValueResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_SetOverrideValue_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetOverrideValueReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_SetOverrideValue_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetOverrideValueSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_SetOverrideValue_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetOverrideValueExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOverrideValue">
+      <wsdl:input name="DeleteOverrideValueRequest" message="tns:DeleteOverrideValueRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteOverrideValue">
+    </wsdl:input>
+      <wsdl:output name="DeleteOverrideValueResponse" message="tns:DeleteOverrideValueResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteOverrideValueResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_DeleteOverrideValue_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteOverrideValueReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_DeleteOverrideValue_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteOverrideValueSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_DeleteOverrideValue_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteOverrideValueExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRootGroups">
+      <wsdl:input message="tns:IConfigurationService_GetRootGroups_InputMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetRootGroups">
+    </wsdl:input>
+      <wsdl:output name="GetRootGroupsResponse" message="tns:GetRootGroupsResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetRootGroupsResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_GetRootGroups_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetRootGroupsReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_GetRootGroups_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetRootGroupsSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_GetRootGroups_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetRootGroupsExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AddStoresToGroup">
+      <wsdl:input name="AddStoresToGroupRequest" message="tns:AddStoresToGroupRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AddStoresToGroup">
+    </wsdl:input>
+      <wsdl:output name="AddStoresToGroupResponse" message="tns:AddStoresToGroupResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AddStoresToGroupResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_AddStoresToGroup_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AddStoresToGroupReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_AddStoresToGroup_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AddStoresToGroupSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_AddStoresToGroup_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AddStoresToGroupExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveStoreFromGroup">
+      <wsdl:input name="RemoveStoreFromGroupRequest" message="tns:RemoveStoreFromGroupRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveStoreFromGroup">
+    </wsdl:input>
+      <wsdl:output name="RemoveStoreFromGroupResponse" message="tns:RemoveStoreFromGroupResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveStoreFromGroupResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_RemoveStoreFromGroup_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveStoreFromGroupReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_RemoveStoreFromGroup_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveStoreFromGroupSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_RemoveStoreFromGroup_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveStoreFromGroupExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetStoreConfiguration">
+      <wsdl:input name="GetStoreConfigurationRequest" message="tns:GetStoreConfigurationRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfiguration">
+    </wsdl:input>
+      <wsdl:output name="GetStoreConfigurationResponse" message="tns:GetStoreConfigurationResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfigurationResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_GetStoreConfiguration_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfigurationReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_GetStoreConfiguration_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfigurationSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_GetStoreConfiguration_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfigurationExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetStoreConfigurationByName">
+      <wsdl:input name="GetStoreConfigurationByNameRequest" message="tns:GetStoreConfigurationByNameRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfigurationByName">
+    </wsdl:input>
+      <wsdl:output name="GetStoreConfigurationByNameResponse" message="tns:GetStoreConfigurationByNameResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfigurationByNameResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_GetStoreConfigurationByName_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfigurationByNameReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_GetStoreConfigurationByName_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfigurationByNameSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_GetStoreConfigurationByName_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfigurationByNameExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupConfiguration">
+      <wsdl:input name="GetGroupConfigurationRequest" message="tns:GetGroupConfigurationRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupConfiguration">
+    </wsdl:input>
+      <wsdl:output name="GetGroupConfigurationResponse" message="tns:GetGroupConfigurationResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupConfigurationResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_GetGroupConfiguration_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupConfigurationReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_GetGroupConfiguration_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupConfigurationSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_GetGroupConfiguration_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupConfigurationExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SetDefaultValue">
+      <wsdl:input name="SetDefaultValueRequest" message="tns:SetDefaultValueRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetDefaultValue">
+    </wsdl:input>
+      <wsdl:output name="SetDefaultValueResponse" message="tns:SetDefaultValueResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetDefaultValueResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_SetDefaultValue_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetDefaultValueReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_SetDefaultValue_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetDefaultValueSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_SetDefaultValue_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetDefaultValueExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupByGroupId">
+      <wsdl:input name="GetGroupByGroupIdRequest" message="tns:GetGroupByGroupIdRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupByGroupId">
+    </wsdl:input>
+      <wsdl:output name="GetGroupByGroupIdResponse" message="tns:GetGroupByGroupIdResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupByGroupIdResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_GetGroupByGroupId_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupByGroupIdReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_GetGroupByGroupId_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupByGroupIdSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_GetGroupByGroupId_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupByGroupIdExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetSettingDefinition">
+      <wsdl:input name="GetSettingDefinitionRequest" message="tns:GetSettingDefinitionRequest" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetSettingDefinition">
+    </wsdl:input>
+      <wsdl:output name="GetSettingDefinitionResponse" message="tns:GetSettingDefinitionResponse" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetSettingDefinitionResponse">
+    </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault" message="tns:IConfigurationService_GetSettingDefinition_ReceiverFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetSettingDefinitionReceiverFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault" message="tns:IConfigurationService_GetSettingDefinition_SenderFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetSettingDefinitionSenderFaultDetailFault">
+    </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault" message="tns:IConfigurationService_GetSettingDefinition_ExpectedFaultDetailFault_FaultMessage" wsaw:Action="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetSettingDefinitionExpectedFaultDetailFault">
+    </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IConfigurationService" type="tns:IConfigurationService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="CreateTemplate">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateTemplate" style="document"/>
+      <wsdl:input name="CreateTemplateRequest">
+        <soap:header message="tns:CreateTemplateRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:CreateTemplateRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="CreateTemplateResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeTemplateName">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeTemplateName" style="document"/>
+      <wsdl:input name="ChangeTemplateNameRequest">
+        <soap:header message="tns:ChangeTemplateNameRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:ChangeTemplateNameRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ChangeTemplateNameResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTemplate">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteTemplate" style="document"/>
+      <wsdl:input name="DeleteTemplateRequest">
+        <soap:header message="tns:DeleteTemplateRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:DeleteTemplateRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="DeleteTemplateResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSection">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSection" style="document"/>
+      <wsdl:input name="CreateSectionRequest">
+        <soap:header message="tns:CreateSectionRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:CreateSectionRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="CreateSectionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSection">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSection" style="document"/>
+      <wsdl:input name="DeleteSectionRequest">
+        <soap:header message="tns:DeleteSectionRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:DeleteSectionRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="DeleteSectionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeSectionName">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeSectionName" style="document"/>
+      <wsdl:input name="ChangeSectionNameRequest">
+        <soap:header message="tns:ChangeSectionNameRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:ChangeSectionNameRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ChangeSectionNameResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSettingDefinition">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateSettingDefinition" style="document"/>
+      <wsdl:input name="CreateSettingDefinitionRequest">
+        <soap:header message="tns:CreateSettingDefinitionRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:CreateSettingDefinitionRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="CreateSettingDefinitionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSettingDefintion">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/UpdateSettingDefintion" style="document"/>
+      <wsdl:input name="UpdateSettingDefinitionRequest">
+        <soap:header message="tns:UpdateSettingDefinitionRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:UpdateSettingDefinitionRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="UpdateSettingDefinitionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSettingDefinition">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteSettingDefinition" style="document"/>
+      <wsdl:input name="DeleteSettingDefinitionRequest">
+        <soap:header message="tns:DeleteSettingDefinitionRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:DeleteSettingDefinitionRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="DeleteSettingDefinitionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateGroup">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/CreateGroup" style="document"/>
+      <wsdl:input name="CreateGroupRequest">
+        <soap:header message="tns:CreateGroupRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:CreateGroupRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="CreateGroupResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeGroupName">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/ChangeGroupName" style="document"/>
+      <wsdl:input name="ChangeGroupNameRequest">
+        <soap:header message="tns:ChangeGroupNameRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:ChangeGroupNameRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ChangeGroupNameResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteGroup" style="document"/>
+      <wsdl:input name="DeleteGroupRequest">
+        <soap:header message="tns:DeleteGroupRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:DeleteGroupRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="DeleteGroupResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AssignOverridePermission">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AssignOverridePermission" style="document"/>
+      <wsdl:input name="AssignOverridePermissionRequest">
+        <soap:header message="tns:AssignOverridePermissionRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:AssignOverridePermissionRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="AssignOverridePermissionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveOverridePermission">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveOverridePermission" style="document"/>
+      <wsdl:input name="RemoveOverridePermissionRequest">
+        <soap:header message="tns:RemoveOverridePermissionRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:RemoveOverridePermissionRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="RemoveOverridePermissionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTemplates">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetAllTemplates" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetAllTemplatesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetTemplateDetails">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetTemplateDetails" style="document"/>
+      <wsdl:input name="GetTemplateDetailsRequest">
+        <soap:header message="tns:GetTemplateDetailsRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:GetTemplateDetailsRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetTemplateDetailsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetDefaultConfiguration">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetDefaultConfiguration" style="document"/>
+      <wsdl:input name="GetDefaultConfigurationRequest">
+        <soap:header message="tns:GetDefaultConfigurationRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:GetDefaultConfigurationRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetDefaultConfigurationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetOverrideValues">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetOverrideValues" style="document"/>
+      <wsdl:input name="GetOverrideValuesRequest">
+        <soap:header message="tns:GetOverrideValuesRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:GetOverrideValuesRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetOverrideValuesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SetOverrideValue">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetOverrideValue" style="document"/>
+      <wsdl:input name="SetValueOverrideRequest">
+        <soap:header message="tns:SetValueOverrideRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:SetValueOverrideRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SetValueOverrideResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOverrideValue">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/DeleteOverrideValue" style="document"/>
+      <wsdl:input name="DeleteOverrideValueRequest">
+        <soap:header message="tns:DeleteOverrideValueRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:DeleteOverrideValueRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="DeleteOverrideValueResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRootGroups">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetRootGroups" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetRootGroupsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AddStoresToGroup">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/AddStoresToGroup" style="document"/>
+      <wsdl:input name="AddStoresToGroupRequest">
+        <soap:header message="tns:AddStoresToGroupRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:AddStoresToGroupRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="AddStoresToGroupResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveStoreFromGroup">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/RemoveStoreFromGroup" style="document"/>
+      <wsdl:input name="RemoveStoreFromGroupRequest">
+        <soap:header message="tns:RemoveStoreFromGroupRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:RemoveStoreFromGroupRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="RemoveStoreFromGroupResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetStoreConfiguration">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfiguration" style="document"/>
+      <wsdl:input name="GetStoreConfigurationRequest">
+        <soap:header message="tns:GetStoreConfigurationRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:GetStoreConfigurationRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetStoreConfigurationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetStoreConfigurationByName">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetStoreConfigurationByName" style="document"/>
+      <wsdl:input name="GetStoreConfigurationByNameRequest">
+        <soap:header message="tns:GetStoreConfigurationByNameRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:GetStoreConfigurationByNameRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetStoreConfigurationByNameResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupConfiguration">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupConfiguration" style="document"/>
+      <wsdl:input name="GetGroupConfigurationRequest">
+        <soap:header message="tns:GetGroupConfigurationRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:GetGroupConfigurationRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetGroupConfigurationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SetDefaultValue">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/SetDefaultValue" style="document"/>
+      <wsdl:input name="SetDefaultValueRequest">
+        <soap:header message="tns:SetDefaultValueRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:SetDefaultValueRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SetDefaultValueResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupByGroupId">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetGroupByGroupId" style="document"/>
+      <wsdl:input name="GetGroupByGroupIdRequest">
+        <soap:header message="tns:GetGroupByGroupIdRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:GetGroupByGroupIdRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetGroupByGroupIdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetSettingDefinition">
+      <soap:operation soapAction="http://www.gamestop.com/csl/configuration/v1.0/IConfigurationService/GetSettingDefinition" style="document"/>
+      <wsdl:input name="GetSettingDefinitionRequest">
+        <soap:header message="tns:GetSettingDefinitionRequest_Headers" part="CorrelationID" use="literal">
+        </soap:header>
+        <soap:header message="tns:GetSettingDefinitionRequest_Headers" part="MachineName" use="literal">
+        </soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetSettingDefinitionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ReceiverFaultDetailFault">
+        <soap:fault name="ReceiverFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="SenderFaultDetailFault">
+        <soap:fault name="SenderFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ExpectedFaultDetailFault">
+        <soap:fault name="ExpectedFaultDetailFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IServiceBase" type="tns:IServiceBase">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetVersion">
+      <soap:operation soapAction="http://www.gamestop.com/services/core/contracts/2010/05/IServiceBase/GetVersion" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsServiceAlive">
+      <soap:operation soapAction="http://www.gamestop.com/services/core/contracts/2010/05/IServiceBase/IsServiceAlive" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsServiceHealthy">
+      <soap:operation soapAction="http://www.gamestop.com/services/core/contracts/2010/05/IServiceBase/IsServiceHealthy" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ConfigurationService_vs0_vs0">
+    <wsdl:port name="ConfigurationServicePort" binding="tns:BasicHttpBinding_IConfigurationService">
+      <soap:address location="https://gatewayqa1.testgs.pvt:443/v1/Configuration"/>
+    </wsdl:port>
+    <wsp:PolicyReference URI="#Policy2" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/csl/configuration/v1.0" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+  </wsdl:service>
+    <wsp:Policy Name="AtmosphereApplicationSecurityPolicy_AppKey" visibility="public" wsu:Id="Policy2" xmlns:i0="http://www.gamestop.com/services/core/contracts/2010/05" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:ns0="http://www.gamestop.com/csl/configuration/v1.0/Imports" xmlns:ns01="http://www.gamestop.com/services/core/contracts/2010/05/Imports" xmlns:q1="http://www.gamestop.com/services/core/contracts/faults/2011/04" xmlns:q2="http://www.gamestop.com/CSL/Core/V1.0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.gamestop.com/csl/configuration/v1.0" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><ns2:ApiSecurity xmlns:ns2="http://federatedgovernance.org/policy/apisecurity"><ns2:signatureRequired>false</ns2:signatureRequired><ns2:clockSkewInSec>0</ns2:clockSkewInSec><ns2:authHeaderScheme/><ns2:headerParamPrefix/><ns2:cookieName/></ns2:ApiSecurity></wsp:Policy>
+</wsdl:definitions>

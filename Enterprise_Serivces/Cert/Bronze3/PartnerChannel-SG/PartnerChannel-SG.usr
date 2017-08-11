@@ -1,0 +1,72 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=PartnerChannel-SG.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=53
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.53.0.1203
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+GetNumber_SG=GetNumber_SG.c
+GetOpenID_SG=GetOpenID_SG.c
+SendPointsActivity_SG=SendPointsActivity_SG.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+GetNumber_SG=1
+GetOpenID_SG=1
+SendPointsActivity_SG=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+GetNumber_SG=0
+GetOpenID_SG=0
+SendPointsActivity_SG=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+GetNumber_SG=1
+GetOpenID_SG=1
+SendPointsActivity_SG=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+GetNumber_SG=cci
+GetOpenID_SG=cci
+SendPointsActivity_SG=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="GetNumber_SG__*delimiter*__GetOpenID_SG__*delimiter*__SendPointsActivity_SG"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+GetNumber_SG=
+GetOpenID_SG=
+SendPointsActivity_SG=

@@ -1,0 +1,19 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Starting action AcceptHopsRequest.	[MsgId: MMSG-15919]
+AcceptHopsRequest.c(3): Notify: Transaction "StoreService_AcceptHopsRequest" started.	[MsgId: MMSG-16999]
+AcceptHopsRequest.c(5): Error: InvokeMethod failure: Failed to connect to server "storechannelprod.gha.pvt:80": [10060] Connection timed out.	[MsgId: MERR-108906]
+AcceptHopsRequest.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+AcceptHopsRequest.c(5): Error: Web service call "AcceptHopsRequest_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Starting action AcceptHopsRequest.	[MsgId: MMSG-15919]
+AcceptHopsRequest.c(3): Notify: Transaction "StoreService_AcceptHopsRequest" started.	[MsgId: MMSG-16999]
+AcceptHopsRequest.c(5): Notify: Transaction "StoreService_AcceptHopsRequest" ended with a "Stop" status (Duration: 7.4471).	[MsgId: MMSG-16873]
+AcceptHopsRequest.c(5): Error: InvokeMethod failure: Abort was called.	[MsgId: MERR-108906]
+AcceptHopsRequest.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+AcceptHopsRequest.c(5): Error: Web service call "AcceptHopsRequest_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

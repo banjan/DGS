@@ -1,0 +1,40 @@
+Virtual User Script started at : 1/31/2017 10:30:25 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetVersion.
+GetVersion.c(3): Notify: Transaction "DigitalCatalogService_GetVersion" started.
+GetVersion.c(5): Web service call "GetVersion_104" started
+GetVersion.c(5): Web service call "GetVersion_104" was successful
+GetVersion.c(17): Notify: Transaction "DigitalCatalogService_GetVersion" ended with a "Pass" status (Duration: 0.1902 Wasted Time: 0.1291).
+Ending action GetVersion.
+Starting action GetCatalogByAllSparkID.
+GetCatalogByAllSparkID.c(3): Notify: Transaction "DigitalCatalogService_GetCatalogByAllSparkID" started.
+GetCatalogByAllSparkID.c(5): Web service call "GetCatalogByAllSparkID_101" started
+GetCatalogByAllSparkID.c(5): Web service call "GetCatalogByAllSparkID_101" was successful
+GetCatalogByAllSparkID.c(34): Notify: Transaction "DigitalCatalogService_GetCatalogByAllSparkID" ended with a "Pass" status (Duration: 0.1211 Wasted Time: 0.1010).
+Ending action GetCatalogByAllSparkID.
+Starting action GetCatalogInstructions.
+GetCatalogInstructions.c(3): Notify: Transaction "DigitalCatalogService_GetCatalogInstructions" started.
+GetCatalogInstructions.c(5): Web service call "GetCatalogInstructions_101" started
+GetCatalogInstructions.c(5): Web service call "GetCatalogInstructions_101" was successful
+GetCatalogInstructions.c(22): Notify: Transaction "DigitalCatalogService_GetCatalogInstructions" ended with a "Pass" status (Duration: 0.0208 Wasted Time: 0.0083).
+Ending action GetCatalogInstructions.
+Starting action GetInventoryCountByAllSparkId.
+GetInventoryCountByAllSparkId.c(3): Notify: Transaction "DigitalCatalogService_GetInventoryCountByAllSparkId" started.
+GetInventoryCountByAllSparkId.c(5): Web service call "GetInventoryCountByAllSparkId_101" started
+GetInventoryCountByAllSparkId.c(5): Web service call "GetInventoryCountByAllSparkId_101" was successful
+GetInventoryCountByAllSparkId.c(34): Notify: Transaction "DigitalCatalogService_GetInventoryCountByAllSparkId" ended with a "Pass" status (Duration: 0.2887 Wasted Time: 0.0068).
+Ending action GetInventoryCountByAllSparkId.
+Starting action GetPartnerCatalog.
+GetPartnerCatalog.c(3): Notify: Transaction "DigitalCatalogService_GetPartnerCatalog" started.
+GetPartnerCatalog.c(5): Web service call "GetPartnerCatalog_101" started
+GetPartnerCatalog.c(5): Web service call "GetPartnerCatalog_101" was successful
+GetPartnerCatalog.c(35): Notify: Transaction "DigitalCatalogService_GetPartnerCatalog" ended with a "Pass" status (Duration: 23.1364 Wasted Time: 0.0257).
+Ending action GetPartnerCatalog.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,16 @@
+[AddDeposit]
+SnapshotIndex=I1_AddDeposit
+[GetReservationsByOrderNumber]
+SnapshotIndex=I1_GetReservationsByOrderNumber
+[GetReservations]
+SnapshotIndex=I1_GetReservations
+[GetVersion]
+SnapshotIndex=I1_GetVersion
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[IsServiceHealthy]
+SnapshotIndex=I1_IsServiceHealthy
+[IsServiceAlive]
+SnapshotIndex=I1_IsServiceAlive

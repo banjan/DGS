@@ -1,0 +1,16 @@
+[parameter:GetCatalogWithResources_101_Response]
+CurrentValue=""
+IsEncrypt="NO"
+IsServer="NO"
+OriginalValue=""
+ParamName="GetCatalogWithResources_101_Response"
+Prompt=""
+Type="Output"
+[parameter:GetCatalog_101_Response]
+CurrentValue=""
+IsEncrypt="NO"
+IsServer="NO"
+OriginalValue=""
+ParamName="GetCatalog_101_Response"
+Prompt=""
+Type="Output"

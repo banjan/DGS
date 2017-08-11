@@ -1,0 +1,12 @@
+<?xml-stylesheet href="..\web_service_call.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\HP\LoadRunner\">
+  <web_service_call>
+    <service name="ClientService" />
+    <port name="BasicHttpBinding_IClientService" />
+    <operation name="ChangeClientByClientKey" />
+    <wsdl location="http://cslclientserviceprod.gha.pvt/ClientService.svc?singleWsdl" />
+    <address url="http://cslclientserviceqa1.testgs.pvt/ClientService.svc" />
+    <toolkit name=".Net" />
+    <aspect name="Positive Testing" />
+  </web_service_call>
+</report>

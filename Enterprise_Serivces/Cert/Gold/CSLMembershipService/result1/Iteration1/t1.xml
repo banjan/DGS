@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetMembershipsByGroupMembershipIdResponse xmlns="http://www.gamestop.com/CSL/Membership/V1.0"><MembershipResponses xmlns:i="http://www.w3.org/2001/XMLSchema-instance" /></GetMembershipsByGroupMembershipIdResponse></s:Body></s:Envelope>

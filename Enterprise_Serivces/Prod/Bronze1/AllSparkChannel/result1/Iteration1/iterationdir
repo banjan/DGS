@@ -1,0 +1,10 @@
+[FinalizeDigitalToken]
+SnapshotIndex=I1_FinalizeDigitalToken
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[ReleaseDigitalToken]
+SnapshotIndex=I1_ReleaseDigitalToken
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[PurchaseDigitalToken]
+SnapshotIndex=I1_PurchaseDigitalToken

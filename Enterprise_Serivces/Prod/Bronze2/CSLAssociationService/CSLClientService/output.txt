@@ -1,0 +1,16 @@
+Start auto log messages stack - Iteration 1.
+GetClientByClientKey.c(5): Notify: Saving Parameter "response = <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetClientByClientKeyResponse xmlns="http://www.gamestop.com/services/csl/client/contracts/2010/05"><GetClientByClientKeyResult xmlns:a="http://www.gamestop.com/services/csl/client/contracts/messages/2010/05" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:Client i:nil="true" xmlns:b="http://www.gamestop.com/services/core/entities/2010/05"/></GetClientByClientKeyResult></GetClientByClientKeyResponse></s:Body></s:Envelope>".
+GetClientByClientKey.c(22): Notify: Transaction "ClientService_GetClientByClientKey" ended with a "Pass" status (Duration: 0.1179 Wasted Time: 0.0060).
+Ending action GetClientByClientKey.
+Starting action ChangeClientByClientKey.
+ChangeClientByClientKey.c(3): Notify: Transaction "ClientService_ChangeClientByClientKey" started.
+ChangeClientByClientKey.c(5): Warning: The string 'ClientKey' with parameter delimiters is not a parameter.
+ChangeClientByClientKey.c(5): Error: <CENTER><STRONG><FONT COLOR=#FF0031>Expected SOAP result, received SOAP fault</FONT></STRONG></CENTER>
+ChangeClientByClientKey.c(5): Error: <CENTER><STRONG><FONT COLOR=#FF0031>Failed to retrieve output arguments/checkpoints - SOAP fault occurred</FONT></STRONG></CENTER>
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1.
+ChangeClientByClientKey.c(5): Notify: Saving Parameter "response = <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><s:Fault><faultcode>s:Server</faultcode><faultstring xml:lang="en-US">An unexpected error occurred on the server, and all of the details have been logged.  Please refer to the Reference ID when contacting the administrator for support.</faultstring><detail><ReceiverFaultDetail xmlns="http://www.gamestop.com/services/core/contracts/faults/2010/05" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Message>An unexpected error occurred on the server, and all of the details have been logged.  Please refer to the Reference ID when contacting the administrator for support.</Message><Description>Conversion failed when converting from a character string to uniqueidentifier.</Description><ContactAdministrator>true</ContactAdministrator><ReferenceID>1aa1b344-4f0f-4fb5-8a89-f404477856af</ReferenceID></ReceiverFaultDetail></detail></s:Fault></s:Body></s:Envelope>".
+ChangeClientByClientKey.c(5): Error: Web service call "ChangeClientByClientKey_101" execution failed
+End auto log messages stack.
+

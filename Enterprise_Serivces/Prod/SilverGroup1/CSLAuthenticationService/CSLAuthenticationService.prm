@@ -1,0 +1,9 @@
+[parameter:rndAppend]
+Format="%Y%m%d%H%M%S.0000"
+GenerateNewVal="EachIteration"
+Offset=""
+OffsetUI="0"
+OriginalValue="IssuedUser@gstop.com"
+ParamName="rndAppend"
+Type="Time"
+WorkingDaysOn="0"

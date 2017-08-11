@@ -1,0 +1,28 @@
+Virtual User Script started at : 2/1/2017 2:26:49 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetVersion.
+GetVersion.c(3): Notify: Transaction "AllSparkService_GetVersion" started.
+GetVersion.c(5): Web service call "GetVersion_103" started
+GetVersion.c(5): Web service call "GetVersion_103" was successful
+GetVersion.c(17): Notify: Transaction "AllSparkService_GetVersion" ended with a "Pass" status (Duration: 0.1805 Wasted Time: 0.1241).
+Ending action GetVersion.
+Starting action GetProductAvailableInventory.
+GetProductAvailableInventory.c(3): Notify: Transaction "AllSparkService_GetProductAvailableInventory" started.
+GetProductAvailableInventory.c(5): Web service call "GetProductAvailableInventory_101" started
+GetProductAvailableInventory.c(5): Web service call "GetProductAvailableInventory_101" was successful
+GetProductAvailableInventory.c(32): Notify: Transaction "AllSparkService_GetProductAvailableInventory" ended with a "Pass" status (Duration: 0.0806 Wasted Time: 0.0531).
+Ending action GetProductAvailableInventory.
+Starting action GetProductAvailableInventoryByPartner.
+GetProductAvailableInventoryByPartner.c(3): Notify: Transaction "AllSparkService_GetProductAvailableInventoryByPartner" started.
+GetProductAvailableInventoryByPartner.c(5): Web service call "GetProductAvailableInventoryByPartner_101" started
+GetProductAvailableInventoryByPartner.c(5): Web service call "GetProductAvailableInventoryByPartner_101" was successful
+GetProductAvailableInventoryByPartner.c(30): Notify: Transaction "AllSparkService_GetProductAvailableInventoryByPartner" ended with a "Pass" status (Duration: 5.9492 Wasted Time: 1.6326).
+Ending action GetProductAvailableInventoryByPartner.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

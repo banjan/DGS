@@ -1,0 +1,53 @@
+<?xml-stylesheet href="..\http.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\HP\LoadRunner\">
+  <http>
+    <request>
+      <header>POST /RealmAssociationService.svc HTTP/1.1
+Content-Type: text/xml; charset=utf-8
+Cache-Control: no-cache
+SOAPAction: "http://www.gamestop.com/services/csl/realmassociation/contracts/2010/05/IRealmAssociationService/ClearExpiredAssociations"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol 1.1.4322.2032)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: cslrealmassociationserviceqa1.testgs.pvt
+Content-Length: 1101
+
+</header>
+      <body>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing"&gt;
+  &lt;soap:Header&gt;
+    &lt;wsa:Action&gt;http://www.gamestop.com/services/csl/realmassociation/contracts/2010/05/IRealmAssociationService/ClearExpiredAssociations&lt;/wsa:Action&gt;
+    &lt;wsa:MessageID&gt;uuid:7d18e1d2-3a0b-493f-aa23-aaf82b093cc7&lt;/wsa:MessageID&gt;
+    &lt;wsa:ReplyTo&gt;
+      &lt;wsa:Address&gt;http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous&lt;/wsa:Address&gt;
+    &lt;/wsa:ReplyTo&gt;
+    &lt;wsa:To&gt;http://cslrealmassociationserviceqa1.testgs.pvt/RealmAssociationService.svc&lt;/wsa:To&gt;
+  &lt;/soap:Header&gt;
+  &lt;soap:Body&gt;
+    &lt;ClearExpiredAssociations xmlns="http://www.gamestop.com/services/csl/realmassociation/contracts/2010/05"&gt;
+      &lt;request&gt;
+        &lt;MachineName xmlns="http://www.gamestop.com/services/core/contracts/2010/05"&gt;test&lt;/MachineName&gt;
+        &lt;Days xmlns="http://www.gamestop.com/services/csl/realmassociation/messages/2010/05"&gt;1&lt;/Days&gt;
+      &lt;/request&gt;
+    &lt;/ClearExpiredAssociations&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</body>
+    </request>
+    <response>
+      <header>HTTP/1.1 200 OK
+Content-Length: 209
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.5
+Date: Wed, 18 Jan 2017 23:20:41 GMT
+
+</header>
+      <body>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;s:Body&gt;
+    &lt;ClearExpiredAssociationsResponse xmlns="http://www.gamestop.com/services/csl/realmassociation/contracts/2010/05" /&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;</body>
+    </response>
+  </http>
+</report>

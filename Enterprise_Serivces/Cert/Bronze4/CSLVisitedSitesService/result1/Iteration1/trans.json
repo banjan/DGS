@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "VisitedSiteService_GetVersion",
+        "rawStartTime": 1484173154641,
+        "rawEndTime": 1484173154892
+    },
+    {
+        "transactionName": "VisitedSiteService_GetVisitedSites",
+        "rawStartTime": 1484173154895,
+        "rawEndTime": 1484173154947
+    },
+    {
+        "transactionName": "VisitedSiteService_IsServiceAlive",
+        "rawStartTime": 1484173154950,
+        "rawEndTime": 1484173154969
+    },
+    {
+        "transactionName": "VisitedSiteService_IsServiceHealthy",
+        "rawStartTime": 1484173154972,
+        "rawEndTime": 1484173154991
+    },
+    {
+        "transactionName": "VisitedSiteService_IsSiteApproved",
+        "rawStartTime": 1484173154993,
+        "rawEndTime": 1484173155024
+    },
+    {
+        "transactionName": "VisitedSiteService_LogSiteApproval",
+        "rawStartTime": 1484173155027,
+        "rawEndTime": 1484173155105
+    },
+    {
+        "transactionName": "VisitedSiteService_RemoveAlwaysApproveSite",
+        "rawStartTime": 1484173155108,
+        "rawEndTime": 1484173155180
+    }
+]

@@ -1,0 +1,14 @@
+[GetPartnerCatalog]
+SnapshotIndex=I1_GetPartnerCatalog
+[GetCatalogInstructions]
+SnapshotIndex=I1_GetCatalogInstructions
+[GetVersion]
+SnapshotIndex=I1_GetVersion
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[GetInventoryCountByAllSparkId]
+SnapshotIndex=I1_GetInventoryCountByAllSparkId
+[GetCatalogByAllSparkID]
+SnapshotIndex=I1_GetCatalogByAllSparkID

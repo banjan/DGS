@@ -1,0 +1,27 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Starting action ProcessSalesOrder.	[MsgId: MMSG-15919]
+ProcessSalesOrder.c(3): Notify: Transaction "StoreService_ProcessSalesOrder" started.	[MsgId: MMSG-16999]
+ProcessSalesOrder.c(5): Error: InvokeMethod failure: Failed to connect to server "storechannelprod.gha.pvt:80": [10060] Connection timed out.	[MsgId: MERR-108906]
+ProcessSalesOrder.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ProcessSalesOrder.c(5): Error: Web service call "ProcessSalesOrder_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Starting action ProcessSalesOrder.	[MsgId: MMSG-15919]
+ProcessSalesOrder.c(3): Notify: Transaction "StoreService_ProcessSalesOrder" started.	[MsgId: MMSG-16999]
+ProcessSalesOrder.c(5): Error: InvokeMethod failure: Failed to connect to server "storechannelprod.gha.pvt:80": [10060] Connection timed out.	[MsgId: MERR-108906]
+ProcessSalesOrder.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ProcessSalesOrder.c(5): Error: Web service call "ProcessSalesOrder_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Starting action ProcessSalesOrder.	[MsgId: MMSG-15919]
+ProcessSalesOrder.c(3): Notify: Transaction "StoreService_ProcessSalesOrder" started.	[MsgId: MMSG-16999]
+ProcessSalesOrder.c(5): Error: InvokeMethod failure: Failed to connect to server "storechannelprod.gha.pvt:80": [10060] Connection timed out.	[MsgId: MERR-108906]
+ProcessSalesOrder.c(5): Error: ExtractResultArg failure: Object reference not set to an instance of an object..	[MsgId: MERR-108903]
+ProcessSalesOrder.c(5): Error: Web service call "ProcessSalesOrder_101" execution failed	[MsgId: MERR-108960]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

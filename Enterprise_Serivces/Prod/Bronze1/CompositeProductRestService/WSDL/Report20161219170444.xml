@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="report_view.xsl"?>
+<Report time="Mon Dec 19 17:04:44 2016
+"><WSDLS><WSDL unc="C:\Users\casmith\Documents\VuGen\Scripts\CompositeProductRestService\WSDL\TradeValues\TradeValues" name="https://gatewayqa1.testgs.pvt/v1/Products/TradeValues"><msgs><msg severity="Error" xpath="" col="0" line="0"> WSDL file cannot be loaded</msg></msgs></WSDL></WSDLS></Report>

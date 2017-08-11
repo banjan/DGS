@@ -1,0 +1,42 @@
+Virtual User Script started at : 1/20/2017 9:51:26 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action ClearExpiredNonces.
+ClearExpiredNonces.c(3): Notify: Transaction "NonceService_ClearExpiredNonces" started.
+ClearExpiredNonces.c(5): Web service call "ClearExpiredNonces_101" started
+ClearExpiredNonces.c(5): Web service call "ClearExpiredNonces_101" was successful
+ClearExpiredNonces.c(23): Notify: Transaction "NonceService_ClearExpiredNonces" ended with a "Pass" status (Duration: 0.2376 Wasted Time: 0.1370).
+Ending action ClearExpiredNonces.
+Starting action GetVersion.
+GetVersion.c(3): Notify: Transaction "NonceService_GetVersion" started.
+GetVersion.c(5): Web service call "GetVersion_104" started
+GetVersion.c(5): Web service call "GetVersion_104" was successful
+GetVersion.c(17): Notify: Transaction "NonceService_GetVersion" ended with a "Pass" status (Duration: 0.0178 Wasted Time: 0.0029).
+Ending action GetVersion.
+Starting action IsServiceAlive.
+IsServiceAlive.c(3): Notify: Transaction "NonceService_IsServiceAlive" started.
+IsServiceAlive.c(5): Web service call "IsServiceAlive_104" started
+IsServiceAlive.c(5): Web service call "IsServiceAlive_104" was successful
+IsServiceAlive.c(17): Notify: Transaction "NonceService_IsServiceAlive" ended with a "Pass" status (Duration: 0.0243 Wasted Time: 0.0067).
+Ending action IsServiceAlive.
+Starting action IsServiceHealthy.
+IsServiceHealthy.c(3): Notify: Transaction "NonceService_IsServiceHealthy" started.
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_104" started
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_104" was successful
+IsServiceHealthy.c(17): Notify: Transaction "NonceService_IsServiceHealthy" ended with a "Pass" status (Duration: 0.0231 Wasted Time: 0.0034).
+Ending action IsServiceHealthy.
+Starting action StoreNonce.
+StoreNonce.c(3): Notify: Transaction "NonceService_StoreNonce" started.
+StoreNonce.c(5): Web service call "StoreNonce_101" started
+StoreNonce.c(5): Web service call "StoreNonce_101" was successful
+StoreNonce.c(30): Notify: Transaction "NonceService_StoreNonce" ended with a "Pass" status (Duration: 0.1421 Wasted Time: 0.0055).
+Ending action StoreNonce.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

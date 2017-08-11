@@ -1,0 +1,58 @@
+Virtual User Script started at : 1/3/2017 9:24:44 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action ClearExpiredAssociations.
+ClearExpiredAssociations.c(4): Notify: Transaction "AssociationService_ClearExpiredAssociations" started.
+ClearExpiredAssociations.c(5): Web service call "ClearExpiredAssociations_101" started
+ClearExpiredAssociations.c(5): Web service call "ClearExpiredAssociations_101" was successful
+ClearExpiredAssociations.c(21): Notify: Transaction "AssociationService_ClearExpiredAssociations" ended with a "Pass" status (Duration: 0.5704 Wasted Time: 0.1901).
+Ending action ClearExpiredAssociations.
+Starting action GetAssociationByHandle.
+GetAssociationByHandle.c(4): Notify: Transaction "AssociationService_GetAssociationByHandle" started.
+GetAssociationByHandle.c(6): Web service call "GetAssociationByHandle_101" started
+GetAssociationByHandle.c(6): Web service call "GetAssociationByHandle_101" was successful
+GetAssociationByHandle.c(24): Notify: Transaction "AssociationService_GetAssociationByHandle" ended with a "Pass" status (Duration: 0.0356 Wasted Time: 0.0117).
+Ending action GetAssociationByHandle.
+Starting action GetAssociationBySecuritySettings.
+GetAssociationBySecuritySettings.c(4): Notify: Transaction "AssociationService_GetAssociationBySecuritySettings" started.
+GetAssociationBySecuritySettings.c(6): Web service call "GetAssociationBySecuritySettings_101" started
+GetAssociationBySecuritySettings.c(6): Web service call "GetAssociationBySecuritySettings_101" was successful
+GetAssociationBySecuritySettings.c(25): Notify: Transaction "AssociationService_GetAssociationBySecuritySettings" ended with a "Pass" status (Duration: 0.0206 Wasted Time: 0.0047).
+Ending action GetAssociationBySecuritySettings.
+Starting action GetVersion.
+GetVersion.c(4): Notify: Transaction "AssociationService_GetVersion" started.
+GetVersion.c(6): Web service call "GetVersion_101" started
+GetVersion.c(6): Web service call "GetVersion_101" was successful
+GetVersion.c(18): Notify: Transaction "AssociationService_GetVersion" ended with a "Pass" status (Duration: 0.6372 Wasted Time: 0.0043).
+Ending action GetVersion.
+Starting action IsServiceAlive.
+IsServiceAlive.c(4): Notify: Transaction "AssociationService_IsServiceAlive" started.
+IsServiceAlive.c(6): Web service call "IsServiceAlive_101" started
+IsServiceAlive.c(6): Web service call "IsServiceAlive_101" was successful
+IsServiceAlive.c(18): Notify: Transaction "AssociationService_IsServiceAlive" ended with a "Pass" status (Duration: 0.3646 Wasted Time: 0.0046).
+Ending action IsServiceAlive.
+Starting action IsServiceHealthy.
+IsServiceHealthy.c(4): Notify: Transaction "AssociationService_IsServiceHealthy" started.
+IsServiceHealthy.c(6): Web service call "IsServiceHealthy_101" started
+IsServiceHealthy.c(6): Web service call "IsServiceHealthy_101" was successful
+IsServiceHealthy.c(18): Notify: Transaction "AssociationService_IsServiceHealthy" ended with a "Pass" status (Duration: 0.1399 Wasted Time: 0.0055).
+Ending action IsServiceHealthy.
+Starting action RemoveAssociation.
+RemoveAssociation.c(4): Notify: Transaction "AssociationService_RemoveAssociation" started.
+RemoveAssociation.c(6): Web service call "RemoveAssociation_101" started
+RemoveAssociation.c(6): Web service call "RemoveAssociation_101" was successful
+RemoveAssociation.c(24): Notify: Transaction "AssociationService_RemoveAssociation" ended with a "Pass" status (Duration: 0.0197 Wasted Time: 0.0053).
+Ending action RemoveAssociation.
+Starting action StoreAssociation.
+StoreAssociation.c(4): Notify: Transaction "AssociationService_StoreAssociation" started.
+StoreAssociation.c(6): Web service call "StoreAssociation_101" started
+StoreAssociation.c(6): Web service call "StoreAssociation_101" was successful
+StoreAssociation.c(27): Notify: Transaction "AssociationService_StoreAssociation" ended with a "Pass" status (Duration: 0.0198 Wasted Time: 0.0066).
+Ending action StoreAssociation.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

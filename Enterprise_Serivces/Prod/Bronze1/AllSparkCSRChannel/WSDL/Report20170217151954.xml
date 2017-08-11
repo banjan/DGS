@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="report_view.xsl"?>
+<Report time="Fri Feb 17 15:19:54 2017
+"><WSDLS><WSDL unc="C:\Users\casmith\Documents\VuGen\Scripts\Bronze1\AllSparkCSRChannel\WSDL\AllSparkAgentService\AllSparkAgentService.svc" name="http://allsparkcsrchannelqa1.testgs.pvt/AllSparkAgentService.svc"><msgs><msg severity="Error" xpath="" col="0" line="0"> WSDL file cannot be loaded</msg></msgs></WSDL></WSDLS></Report>

@@ -1,0 +1,61 @@
+<?xml-stylesheet href="..\http.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\HP\LoadRunner\">
+  <http>
+    <request>
+      <header>POST /LoyaltyService.svc HTTP/1.1
+Content-Type: text/xml; charset=utf-8
+Cache-Control: no-cache
+SOAPAction: "http://www.gamestop.com/services/channel/loyalty/contracts/2010/05/LoyaltyService/GetPointsBalance"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol 1.1.4322.2032)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: loyaltychannelqa1.testgs.pvt
+Content-Length: 1060
+
+</header>
+      <body>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing"&gt;
+  &lt;soap:Header&gt;
+    &lt;wsa:Action&gt;http://www.gamestop.com/services/channel/loyalty/contracts/2010/05/LoyaltyService/GetPointsBalance&lt;/wsa:Action&gt;
+    &lt;wsa:MessageID&gt;uuid:7c594008-e4eb-433a-91c2-075dc5fc38d5&lt;/wsa:MessageID&gt;
+    &lt;wsa:ReplyTo&gt;
+      &lt;wsa:Address&gt;http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous&lt;/wsa:Address&gt;
+    &lt;/wsa:ReplyTo&gt;
+    &lt;wsa:To&gt;http://loyaltychannelqa1.testgs.pvt/LoyaltyService.svc&lt;/wsa:To&gt;
+  &lt;/soap:Header&gt;
+  &lt;soap:Body&gt;
+    &lt;GetPointsBalance xmlns="http://www.gamestop.com/services/channel/loyalty/contracts/2010/05"&gt;
+      &lt;request&gt;
+        &lt;MachineName xmlns="http://www.gamestop.com/services/core/contracts/2010/05"&gt;test&lt;/MachineName&gt;
+        &lt;CustomerID xmlns="http://www.gamestop.com/services/channel/customersupport/messages/2011/04"&gt;1276939253&lt;/CustomerID&gt;
+      &lt;/request&gt;
+    &lt;/GetPointsBalance&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</body>
+    </request>
+    <response>
+      <header>HTTP/1.1 200 OK
+Content-Length: 673
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.5
+Date: Mon, 13 Feb 2017 22:04:58 GMT
+
+</header>
+      <body>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;s:Body&gt;
+    &lt;GetPointsBalanceResponse xmlns="http://www.gamestop.com/services/channel/loyalty/contracts/2010/05"&gt;
+      &lt;GetPointsBalanceResult xmlns:a="http://schemas.datacontract.org/2004/07/GameStop.Services.ChannelServices.LoyaltyService.Contracts.Messages" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;
+        &lt;a:AvailableBalance&gt;0&lt;/a:AvailableBalance&gt;
+        &lt;a:CustomerID&gt;1276939253&lt;/a:CustomerID&gt;
+        &lt;a:LifeTimeBalance&gt;0&lt;/a:LifeTimeBalance&gt;
+        &lt;a:ResponseType&gt;CustomerIDNotFound&lt;/a:ResponseType&gt;
+        &lt;a:TimeStamp&gt;2017-02-13T16:04:58.9844932-06:00&lt;/a:TimeStamp&gt;
+      &lt;/GetPointsBalanceResult&gt;
+    &lt;/GetPointsBalanceResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;</body>
+    </response>
+  </http>
+</report>

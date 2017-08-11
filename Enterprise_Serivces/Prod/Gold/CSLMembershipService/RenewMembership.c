@@ -1,0 +1,4 @@
+RenewMembership()
+{
+	return 0;
+}

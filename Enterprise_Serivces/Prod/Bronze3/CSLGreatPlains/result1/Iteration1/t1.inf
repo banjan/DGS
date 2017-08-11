@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=DummyContentType
+StepName=Custom Request: Get Companies
+Total=1
+FileName1=t1.UNK
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Get Companies
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1484260566267
+URL1=http://cslgreatplainsprod.gha.pvt/v1/GreatPlainsApi/Companies

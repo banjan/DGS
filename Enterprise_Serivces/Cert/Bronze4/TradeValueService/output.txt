@@ -1,0 +1,14 @@
+Virtual User Script started at : 3/2/2017 10:22:42 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetRecordsBySKUs.
+GetRecordsBySKUs.c(3): Web service call "GetRecordsBySKUs_101" started
+GetRecordsBySKUs.c(3): Web service call "GetRecordsBySKUs_101" was successful
+Ending action GetRecordsBySKUs.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

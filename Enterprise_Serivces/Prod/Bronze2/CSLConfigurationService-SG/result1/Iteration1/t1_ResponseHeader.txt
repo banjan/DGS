@@ -1,0 +1,6 @@
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Atmosphere realm="http://atmosphere"
+Content-Encoding: gzip
+Connection: close
+Server: Jetty(7.6.10.v20130312)
+

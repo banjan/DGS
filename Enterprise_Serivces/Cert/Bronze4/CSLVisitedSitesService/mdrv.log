@@ -1,0 +1,54 @@
+Virtual User Script started at : 1/11/2017 4:19:14 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action GetVersion.
+GetVersion.c(3): Notify: Transaction "VisitedSiteService_GetVersion" started.
+GetVersion.c(5): Web service call "GetVersion_105" started
+GetVersion.c(5): Web service call "GetVersion_105" was successful
+GetVersion.c(17): Notify: Transaction "VisitedSiteService_GetVersion" ended with a "Pass" status (Duration: 0.2512 Wasted Time: 0.1290).
+Ending action GetVersion.
+Starting action GetVisitedSites.
+GetVisitedSites.c(3): Notify: Transaction "VisitedSiteService_GetVisitedSites" started.
+GetVisitedSites.c(5): Web service call "GetVisitedSites_102" started
+GetVisitedSites.c(5): Web service call "GetVisitedSites_102" was successful
+GetVisitedSites.c(22): Notify: Transaction "VisitedSiteService_GetVisitedSites" ended with a "Pass" status (Duration: 0.0528 Wasted Time: 0.0212).
+Ending action GetVisitedSites.
+Starting action IsServiceAlive.
+IsServiceAlive.c(3): Notify: Transaction "VisitedSiteService_IsServiceAlive" started.
+IsServiceAlive.c(5): Web service call "IsServiceAlive_104" started
+IsServiceAlive.c(5): Web service call "IsServiceAlive_104" was successful
+IsServiceAlive.c(17): Notify: Transaction "VisitedSiteService_IsServiceAlive" ended with a "Pass" status (Duration: 0.0188 Wasted Time: 0.0037).
+Ending action IsServiceAlive.
+Starting action IsServiceHealthy.
+IsServiceHealthy.c(3): Notify: Transaction "VisitedSiteService_IsServiceHealthy" started.
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_105" started
+IsServiceHealthy.c(5): Web service call "IsServiceHealthy_105" was successful
+IsServiceHealthy.c(17): Notify: Transaction "VisitedSiteService_IsServiceHealthy" ended with a "Pass" status (Duration: 0.0189 Wasted Time: 0.0034).
+Ending action IsServiceHealthy.
+Starting action IsSiteApproved.
+IsSiteApproved.c(3): Notify: Transaction "VisitedSiteService_IsSiteApproved" started.
+IsSiteApproved.c(5): Web service call "IsSiteApproved_101" started
+IsSiteApproved.c(5): Web service call "IsSiteApproved_101" was successful
+IsSiteApproved.c(23): Notify: Transaction "VisitedSiteService_IsSiteApproved" ended with a "Pass" status (Duration: 0.0310 Wasted Time: 0.0049).
+Ending action IsSiteApproved.
+Starting action LogSiteApproval.
+LogSiteApproval.c(3): Notify: Transaction "VisitedSiteService_LogSiteApproval" started.
+LogSiteApproval.c(5): Web service call "LogSiteApproval_101" started
+LogSiteApproval.c(5): Web service call "LogSiteApproval_101" was successful
+LogSiteApproval.c(25): Notify: Transaction "VisitedSiteService_LogSiteApproval" ended with a "Pass" status (Duration: 0.0780 Wasted Time: 0.0044).
+Ending action LogSiteApproval.
+Starting action RemoveAlwaysApproveSite.
+RemoveAlwaysApproveSite.c(3): Notify: Transaction "VisitedSiteService_RemoveAlwaysApproveSite" started.
+RemoveAlwaysApproveSite.c(5): Web service call "RemoveAlwaysApproveSite_101" started
+RemoveAlwaysApproveSite.c(5): Web service call "RemoveAlwaysApproveSite_101" was successful
+RemoveAlwaysApproveSite.c(23): Notify: Transaction "VisitedSiteService_RemoveAlwaysApproveSite" ended with a "Pass" status (Duration: 0.0724 Wasted Time: 0.0042).
+Ending action RemoveAlwaysApproveSite.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

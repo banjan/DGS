@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<services>
+  <service>
+    <name>DigitalCatalogService</name>
+    <id>0</id>
+    <ports>
+      <port>
+        <name>AllSparkCatalogService_HTTP</name>
+        <id>0</id>
+      </port>
+      <port>
+        <name>ServiceBase_HTTP</name>
+        <id>1</id>
+      </port>
+    </ports>
+  </service>
+</services>
